@@ -23,7 +23,7 @@ echo oShellLink.Save)>makelnk.vbe
 makelnk.vbe
 
 del /f /q makelnk.vbe
-call cleane.bat
+
 goto :eof
 :GetWorkDir
 set WorkDir=%~dp1

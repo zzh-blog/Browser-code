@@ -1,15 +1,6 @@
-# Browser-code
-小曾高速浏览器的源代码
+﻿## 小曾高速浏览器
 
-压缩注释：
-
-;下面的注释包含自解压脚本命令
-
-Path=C:/
-Setup=小曾高速浏览器\kjfs.bat
-Silent=2
-Overwrite=1
-Update=U
-Title=3.6
-
-打包成自解压文件，加上固实压缩，在自解压选项里的文本和图标里把图片选好，解压标题写好。
+### 下载 
+        
+  + [安装版](https://github.com/zzh-blog/Browser-code/raw/master/%E5%B0%8F%E6%9B%BE%E9%AB%98%E9%80%9F%E6%B5%8F%E8%A7%88%E5%99%A8.part01.exe) | 
+-----------

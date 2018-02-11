@@ -6,4 +6,4 @@
 -----------
 ### 源码
   + [下载](https://github.com/zzh-blog/Browser-code/archive/master.zip)
-  + [使用说明](https://github.com/zzh-blog/Browser-code/raw/master/dabao.md)
+  + [使用说明](/dabao.md)

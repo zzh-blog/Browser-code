@@ -11,7 +11,8 @@ Title=6.0\
 License=\
 {\
 本软件开源,不可商业！\
-源码：https://github.com/zzh-blog/Browser-code\
+源码：https://github.com/zzh-blog/Browser-code
+
 }
 
 =====================分割线=========================

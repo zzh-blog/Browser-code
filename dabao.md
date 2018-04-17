@@ -2,17 +2,16 @@
 
 ;下面的注释包含自解压脚本命令
 
-Path=C:/\
-Setup=小曾高速浏览器\kjfs.bat\
-Silent=2\
-Overwrite=1\
-Update=U\
-Title=6.0\
-License=\
-{\
-本软件开源,不可商业！\
+Path=C:/
+Setup=小曾高效浏览器\kjfs.bat
+Silent=2
+Overwrite=1
+Update=U
+Title=6.0
+License=
+{
+本软件开源,不可商业！
 源码：https://github.com/zzh-blog/Browser-code
-
 }
 
 =====================分割线=========================

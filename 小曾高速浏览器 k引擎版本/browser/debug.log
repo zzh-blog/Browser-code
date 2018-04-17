@@ -22826,3 +22826,6 @@ See more tips at https://vuejs.org/guide/deployment.html", source: https://cdn.d
 [0211/111045:INFO:CONSOLE(20)] "Uncaught ReferenceError: jQuery is not defined", source: file:///C:/Users/zzh/Desktop/Git/Browser-code/%E5%B0%8F%E6%9B%BE%E9%AB%98%E9%80%9F%E6%B5%8F%E8%A7%88%E5%99%A8%20k%E5%BC%95%E6%93%8E%E7%89%88%E6%9C%AC/browser/newsite/2/js/jquery.autocomplete.min.js (20)
 [0211/122357:WARNING:ipc_channel_win.cc(370)] Unable to create pipe "\\.\pipe\chrome.11344.1.65947367" in client mode: 系统找不到指定的文件。 (0x2)
 [0211/122429:INFO:CONSOLE(20)] "Uncaught ReferenceError: jQuery is not defined", source: file:///C:/Users/zzh/Desktop/Git/Browser-code/%E5%B0%8F%E6%9B%BE%E9%AB%98%E9%80%9F%E6%B5%8F%E8%A7%88%E5%99%A8%20k%E5%BC%95%E6%93%8E%E7%89%88%E6%9C%AC/browser/newsite/2/js/jquery.autocomplete.min.js (20)
+[0414/183223:INFO:CONSOLE(20)] "Uncaught ReferenceError: jQuery is not defined", source: file:///C:/Users/zzh/Desktop/Git/Browser-code/%E5%B0%8F%E6%9B%BE%E9%AB%98%E9%80%9F%E6%B5%8F%E8%A7%88%E5%99%A8%20k%E5%BC%95%E6%93%8E%E7%89%88%E6%9C%AC/browser/newsite/2/js/jquery.autocomplete.min.js (20)
+[0414/183232:WARNING:raw_channel_win.cc(532)] WriteFile: 管道正在被关闭。 (0xE8)
+[0414/183232:WARNING:channel.cc(359)] RawChannel write error

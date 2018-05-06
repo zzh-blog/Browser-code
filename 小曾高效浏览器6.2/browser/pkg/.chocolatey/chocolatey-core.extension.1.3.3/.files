@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <files>
+    <file path="C:\Users\zzh\Desktop\chocolateyInstall\lib\chocolatey-core.extension\chocolatey-core.extension.nupkg" checksum="1DCA9D25DED3FC0CE731FA7E1E1BD031" />
+    <file path="C:\Users\zzh\Desktop\chocolateyInstall\lib\chocolatey-core.extension\chocolatey-core.extension.nuspec" checksum="DF6C67EA1E5F6EE4E17B63508B279D94" />
+    <file path="C:\Users\zzh\Desktop\chocolateyInstall\lib\chocolatey-core.extension\extensions\chocolatey-core.psm1" checksum="8007E67FDE249548DBF78D1DC8AFDCCC" />
+    <file path="C:\Users\zzh\Desktop\chocolateyInstall\lib\chocolatey-core.extension\extensions\Get-AppInstallLocation.ps1" checksum="D036C97BC50A3731BF69A15417F60E72" />
+    <file path="C:\Users\zzh\Desktop\chocolateyInstall\lib\chocolatey-core.extension\extensions\Get-AvailableDriveLetter.ps1" checksum="2F386746AFC2ACB9561DFB245239B93F" />
+    <file path="C:\Users\zzh\Desktop\chocolateyInstall\lib\chocolatey-core.extension\extensions\Get-EffectiveProxy.ps1" checksum="3895F062D2D91D9D32D1FC57A619066C" />
+    <file path="C:\Users\zzh\Desktop\chocolateyInstall\lib\chocolatey-core.extension\extensions\Get-PackageCacheLocation.ps1" checksum="77A378E5C659E5A53D2D64E276159B62" />
+    <file path="C:\Users\zzh\Desktop\chocolateyInstall\lib\chocolatey-core.extension\extensions\Get-PackageParameters.ps1" checksum="C08B3AF8CA150B6609DF2B978B693269" />
+    <file path="C:\Users\zzh\Desktop\chocolateyInstall\lib\chocolatey-core.extension\extensions\Get-UninstallRegistryKey.ps1" checksum="3FAA5C11AAFC4EA35BB98EA797446C97" />
+    <file path="C:\Users\zzh\Desktop\chocolateyInstall\lib\chocolatey-core.extension\extensions\Get-WebContent.ps1" checksum="57D013E581EFEA3D4D8366183C9A5797" />
+    <file path="C:\Users\zzh\Desktop\chocolateyInstall\lib\chocolatey-core.extension\extensions\Register-Application.ps1" checksum="D2853E569DAC9A341642BA76EC4FB411" />
+  </files>
+</fileSnapshot>

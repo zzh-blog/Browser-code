@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <files>
+    <file path="C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\ChocolateyGUI\ChocolateyGUI.nupkg" checksum="4C0794A894C900C75F9FE42855EADEF0" />
+    <file path="C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\ChocolateyGUI\ChocolateyGUI.nuspec" checksum="0044291A20CB33CFA87BD944B89328AF" />
+    <file path="C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\ChocolateyGUI\tools\ChocolateyGUI.msi" checksum="B774FAF592DC3AD8C6E8EEA696D9F58C" />
+    <file path="C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\ChocolateyGUI\tools\ChocolateyGUI.msi.ignore" checksum="BEA07E6D2B8DCE396FE21BAA61B34956" />
+    <file path="C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\ChocolateyGUI\tools\chocolateyInstall.ps1" checksum="6B451D62534EECA7B22EA4C87C4B9650" />
+    <file path="C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\ChocolateyGUI\tools\chocolateyUninstall.ps1" checksum="E23130C0BF717BD4939491B1C9B8656A" />
+    <file path="C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\ChocolateyGUI\tools\LICENSE" checksum="02D8EF21C666949C5B31E75D4B278F47" />
+    <file path="C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\ChocolateyGUI\tools\VERIFICATION.txt" checksum="24DDB8F3EF886B91E79ECBC776621FAC" />
+  </files>
+</fileSnapshot>

@@ -15240,3 +15240,2023 @@ Proxy.BypassOnLocal='True'|
 2018-05-04 22:43:39,675 13932 [ERROR] - Exiting chocolatey abnormally. Please manually clean up anything that 
  was not finished.
 2018-05-04 22:43:39,675 13932 [ERROR] - Please do not ever use Control+C or close the window to exit.
+2018-06-15 18:24:15,002 13508 [DEBUG] - XmlConfiguration is now operational
+2018-06-15 18:24:15,192 13508 [INFO ] - ============================================================
+2018-06-15 18:24:16,234 13508 [DEBUG] - Attempting to create directory "C:\Users\zzh\AppData\Local\Temp\chocolatey".
+2018-06-15 18:24:16,285 13508 [DEBUG] - User may be subject to UAC, checking for a split token (not 100% 
+ effective).
+2018-06-15 18:24:16,346 13508 [INFO ] - Chocolatey v0.10.10
+2018-06-15 18:24:16,386 13508 [DEBUG] - Chocolatey is running on Windows v 10.0.17134.0
+2018-06-15 18:24:16,386 13508 [DEBUG] - Attempting to delete file "C:/Users/zzh/Desktop/Git/Browser-code/小曾高效浏览器6.2/browser/pkg/choco.exe.old".
+2018-06-15 18:24:16,414 13508 [DEBUG] - Attempting to delete file "C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\choco.exe.old".
+2018-06-15 18:24:16,497 13508 [DEBUG] - Command line: choco  uninstall python
+2018-06-15 18:24:16,497 13508 [DEBUG] - Received arguments: uninstall python
+2018-06-15 18:24:16,609 13508 [DEBUG] - RemovePendingPackagesTask is now ready and waiting for PreRunMessage.
+2018-06-15 18:24:16,619 13508 [DEBUG] - Sending message 'PreRunMessage' out if there are subscribers...
+2018-06-15 18:24:16,639 13508 [DEBUG] - [Pending] Removing all pending packages that should not be considered installed...
+2018-06-15 18:24:16,761 13508 [WARN ] - Chocolatey detected you are not running from an elevated command shell
+ (cmd/powershell).
+2018-06-15 18:24:16,781 13508 [WARN ] - 
+ You may experience errors - many functions/packages
+ require admin rights. Only advanced users should run choco w/out an
+ elevated shell. When you open the command shell, you should ensure 
+ that you do so with "Run as Administrator" selected. If you are 
+ attempting to use Chocolatey in a non-administrator setting, you
+ must select a different location other than the default install
+ location. See 
+ https://chocolatey.org/install#non-administrative-install for details.
+
+2018-06-15 18:24:16,849 13508 [INFO ] - 
+ Do you want to continue?
+2018-06-15 18:24:16,851 13508 [INFO ] -  1) yes
+2018-06-15 18:24:16,851 13508 [INFO ] -  2) no
+2018-06-15 18:24:19,625 13508 [INFO ] - Choice selected: 'yes'
+2018-06-15 18:24:19,633 13508 [DEBUG] - The source 'https://chocolatey.org/api/v2/' evaluated to a 'normal' source type
+2018-06-15 18:24:19,635 13508 [DEBUG] - 
+NOTE: Hiding sensitive configuration data! Please double and triple 
+ check to be sure no sensitive data is shown, especially if copying 
+ output to a gist for review.
+2018-06-15 18:24:19,666 13508 [DEBUG] - Configuration: CommandName='uninstall'|
+CacheLocation='C:\Users\zzh\AppData\Local\Temp\chocolatey'|
+ContainsLegacyPackageInstalls='True'|
+CommandExecutionTimeoutSeconds='2700'|WebRequestTimeoutSeconds='30'|
+Sources='https://chocolatey.org/api/v2/'|SourceType='normal'|
+Debug='False'|Verbose='False'|Trace='False'|Force='False'|Noop='False'|
+HelpRequested='False'|UnsuccessfulParsing='False'|RegularOutput='True'|
+QuietOutput='False'|PromptForConfirmation='True'|AcceptLicense='False'|
+AllowUnofficialBuild='False'|Input='python'|AllVersions='False'|
+SkipPackageInstallProvider='False'|PackageNames='python'|
+Prerelease='False'|ForceX86='False'|OverrideArguments='False'|
+NotSilent='False'|ApplyPackageParametersToDependencies='False'|
+ApplyInstallArgumentsToDependencies='False'|IgnoreDependencies='False'|
+AllowMultipleVersions='False'|AllowDowngrade='False'|
+ForceDependencies='False'|Information.PlatformType='Windows'|
+Information.PlatformVersion='10.0.17134.0'|
+Information.PlatformName='Windows 10'|
+Information.ChocolateyVersion='0.10.10.0'|
+Information.ChocolateyProductVersion='0.10.10'|
+Information.FullName='choco, Version=0.10.10.0, Culture=neutral, PublicKeyToken=79d02ea9cad655eb'|
+
+Information.Is64BitOperatingSystem='True'|
+Information.Is64BitProcess='True'|Information.IsInteractive='True'|
+Information.UserName='zzh'|
+Information.UserDomainName='DESKTOP-TREMV1C'|
+Information.IsUserAdministrator='True'|
+Information.IsUserSystemAccount='False'|
+Information.IsUserRemoteDesktop='False'|
+Information.IsUserRemote='True'|
+Information.IsProcessElevated='False'|
+Information.IsLicensedVersion='False'|Information.LicenseType='Foss'|
+Features.AutoUninstaller='True'|Features.ChecksumFiles='True'|
+Features.AllowEmptyChecksums='False'|
+Features.AllowEmptyChecksumsSecure='True'|
+Features.FailOnAutoUninstaller='False'|
+Features.FailOnStandardError='False'|Features.UsePowerShellHost='True'|
+Features.LogEnvironmentValues='False'|Features.LogWithoutColor='False'|
+Features.VirusCheck='False'|
+Features.FailOnInvalidOrMissingLicense='False'|
+Features.IgnoreInvalidOptionsSwitches='True'|
+Features.UsePackageExitCodes='True'|
+Features.UseFipsCompliantChecksums='False'|
+Features.ShowNonElevatedWarnings='True'|
+Features.ShowDownloadProgress='True'|
+Features.StopOnFirstPackageFailure='False'|
+Features.UseRememberedArgumentsForUpgrades='False'|
+Features.IgnoreUnfoundPackagesOnUpgradeOutdated='False'|
+Features.RemovePackageInformationOnUninstall='False'|
+Features.ScriptsCheckLastExitCode='False'|
+ListCommand.LocalOnly='False'|
+ListCommand.IdOnly='False'|ListCommand.IncludeRegistryPrograms='False'|
+ListCommand.PageSize='25'|ListCommand.Exact='False'|
+ListCommand.ByIdOnly='False'|ListCommand.ByTagOnly='False'|
+ListCommand.IdStartsWith='False'|ListCommand.OrderByPopularity='False'|
+ListCommand.ApprovedOnly='False'|
+ListCommand.DownloadCacheAvailable='False'|
+ListCommand.NotBroken='False'|
+ListCommand.IncludeVersionOverrides='False'|
+UpgradeCommand.FailOnUnfound='False'|
+UpgradeCommand.FailOnNotInstalled='False'|
+UpgradeCommand.NotifyOnlyAvailableUpgrades='False'|
+UpgradeCommand.ExcludePrerelease='False'|
+NewCommand.AutomaticPackage='False'|
+NewCommand.UseOriginalTemplate='False'|SourceCommand.Command='unknown'|
+SourceCommand.Priority='0'|SourceCommand.BypassProxy='False'|
+SourceCommand.AllowSelfService='False'|
+SourceCommand.VisibleToAdminsOnly='False'|
+FeatureCommand.Command='unknown'|ConfigCommand.Command='unknown'|
+PinCommand.Command='unknown'|OutdatedCommand.IgnorePinned='False'|
+Proxy.BypassOnLocal='True'|
+2018-06-15 18:24:19,674 13508 [DEBUG] - _ Chocolatey:ChocolateyUninstallCommand - Normal Run Mode _
+2018-06-15 18:24:19,676 13508 [INFO ] - Uninstalling the following packages:
+2018-06-15 18:24:19,684 13508 [INFO ] - python
+2018-06-15 18:24:20,170 13508 [DEBUG] - Running list with the following filter = ''
+2018-06-15 18:24:20,172 13508 [DEBUG] - --- Start of List ---
+2018-06-15 18:24:20,815 13508 [DEBUG] - chocolatey-core.extension 1.3.3
+2018-06-15 18:24:20,825 13508 [DEBUG] - --- End of List ---
+2018-06-15 18:24:20,835 13508 [ERROR] - python is not installed. Cannot uninstall a non-existent package.
+2018-06-15 18:24:20,895 13508 [WARN ] - 
+Chocolatey uninstalled 0/1 packages. 1 packages failed.
+ See the log for details (C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\logs\chocolatey.log).
+2018-06-15 18:24:20,905 13508 [INFO ] - 
+2018-06-15 18:24:20,945 13508 [ERROR] - Failures
+2018-06-15 18:24:20,945 13508 [ERROR] -  - python - python is not installed. Cannot uninstall a non-existent package.
+2018-06-15 18:24:20,955 13508 [WARN ] - 
+If a package uninstall is failing and/or you've already uninstalled the
+ software outside of Chocolatey, you can attempt to run the command
+ with `-n` to skip running a chocolateyUninstall script, additionally
+ adding `--skip-autouninstaller` to skip an attempt to automatically
+ remove system-installed software. This will only remove the packaging
+ files and not things like software installed to Programs and Features.
+
+If a package is failing because it is a dependency of another package
+ or packages, then you may first need to consider if it needs removed
+ as it is typically installed as a dependency for a reason. If you
+ decide that you still want to remove it, head into
+ `$env:ChocolateyInstall\lib` and find the package folder you want
+ removed. Then delete the folder for the package. This option should
+ only be used as a last resort.
+ 
+2018-06-15 18:24:20,965 13508 [DEBUG] - Sending message 'PostRunMessage' out if there are subscribers...
+2018-06-15 18:24:20,985 13508 [DEBUG] - Exiting with 1
+2018-06-15 18:24:28,952 6644 [DEBUG] - XmlConfiguration is now operational
+2018-06-15 18:24:29,051 6644 [INFO ] - ============================================================
+2018-06-15 18:24:29,468 6644 [DEBUG] - User may be subject to UAC, checking for a split token (not 100% 
+ effective).
+2018-06-15 18:24:29,509 6644 [INFO ] - Chocolatey v0.10.10
+2018-06-15 18:24:29,529 6644 [DEBUG] - Chocolatey is running on Windows v 10.0.17134.0
+2018-06-15 18:24:29,539 6644 [DEBUG] - Attempting to delete file "C:/Users/zzh/Desktop/Git/Browser-code/小曾高效浏览器6.2/browser/pkg/choco.exe.old".
+2018-06-15 18:24:29,539 6644 [DEBUG] - Attempting to delete file "C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\choco.exe.old".
+2018-06-15 18:24:29,559 6644 [DEBUG] - Command line: choco  uninstall python -n
+2018-06-15 18:24:29,567 6644 [DEBUG] - Received arguments: uninstall python -n
+2018-06-15 18:24:29,679 6644 [DEBUG] - RemovePendingPackagesTask is now ready and waiting for PreRunMessage.
+2018-06-15 18:24:29,691 6644 [DEBUG] - Sending message 'PreRunMessage' out if there are subscribers...
+2018-06-15 18:24:29,702 6644 [DEBUG] - [Pending] Removing all pending packages that should not be considered installed...
+2018-06-15 18:24:29,793 6644 [WARN ] - Chocolatey detected you are not running from an elevated command shell
+ (cmd/powershell).
+2018-06-15 18:24:29,803 6644 [WARN ] - 
+ You may experience errors - many functions/packages
+ require admin rights. Only advanced users should run choco w/out an
+ elevated shell. When you open the command shell, you should ensure 
+ that you do so with "Run as Administrator" selected. If you are 
+ attempting to use Chocolatey in a non-administrator setting, you
+ must select a different location other than the default install
+ location. See 
+ https://chocolatey.org/install#non-administrative-install for details.
+
+2018-06-15 18:24:29,843 6644 [INFO ] - 
+ Do you want to continue?
+2018-06-15 18:24:29,851 6644 [INFO ] -  1) yes
+2018-06-15 18:24:29,853 6644 [INFO ] -  2) no
+2018-06-15 18:24:31,373 6644 [INFO ] - Choice selected: 'yes'
+2018-06-15 18:24:31,373 6644 [DEBUG] - The source 'https://chocolatey.org/api/v2/' evaluated to a 'normal' source type
+2018-06-15 18:24:31,381 6644 [DEBUG] - 
+NOTE: Hiding sensitive configuration data! Please double and triple 
+ check to be sure no sensitive data is shown, especially if copying 
+ output to a gist for review.
+2018-06-15 18:24:31,393 6644 [DEBUG] - Configuration: CommandName='uninstall'|
+CacheLocation='C:\Users\zzh\AppData\Local\Temp\chocolatey'|
+ContainsLegacyPackageInstalls='True'|
+CommandExecutionTimeoutSeconds='2700'|WebRequestTimeoutSeconds='30'|
+Sources='https://chocolatey.org/api/v2/'|SourceType='normal'|
+Debug='False'|Verbose='False'|Trace='False'|Force='False'|Noop='False'|
+HelpRequested='False'|UnsuccessfulParsing='False'|RegularOutput='True'|
+QuietOutput='False'|PromptForConfirmation='True'|AcceptLicense='False'|
+AllowUnofficialBuild='False'|Input='python'|AllVersions='False'|
+SkipPackageInstallProvider='True'|PackageNames='python'|
+Prerelease='False'|ForceX86='False'|OverrideArguments='False'|
+NotSilent='False'|ApplyPackageParametersToDependencies='False'|
+ApplyInstallArgumentsToDependencies='False'|IgnoreDependencies='False'|
+AllowMultipleVersions='False'|AllowDowngrade='False'|
+ForceDependencies='False'|Information.PlatformType='Windows'|
+Information.PlatformVersion='10.0.17134.0'|
+Information.PlatformName='Windows 10'|
+Information.ChocolateyVersion='0.10.10.0'|
+Information.ChocolateyProductVersion='0.10.10'|
+Information.FullName='choco, Version=0.10.10.0, Culture=neutral, PublicKeyToken=79d02ea9cad655eb'|
+
+Information.Is64BitOperatingSystem='True'|
+Information.Is64BitProcess='True'|Information.IsInteractive='True'|
+Information.UserName='zzh'|
+Information.UserDomainName='DESKTOP-TREMV1C'|
+Information.IsUserAdministrator='True'|
+Information.IsUserSystemAccount='False'|
+Information.IsUserRemoteDesktop='False'|
+Information.IsUserRemote='True'|
+Information.IsProcessElevated='False'|
+Information.IsLicensedVersion='False'|Information.LicenseType='Foss'|
+Features.AutoUninstaller='True'|Features.ChecksumFiles='True'|
+Features.AllowEmptyChecksums='False'|
+Features.AllowEmptyChecksumsSecure='True'|
+Features.FailOnAutoUninstaller='False'|
+Features.FailOnStandardError='False'|Features.UsePowerShellHost='True'|
+Features.LogEnvironmentValues='False'|Features.LogWithoutColor='False'|
+Features.VirusCheck='False'|
+Features.FailOnInvalidOrMissingLicense='False'|
+Features.IgnoreInvalidOptionsSwitches='True'|
+Features.UsePackageExitCodes='True'|
+Features.UseFipsCompliantChecksums='False'|
+Features.ShowNonElevatedWarnings='True'|
+Features.ShowDownloadProgress='True'|
+Features.StopOnFirstPackageFailure='False'|
+Features.UseRememberedArgumentsForUpgrades='False'|
+Features.IgnoreUnfoundPackagesOnUpgradeOutdated='False'|
+Features.RemovePackageInformationOnUninstall='False'|
+Features.ScriptsCheckLastExitCode='False'|
+ListCommand.LocalOnly='False'|
+ListCommand.IdOnly='False'|ListCommand.IncludeRegistryPrograms='False'|
+ListCommand.PageSize='25'|ListCommand.Exact='False'|
+ListCommand.ByIdOnly='False'|ListCommand.ByTagOnly='False'|
+ListCommand.IdStartsWith='False'|ListCommand.OrderByPopularity='False'|
+ListCommand.ApprovedOnly='False'|
+ListCommand.DownloadCacheAvailable='False'|
+ListCommand.NotBroken='False'|
+ListCommand.IncludeVersionOverrides='False'|
+UpgradeCommand.FailOnUnfound='False'|
+UpgradeCommand.FailOnNotInstalled='False'|
+UpgradeCommand.NotifyOnlyAvailableUpgrades='False'|
+UpgradeCommand.ExcludePrerelease='False'|
+NewCommand.AutomaticPackage='False'|
+NewCommand.UseOriginalTemplate='False'|SourceCommand.Command='unknown'|
+SourceCommand.Priority='0'|SourceCommand.BypassProxy='False'|
+SourceCommand.AllowSelfService='False'|
+SourceCommand.VisibleToAdminsOnly='False'|
+FeatureCommand.Command='unknown'|ConfigCommand.Command='unknown'|
+PinCommand.Command='unknown'|OutdatedCommand.IgnorePinned='False'|
+Proxy.BypassOnLocal='True'|
+2018-06-15 18:24:31,402 6644 [DEBUG] - _ Chocolatey:ChocolateyUninstallCommand - Normal Run Mode _
+2018-06-15 18:24:31,404 6644 [INFO ] - Uninstalling the following packages:
+2018-06-15 18:24:31,412 6644 [INFO ] - python
+2018-06-15 18:24:31,602 6644 [DEBUG] - Running list with the following filter = ''
+2018-06-15 18:24:31,602 6644 [DEBUG] - --- Start of List ---
+2018-06-15 18:24:31,859 6644 [DEBUG] - chocolatey-core.extension 1.3.3
+2018-06-15 18:24:31,867 6644 [DEBUG] - --- End of List ---
+2018-06-15 18:24:31,881 6644 [ERROR] - python is not installed. Cannot uninstall a non-existent package.
+2018-06-15 18:24:31,923 6644 [WARN ] - 
+Chocolatey uninstalled 0/1 packages. 1 packages failed.
+ See the log for details (C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\logs\chocolatey.log).
+2018-06-15 18:24:31,931 6644 [INFO ] - 
+2018-06-15 18:24:31,933 6644 [ERROR] - Failures
+2018-06-15 18:24:31,943 6644 [ERROR] -  - python - python is not installed. Cannot uninstall a non-existent package.
+2018-06-15 18:24:31,943 6644 [WARN ] - 
+If a package uninstall is failing and/or you've already uninstalled the
+ software outside of Chocolatey, you can attempt to run the command
+ with `-n` to skip running a chocolateyUninstall script, additionally
+ adding `--skip-autouninstaller` to skip an attempt to automatically
+ remove system-installed software. This will only remove the packaging
+ files and not things like software installed to Programs and Features.
+
+If a package is failing because it is a dependency of another package
+ or packages, then you may first need to consider if it needs removed
+ as it is typically installed as a dependency for a reason. If you
+ decide that you still want to remove it, head into
+ `$env:ChocolateyInstall\lib` and find the package folder you want
+ removed. Then delete the folder for the package. This option should
+ only be used as a last resort.
+ 
+2018-06-15 18:24:31,953 6644 [DEBUG] - Sending message 'PostRunMessage' out if there are subscribers...
+2018-06-15 18:24:31,963 6644 [DEBUG] - Exiting with 1
+2018-06-15 18:24:42,368 13932 [DEBUG] - XmlConfiguration is now operational
+2018-06-15 18:24:42,459 13932 [INFO ] - ============================================================
+2018-06-15 18:24:42,835 13932 [DEBUG] - User may be subject to UAC, checking for a split token (not 100% 
+ effective).
+2018-06-15 18:24:42,896 13932 [INFO ] - Chocolatey v0.10.10
+2018-06-15 18:24:42,906 13932 [DEBUG] - Chocolatey is running on Windows v 10.0.17134.0
+2018-06-15 18:24:42,916 13932 [DEBUG] - Attempting to delete file "C:/Users/zzh/Desktop/Git/Browser-code/小曾高效浏览器6.2/browser/pkg/choco.exe.old".
+2018-06-15 18:24:42,916 13932 [DEBUG] - Attempting to delete file "C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\choco.exe.old".
+2018-06-15 18:24:42,937 13932 [DEBUG] - Command line: choco  install python
+2018-06-15 18:24:42,945 13932 [DEBUG] - Received arguments: install python
+2018-06-15 18:24:43,038 13932 [DEBUG] - RemovePendingPackagesTask is now ready and waiting for PreRunMessage.
+2018-06-15 18:24:43,050 13932 [DEBUG] - Sending message 'PreRunMessage' out if there are subscribers...
+2018-06-15 18:24:43,069 13932 [DEBUG] - [Pending] Removing all pending packages that should not be considered installed...
+2018-06-15 18:24:43,170 13932 [WARN ] - Chocolatey detected you are not running from an elevated command shell
+ (cmd/powershell).
+2018-06-15 18:24:43,180 13932 [WARN ] - 
+ You may experience errors - many functions/packages
+ require admin rights. Only advanced users should run choco w/out an
+ elevated shell. When you open the command shell, you should ensure 
+ that you do so with "Run as Administrator" selected. If you are 
+ attempting to use Chocolatey in a non-administrator setting, you
+ must select a different location other than the default install
+ location. See 
+ https://chocolatey.org/install#non-administrative-install for details.
+
+2018-06-15 18:24:43,229 13932 [INFO ] - 
+ Do you want to continue?
+2018-06-15 18:24:43,231 13932 [INFO ] -  1) yes
+2018-06-15 18:24:43,231 13932 [INFO ] -  2) no
+2018-06-15 18:24:44,598 13932 [INFO ] - Choice selected: 'yes'
+2018-06-15 18:24:44,609 13932 [DEBUG] - The source 'https://chocolatey.org/api/v2/' evaluated to a 'normal' source type
+2018-06-15 18:24:44,609 13932 [DEBUG] - 
+NOTE: Hiding sensitive configuration data! Please double and triple 
+ check to be sure no sensitive data is shown, especially if copying 
+ output to a gist for review.
+2018-06-15 18:24:44,629 13932 [DEBUG] - Configuration: CommandName='install'|
+CacheLocation='C:\Users\zzh\AppData\Local\Temp\chocolatey'|
+ContainsLegacyPackageInstalls='True'|
+CommandExecutionTimeoutSeconds='2700'|WebRequestTimeoutSeconds='30'|
+Sources='https://chocolatey.org/api/v2/'|SourceType='normal'|
+Debug='False'|Verbose='False'|Trace='False'|Force='False'|Noop='False'|
+HelpRequested='False'|UnsuccessfulParsing='False'|RegularOutput='True'|
+QuietOutput='False'|PromptForConfirmation='True'|AcceptLicense='False'|
+AllowUnofficialBuild='False'|Input='python'|AllVersions='False'|
+SkipPackageInstallProvider='False'|PackageNames='python'|
+Prerelease='False'|ForceX86='False'|OverrideArguments='False'|
+NotSilent='False'|ApplyPackageParametersToDependencies='False'|
+ApplyInstallArgumentsToDependencies='False'|IgnoreDependencies='False'|
+AllowMultipleVersions='False'|AllowDowngrade='False'|
+ForceDependencies='False'|Information.PlatformType='Windows'|
+Information.PlatformVersion='10.0.17134.0'|
+Information.PlatformName='Windows 10'|
+Information.ChocolateyVersion='0.10.10.0'|
+Information.ChocolateyProductVersion='0.10.10'|
+Information.FullName='choco, Version=0.10.10.0, Culture=neutral, PublicKeyToken=79d02ea9cad655eb'|
+
+Information.Is64BitOperatingSystem='True'|
+Information.Is64BitProcess='True'|Information.IsInteractive='True'|
+Information.UserName='zzh'|
+Information.UserDomainName='DESKTOP-TREMV1C'|
+Information.IsUserAdministrator='True'|
+Information.IsUserSystemAccount='False'|
+Information.IsUserRemoteDesktop='False'|
+Information.IsUserRemote='True'|
+Information.IsProcessElevated='False'|
+Information.IsLicensedVersion='False'|Information.LicenseType='Foss'|
+Features.AutoUninstaller='True'|Features.ChecksumFiles='True'|
+Features.AllowEmptyChecksums='False'|
+Features.AllowEmptyChecksumsSecure='True'|
+Features.FailOnAutoUninstaller='False'|
+Features.FailOnStandardError='False'|Features.UsePowerShellHost='True'|
+Features.LogEnvironmentValues='False'|Features.LogWithoutColor='False'|
+Features.VirusCheck='False'|
+Features.FailOnInvalidOrMissingLicense='False'|
+Features.IgnoreInvalidOptionsSwitches='True'|
+Features.UsePackageExitCodes='True'|
+Features.UseFipsCompliantChecksums='False'|
+Features.ShowNonElevatedWarnings='True'|
+Features.ShowDownloadProgress='True'|
+Features.StopOnFirstPackageFailure='False'|
+Features.UseRememberedArgumentsForUpgrades='False'|
+Features.IgnoreUnfoundPackagesOnUpgradeOutdated='False'|
+Features.RemovePackageInformationOnUninstall='False'|
+Features.ScriptsCheckLastExitCode='False'|
+ListCommand.LocalOnly='False'|
+ListCommand.IdOnly='False'|ListCommand.IncludeRegistryPrograms='False'|
+ListCommand.PageSize='25'|ListCommand.Exact='False'|
+ListCommand.ByIdOnly='False'|ListCommand.ByTagOnly='False'|
+ListCommand.IdStartsWith='False'|ListCommand.OrderByPopularity='False'|
+ListCommand.ApprovedOnly='False'|
+ListCommand.DownloadCacheAvailable='False'|
+ListCommand.NotBroken='False'|
+ListCommand.IncludeVersionOverrides='False'|
+UpgradeCommand.FailOnUnfound='False'|
+UpgradeCommand.FailOnNotInstalled='False'|
+UpgradeCommand.NotifyOnlyAvailableUpgrades='False'|
+UpgradeCommand.ExcludePrerelease='False'|
+NewCommand.AutomaticPackage='False'|
+NewCommand.UseOriginalTemplate='False'|SourceCommand.Command='unknown'|
+SourceCommand.Priority='0'|SourceCommand.BypassProxy='False'|
+SourceCommand.AllowSelfService='False'|
+SourceCommand.VisibleToAdminsOnly='False'|
+FeatureCommand.Command='unknown'|ConfigCommand.Command='unknown'|
+PinCommand.Command='unknown'|OutdatedCommand.IgnorePinned='False'|
+Proxy.BypassOnLocal='True'|
+2018-06-15 18:24:44,629 13932 [DEBUG] - _ Chocolatey:ChocolateyInstallCommand - Normal Run Mode _
+2018-06-15 18:24:44,639 13932 [INFO ] - Installing the following packages:
+2018-06-15 18:24:44,649 13932 [INFO ] - python
+2018-06-15 18:24:44,649 13932 [INFO ] - By installing you accept licenses for the packages.
+2018-06-15 18:24:49,577 13932 [INFO ] - [NuGet] Attempting to resolve dependency 'python3 (= 3.6.5)'.
+2018-06-15 18:25:04,259 13932 [INFO ] - [NuGet] Attempting to resolve dependency 'chocolatey (≥ 0.10.5)'.
+2018-06-15 18:25:18,713 13932 [INFO ] - [NuGet] Attempting to resolve dependency 'chocolatey-core.extension (≥ 1.3.3)'.
+2018-06-15 18:25:21,328 13932 [INFO ] - [NuGet] Installing 'chocolatey 0.10.11'.
+2018-06-15 18:25:21,380 13932 [DEBUG] - [NuGet] Added file 'chocolateyInstall.ps1' to folder 'chocolatey\tools'.
+2018-06-15 18:25:21,401 13932 [DEBUG] - [NuGet] Added file 'choco.exe' to folder 'chocolatey\tools\chocolateyInstall'.
+2018-06-15 18:25:21,411 13932 [DEBUG] - [NuGet] Added file 'choco.exe.ignore' to folder 'chocolatey\tools\chocolateyInstall'.
+2018-06-15 18:25:21,411 13932 [DEBUG] - [NuGet] Added file 'choco.exe.manifest' to folder 'chocolatey\tools\chocolateyInstall'.
+2018-06-15 18:25:21,411 13932 [DEBUG] - [NuGet] Added file 'CREDITS.txt' to folder 'chocolatey\tools\chocolateyInstall'.
+2018-06-15 18:25:21,421 13932 [DEBUG] - [NuGet] Added file 'chocolateyInstaller.psm1' to folder 'chocolatey\tools\chocolateyInstall\helpers'.
+2018-06-15 18:25:21,421 13932 [DEBUG] - [NuGet] Added file 'chocolateyProfile.psm1' to folder 'chocolatey\tools\chocolateyInstall\helpers'.
+2018-06-15 18:25:21,431 13932 [DEBUG] - [NuGet] Added file 'chocolateyScriptRunner.ps1' to folder 'chocolatey\tools\chocolateyInstall\helpers'.
+2018-06-15 18:25:21,431 13932 [DEBUG] - [NuGet] Added file 'ChocolateyTabExpansion.ps1' to folder 'chocolatey\tools\chocolateyInstall\helpers'.
+2018-06-15 18:25:21,441 13932 [DEBUG] - [NuGet] Added file 'Format-FileSize.ps1' to folder 'chocolatey\tools\chocolateyInstall\helpers\functions'.
+2018-06-15 18:25:21,441 13932 [DEBUG] - [NuGet] Added file 'Get-CheckSumValid.ps1' to folder 'chocolatey\tools\chocolateyInstall\helpers\functions'.
+2018-06-15 18:25:21,449 13932 [DEBUG] - [NuGet] Added file 'Get-ChocolateyUnzip.ps1' to folder 'chocolatey\tools\chocolateyInstall\helpers\functions'.
+2018-06-15 18:25:21,459 13932 [DEBUG] - [NuGet] Added file 'Get-ChocolateyWebFile.ps1' to folder 'chocolatey\tools\chocolateyInstall\helpers\functions'.
+2018-06-15 18:25:21,461 13932 [DEBUG] - [NuGet] Added file 'Get-EnvironmentVariable.ps1' to folder 'chocolatey\tools\chocolateyInstall\helpers\functions'.
+2018-06-15 18:25:21,461 13932 [DEBUG] - [NuGet] Added file 'Get-EnvironmentVariableNames.ps1' to folder 'chocolatey\tools\chocolateyInstall\helpers\functions'.
+2018-06-15 18:25:21,471 13932 [DEBUG] - [NuGet] Added file 'Get-FtpFile.ps1' to folder 'chocolatey\tools\chocolateyInstall\helpers\functions'.
+2018-06-15 18:25:21,471 13932 [DEBUG] - [NuGet] Added file 'Get-OSArchitectureWidth.ps1' to folder 'chocolatey\tools\chocolateyInstall\helpers\functions'.
+2018-06-15 18:25:21,479 13932 [DEBUG] - [NuGet] Added file 'Get-PackageParameters.ps1' to folder 'chocolatey\tools\chocolateyInstall\helpers\functions'.
+2018-06-15 18:25:21,481 13932 [DEBUG] - [NuGet] Added file 'Get-ToolsLocation.ps1' to folder 'chocolatey\tools\chocolateyInstall\helpers\functions'.
+2018-06-15 18:25:21,481 13932 [DEBUG] - [NuGet] Added file 'Get-UACEnabled.ps1' to folder 'chocolatey\tools\chocolateyInstall\helpers\functions'.
+2018-06-15 18:25:21,489 13932 [DEBUG] - [NuGet] Added file 'Get-UninstallRegistryKey.ps1' to folder 'chocolatey\tools\chocolateyInstall\helpers\functions'.
+2018-06-15 18:25:21,491 13932 [DEBUG] - [NuGet] Added file 'Get-VirusCheckValid.ps1' to folder 'chocolatey\tools\chocolateyInstall\helpers\functions'.
+2018-06-15 18:25:21,491 13932 [DEBUG] - [NuGet] Added file 'Get-WebFile.ps1' to folder 'chocolatey\tools\chocolateyInstall\helpers\functions'.
+2018-06-15 18:25:21,500 13932 [DEBUG] - [NuGet] Added file 'Get-WebFileName.ps1' to folder 'chocolatey\tools\chocolateyInstall\helpers\functions'.
+2018-06-15 18:25:21,502 13932 [DEBUG] - [NuGet] Added file 'Get-WebHeaders.ps1' to folder 'chocolatey\tools\chocolateyInstall\helpers\functions'.
+2018-06-15 18:25:21,502 13932 [DEBUG] - [NuGet] Added file 'Install-BinFile.ps1' to folder 'chocolatey\tools\chocolateyInstall\helpers\functions'.
+2018-06-15 18:25:21,510 13932 [DEBUG] - [NuGet] Added file 'Install-ChocolateyDesktopLink.ps1' to folder 'chocolatey\tools\chocolateyInstall\helpers\functions'.
+2018-06-15 18:25:21,512 13932 [DEBUG] - [NuGet] Added file 'Install-ChocolateyEnvironmentVariable.ps1' to folder 'chocolatey\tools\chocolateyInstall\helpers\functions'.
+2018-06-15 18:25:21,512 13932 [DEBUG] - [NuGet] Added file 'Install-ChocolateyExplorerMenuItem.ps1' to folder 'chocolatey\tools\chocolateyInstall\helpers\functions'.
+2018-06-15 18:25:21,522 13932 [DEBUG] - [NuGet] Added file 'Install-ChocolateyFileAssociation.ps1' to folder 'chocolatey\tools\chocolateyInstall\helpers\functions'.
+2018-06-15 18:25:21,522 13932 [DEBUG] - [NuGet] Added file 'Install-ChocolateyInstallPackage.ps1' to folder 'chocolatey\tools\chocolateyInstall\helpers\functions'.
+2018-06-15 18:25:21,530 13932 [DEBUG] - [NuGet] Added file 'Install-ChocolateyPackage.ps1' to folder 'chocolatey\tools\chocolateyInstall\helpers\functions'.
+2018-06-15 18:25:21,542 13932 [DEBUG] - [NuGet] Added file 'Install-ChocolateyPath.ps1' to folder 'chocolatey\tools\chocolateyInstall\helpers\functions'.
+2018-06-15 18:25:21,550 13932 [DEBUG] - [NuGet] Added file 'Install-ChocolateyPinnedTaskBarItem.ps1' to folder 'chocolatey\tools\chocolateyInstall\helpers\functions'.
+2018-06-15 18:25:21,552 13932 [DEBUG] - [NuGet] Added file 'Install-ChocolateyPowershellCommand.ps1' to folder 'chocolatey\tools\chocolateyInstall\helpers\functions'.
+2018-06-15 18:25:21,552 13932 [DEBUG] - [NuGet] Added file 'Install-ChocolateyShortcut.ps1' to folder 'chocolatey\tools\chocolateyInstall\helpers\functions'.
+2018-06-15 18:25:21,572 13932 [DEBUG] - [NuGet] Added file 'Install-ChocolateyVsixPackage.ps1' to folder 'chocolatey\tools\chocolateyInstall\helpers\functions'.
+2018-06-15 18:25:21,580 13932 [DEBUG] - [NuGet] Added file 'Install-ChocolateyZipPackage.ps1' to folder 'chocolatey\tools\chocolateyInstall\helpers\functions'.
+2018-06-15 18:25:21,582 13932 [DEBUG] - [NuGet] Added file 'Install-Vsix.ps1' to folder 'chocolatey\tools\chocolateyInstall\helpers\functions'.
+2018-06-15 18:25:21,590 13932 [DEBUG] - [NuGet] Added file 'Set-EnvironmentVariable.ps1' to folder 'chocolatey\tools\chocolateyInstall\helpers\functions'.
+2018-06-15 18:25:21,592 13932 [DEBUG] - [NuGet] Added file 'Set-PowerShellExitCode.ps1' to folder 'chocolatey\tools\chocolateyInstall\helpers\functions'.
+2018-06-15 18:25:21,592 13932 [DEBUG] - [NuGet] Added file 'Start-ChocolateyProcessAsAdmin.ps1' to folder 'chocolatey\tools\chocolateyInstall\helpers\functions'.
+2018-06-15 18:25:21,600 13932 [DEBUG] - [NuGet] Added file 'Test-ProcessAdminRights.ps1' to folder 'chocolatey\tools\chocolateyInstall\helpers\functions'.
+2018-06-15 18:25:21,602 13932 [DEBUG] - [NuGet] Added file 'Uninstall-BinFile.ps1' to folder 'chocolatey\tools\chocolateyInstall\helpers\functions'.
+2018-06-15 18:25:21,602 13932 [DEBUG] - [NuGet] Added file 'Uninstall-ChocolateyEnvironmentVariable.ps1' to folder 'chocolatey\tools\chocolateyInstall\helpers\functions'.
+2018-06-15 18:25:21,610 13932 [DEBUG] - [NuGet] Added file 'Uninstall-ChocolateyPackage.ps1' to folder 'chocolatey\tools\chocolateyInstall\helpers\functions'.
+2018-06-15 18:25:21,612 13932 [DEBUG] - [NuGet] Added file 'UnInstall-ChocolateyZipPackage.ps1' to folder 'chocolatey\tools\chocolateyInstall\helpers\functions'.
+2018-06-15 18:25:21,621 13932 [DEBUG] - [NuGet] Added file 'Update-SessionEnvironment.ps1' to folder 'chocolatey\tools\chocolateyInstall\helpers\functions'.
+2018-06-15 18:25:21,623 13932 [DEBUG] - [NuGet] Added file 'Write-ChocolateyFailure.ps1' to folder 'chocolatey\tools\chocolateyInstall\helpers\functions'.
+2018-06-15 18:25:21,623 13932 [DEBUG] - [NuGet] Added file 'Write-ChocolateySuccess.ps1' to folder 'chocolatey\tools\chocolateyInstall\helpers\functions'.
+2018-06-15 18:25:21,631 13932 [DEBUG] - [NuGet] Added file 'Write-FileUpdateLog.ps1' to folder 'chocolatey\tools\chocolateyInstall\helpers\functions'.
+2018-06-15 18:25:21,633 13932 [DEBUG] - [NuGet] Added file 'Write-FunctionCallLogMessage.ps1' to folder 'chocolatey\tools\chocolateyInstall\helpers\functions'.
+2018-06-15 18:25:21,633 13932 [DEBUG] - [NuGet] Added file 'LICENSE.txt' to folder 'chocolatey\tools\chocolateyInstall'.
+2018-06-15 18:25:21,643 13932 [DEBUG] - [NuGet] Added file 'choco.exe' to folder 'chocolatey\tools\chocolateyInstall\redirects'.
+2018-06-15 18:25:21,643 13932 [DEBUG] - [NuGet] Added file 'choco.exe.ignore' to folder 'chocolatey\tools\chocolateyInstall\redirects'.
+2018-06-15 18:25:21,651 13932 [DEBUG] - [NuGet] Added file 'chocolatey.exe' to folder 'chocolatey\tools\chocolateyInstall\redirects'.
+2018-06-15 18:25:21,653 13932 [DEBUG] - [NuGet] Added file 'chocolatey.exe.ignore' to folder 'chocolatey\tools\chocolateyInstall\redirects'.
+2018-06-15 18:25:21,653 13932 [DEBUG] - [NuGet] Added file 'cinst.exe' to folder 'chocolatey\tools\chocolateyInstall\redirects'.
+2018-06-15 18:25:21,661 13932 [DEBUG] - [NuGet] Added file 'cinst.exe.ignore' to folder 'chocolatey\tools\chocolateyInstall\redirects'.
+2018-06-15 18:25:21,663 13932 [DEBUG] - [NuGet] Added file 'clist.exe' to folder 'chocolatey\tools\chocolateyInstall\redirects'.
+2018-06-15 18:25:21,663 13932 [DEBUG] - [NuGet] Added file 'clist.exe.ignore' to folder 'chocolatey\tools\chocolateyInstall\redirects'.
+2018-06-15 18:25:21,671 13932 [DEBUG] - [NuGet] Added file 'cpack.exe' to folder 'chocolatey\tools\chocolateyInstall\redirects'.
+2018-06-15 18:25:21,673 13932 [DEBUG] - [NuGet] Added file 'cpack.exe.ignore' to folder 'chocolatey\tools\chocolateyInstall\redirects'.
+2018-06-15 18:25:21,673 13932 [DEBUG] - [NuGet] Added file 'cpush.exe' to folder 'chocolatey\tools\chocolateyInstall\redirects'.
+2018-06-15 18:25:21,681 13932 [DEBUG] - [NuGet] Added file 'cpush.exe.ignore' to folder 'chocolatey\tools\chocolateyInstall\redirects'.
+2018-06-15 18:25:21,683 13932 [DEBUG] - [NuGet] Added file 'cuninst.exe' to folder 'chocolatey\tools\chocolateyInstall\redirects'.
+2018-06-15 18:25:21,683 13932 [DEBUG] - [NuGet] Added file 'cuninst.exe.ignore' to folder 'chocolatey\tools\chocolateyInstall\redirects'.
+2018-06-15 18:25:21,691 13932 [DEBUG] - [NuGet] Added file 'cup.exe' to folder 'chocolatey\tools\chocolateyInstall\redirects'.
+2018-06-15 18:25:21,693 13932 [DEBUG] - [NuGet] Added file 'cup.exe.ignore' to folder 'chocolatey\tools\chocolateyInstall\redirects'.
+2018-06-15 18:25:21,693 13932 [DEBUG] - [NuGet] Added file 'cver.exe' to folder 'chocolatey\tools\chocolateyInstall\redirects'.
+2018-06-15 18:25:21,701 13932 [DEBUG] - [NuGet] Added file 'cver.exe.ignore' to folder 'chocolatey\tools\chocolateyInstall\redirects'.
+2018-06-15 18:25:21,703 13932 [DEBUG] - [NuGet] Added file 'RefreshEnv.cmd' to folder 'chocolatey\tools\chocolateyInstall\redirects'.
+2018-06-15 18:25:21,703 13932 [DEBUG] - [NuGet] Added file '7z.dll' to folder 'chocolatey\tools\chocolateyInstall\tools'.
+2018-06-15 18:25:21,714 13932 [DEBUG] - [NuGet] Added file '7z.dll.manifest' to folder 'chocolatey\tools\chocolateyInstall\tools'.
+2018-06-15 18:25:21,724 13932 [DEBUG] - [NuGet] Added file '7z.exe' to folder 'chocolatey\tools\chocolateyInstall\tools'.
+2018-06-15 18:25:21,724 13932 [DEBUG] - [NuGet] Added file '7z.exe.ignore' to folder 'chocolatey\tools\chocolateyInstall\tools'.
+2018-06-15 18:25:21,732 13932 [DEBUG] - [NuGet] Added file '7z.exe.manifest' to folder 'chocolatey\tools\chocolateyInstall\tools'.
+2018-06-15 18:25:21,734 13932 [DEBUG] - [NuGet] Added file '7zip.license.txt' to folder 'chocolatey\tools\chocolateyInstall\tools'.
+2018-06-15 18:25:21,734 13932 [DEBUG] - [NuGet] Added file 'checksum.exe' to folder 'chocolatey\tools\chocolateyInstall\tools'.
+2018-06-15 18:25:21,744 13932 [DEBUG] - [NuGet] Added file 'checksum.exe.config' to folder 'chocolatey\tools\chocolateyInstall\tools'.
+2018-06-15 18:25:21,744 13932 [DEBUG] - [NuGet] Added file 'checksum.exe.ignore' to folder 'chocolatey\tools\chocolateyInstall\tools'.
+2018-06-15 18:25:21,744 13932 [DEBUG] - [NuGet] Added file 'checksum.license.txt' to folder 'chocolatey\tools\chocolateyInstall\tools'.
+2018-06-15 18:25:21,752 13932 [DEBUG] - [NuGet] Added file 'shimgen.exe' to folder 'chocolatey\tools\chocolateyInstall\tools'.
+2018-06-15 18:25:21,754 13932 [DEBUG] - [NuGet] Added file 'shimgen.exe.ignore' to folder 'chocolatey\tools\chocolateyInstall\tools'.
+2018-06-15 18:25:21,754 13932 [DEBUG] - [NuGet] Added file 'shimgen.license.txt' to folder 'chocolatey\tools\chocolateyInstall\tools'.
+2018-06-15 18:25:21,762 13932 [DEBUG] - [NuGet] Added file 'chocolateysetup.psm1' to folder 'chocolatey\tools'.
+2018-06-15 18:25:21,764 13932 [DEBUG] - [NuGet] Added file 'init.ps1' to folder 'chocolatey\tools'.
+2018-06-15 18:25:21,886 13932 [DEBUG] - [NuGet] Added file 'chocolatey.nuspec' to folder 'chocolatey'.
+2018-06-15 18:25:21,904 13932 [DEBUG] - [NuGet] Added file 'chocolatey.nupkg' to folder 'chocolatey'.
+2018-06-15 18:25:21,906 13932 [INFO ] - [NuGet] Successfully installed 'chocolatey 0.10.11'.
+2018-06-15 18:25:21,906 13932 [INFO ] - 
+chocolatey v0.10.11 [Approved]
+2018-06-15 18:25:21,927 13932 [INFO ] - chocolatey package files install completed. Performing other installation steps.
+2018-06-15 18:25:31,551 13932 [DEBUG] - Contents of 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall.ps1':
+2018-06-15 18:25:31,582 13932 [DEBUG] - $toolsPath = (Split-Path -parent $MyInvocation.MyCommand.Definition)
+
+# ensure module loading preference is on
+$PSModuleAutoLoadingPreference = "All";
+
+$modules = Get-ChildItem $toolsPath -Filter *.psm1
+$modules | ForEach-Object {
+														$psm1File = $_.FullName;
+														$moduleName = $([System.IO.Path]::GetFileNameWithoutExtension($psm1File))
+														if (Get-Module $moduleName) {
+                              remove-module $moduleName -ErrorAction SilentlyContinue;
+                            }
+														import-module -name  $psm1File;
+													}
+
+Initialize-Chocolatey
+
+# SIG # Begin signature block
+# MIIcpwYJKoZIhvcNAQcCoIIcmDCCHJQCAQExDzANBglghkgBZQMEAgEFADB5Bgor
+# BgEEAYI3AgEEoGswaTA0BgorBgEEAYI3AgEeMCYCAwEAAAQQH8w7YFlLCE63JNLG
+# KX7zUQIBAAIBAAIBAAIBAAIBADAxMA0GCWCGSAFlAwQCAQUABCDhOUYDxeEVBmkS
+# m7+WPs4idLgaLYHHJ+cHUBkgO7MTKaCCF7EwggUwMIIEGKADAgECAhAECRgbX9W7
+# ZnVTQ7VvlVAIMA0GCSqGSIb3DQEBCwUAMGUxCzAJBgNVBAYTAlVTMRUwEwYDVQQK
+# EwxEaWdpQ2VydCBJbmMxGTAXBgNVBAsTEHd3dy5kaWdpY2VydC5jb20xJDAiBgNV
+# BAMTG0RpZ2lDZXJ0IEFzc3VyZWQgSUQgUm9vdCBDQTAeFw0xMzEwMjIxMjAwMDBa
+# Fw0yODEwMjIxMjAwMDBaMHIxCzAJBgNVBAYTAlVTMRUwEwYDVQQKEwxEaWdpQ2Vy
+# dCBJbmMxGTAXBgNVBAsTEHd3dy5kaWdpY2VydC5jb20xMTAvBgNVBAMTKERpZ2lD
+# ZXJ0IFNIQTIgQXNzdXJlZCBJRCBDb2RlIFNpZ25pbmcgQ0EwggEiMA0GCSqGSIb3
+# DQEBAQUAA4IBDwAwggEKAoIBAQD407Mcfw4Rr2d3B9MLMUkZz9D7RZmxOttE9X/l
+# qJ3bMtdx6nadBS63j/qSQ8Cl+YnUNxnXtqrwnIal2CWsDnkoOn7p0WfTxvspJ8fT
+# eyOU5JEjlpB3gvmhhCNmElQzUHSxKCa7JGnCwlLyFGeKiUXULaGj6YgsIJWuHEqH
+# CN8M9eJNYBi+qsSyrnAxZjNxPqxwoqvOf+l8y5Kh5TsxHM/q8grkV7tKtel05iv+
+# bMt+dDk2DZDv5LVOpKnqagqrhPOsZ061xPeM0SAlI+sIZD5SlsHyDxL0xY4PwaLo
+# LFH3c7y9hbFig3NBggfkOItqcyDQD2RzPJ6fpjOp/RnfJZPRAgMBAAGjggHNMIIB
+# yTASBgNVHRMBAf8ECDAGAQH/AgEAMA4GA1UdDwEB/wQEAwIBhjATBgNVHSUEDDAK
+# BggrBgEFBQcDAzB5BggrBgEFBQcBAQRtMGswJAYIKwYBBQUHMAGGGGh0dHA6Ly9v
+# Y3NwLmRpZ2ljZXJ0LmNvbTBDBggrBgEFBQcwAoY3aHR0cDovL2NhY2VydHMuZGln
+# aWNlcnQuY29tL0RpZ2lDZXJ0QXNzdXJlZElEUm9vdENBLmNydDCBgQYDVR0fBHow
+# eDA6oDigNoY0aHR0cDovL2NybDQuZGlnaWNlcnQuY29tL0RpZ2lDZXJ0QXNzdXJl
+# ZElEUm9vdENBLmNybDA6oDigNoY0aHR0cDovL2NybDMuZGlnaWNlcnQuY29tL0Rp
+# Z2lDZXJ0QXNzdXJlZElEUm9vdENBLmNybDBPBgNVHSAESDBGMDgGCmCGSAGG/WwA
+# AgQwKjAoBggrBgEFBQcCARYcaHR0cHM6Ly93d3cuZGlnaWNlcnQuY29tL0NQUzAK
+# BghghkgBhv1sAzAdBgNVHQ4EFgQUWsS5eyoKo6XqcQPAYPkt9mV1DlgwHwYDVR0j
+# BBgwFoAUReuir/SSy4IxLVGLp6chnfNtyA8wDQYJKoZIhvcNAQELBQADggEBAD7s
+# DVoks/Mi0RXILHwlKXaoHV0cLToaxO8wYdd+C2D9wz0PxK+L/e8q3yBVN7Dh9tGS
+# dQ9RtG6ljlriXiSBThCk7j9xjmMOE0ut119EefM2FAaK95xGTlz/kLEbBw6RFfu6
+# r7VRwo0kriTGxycqoSkoGjpxKAI8LpGjwCUR4pwUR6F6aGivm6dcIFzZcbEMj7uo
+# +MUSaJ/PQMtARKUT8OZkDCUIQjKyNookAv4vcn4c10lFluhZHen6dGRrsutmQ9qz
+# sIzV6Q3d9gEgzpkxYz0IGhizgZtPxpMQBvwHgfqL2vmCSfdibqFT+hKUGIUukpHq
+# aGxEMrJmoecYpJpkUe8wggU6MIIEIqADAgECAhAH+0XZ9wtVKQNgl7T04UNwMA0G
+# CSqGSIb3DQEBCwUAMHIxCzAJBgNVBAYTAlVTMRUwEwYDVQQKEwxEaWdpQ2VydCBJ
+# bmMxGTAXBgNVBAsTEHd3dy5kaWdpY2VydC5jb20xMTAvBgNVBAMTKERpZ2lDZXJ0
+# IFNIQTIgQXNzdXJlZCBJRCBDb2RlIFNpZ25pbmcgQ0EwHhcNMTgwMzMwMDAwMDAw
+# WhcNMjEwNDE0MTIwMDAwWjB3MQswCQYDVQQGEwJVUzEPMA0GA1UECBMGS2Fuc2Fz
+# MQ8wDQYDVQQHEwZUb3Bla2ExIjAgBgNVBAoTGUNob2NvbGF0ZXkgU29mdHdhcmUs
+# IEluYy4xIjAgBgNVBAMTGUNob2NvbGF0ZXkgU29mdHdhcmUsIEluYy4wggEiMA0G
+# CSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC4irdLWVJryfKSgPPCyMN+nBmxtZIm
+# mTBhJMaYVJ6gtfvHcFakH7IC8TcjcEIrkK7wB/2vEJkEqiOTgbVQPZLnfX8ZAxhd
+# UiJmwQHEiSwLzoo2B35ROQ9qdOsn1bYIEzDpaqm/XwYH925LLpxhr9oCkBNf5dZs
+# e5bc/s1J5sQ9HRYwpb3MimmNHGpNP/YhjXX/kNFCZIv3mUadFHi+talYIN5dp6ai
+# /k+qgZeL5klPdmjyIgf3JiDywCf7j5nSbm3sWarYjM5vLe/oD+eK70fez30a17Cy
+# 97Jtqmdz6WUV1BcbMWeb9b8x369UJq5vt7vGwVFDOeGjwffuVHLRvWLnAgMBAAGj
+# ggHFMIIBwTAfBgNVHSMEGDAWgBRaxLl7KgqjpepxA8Bg+S32ZXUOWDAdBgNVHQ4E
+# FgQUqRlYCMLOvsDUS4mx9UA1avD3fvgwDgYDVR0PAQH/BAQDAgeAMBMGA1UdJQQM
+# MAoGCCsGAQUFBwMDMHcGA1UdHwRwMG4wNaAzoDGGL2h0dHA6Ly9jcmwzLmRpZ2lj
+# ZXJ0LmNvbS9zaGEyLWFzc3VyZWQtY3MtZzEuY3JsMDWgM6Axhi9odHRwOi8vY3Js
+# NC5kaWdpY2VydC5jb20vc2hhMi1hc3N1cmVkLWNzLWcxLmNybDBMBgNVHSAERTBD
+# MDcGCWCGSAGG/WwDATAqMCgGCCsGAQUFBwIBFhxodHRwczovL3d3dy5kaWdpY2Vy
+# dC5jb20vQ1BTMAgGBmeBDAEEATCBhAYIKwYBBQUHAQEEeDB2MCQGCCsGAQUFBzAB
+# hhhodHRwOi8vb2NzcC5kaWdpY2VydC5jb20wTgYIKwYBBQUHMAKGQmh0dHA6Ly9j
+# YWNlcnRzLmRpZ2ljZXJ0LmNvbS9EaWdpQ2VydFNIQTJBc3N1cmVkSURDb2RlU2ln
+# bmluZ0NBLmNydDAMBgNVHRMBAf8EAjAAMA0GCSqGSIb3DQEBCwUAA4IBAQA+ddcs
+# z/NB/+V+AIlUNOVTlGDNCtn1AfvwoRZg9XMmx0/S0EKayfVFTk/x96WMQgxL+/5x
+# B8Uhw6anlhbPC6bjBcIxRj/IUgR7yJ/NAykyM1x+pWvkPZV3slwe0GDPwhaqGUTU
+# aG8njO4EvA682a1o7wqQFR1MIltjtuPB2gp311LLxP1k5dpUMgaA0lAfnbRr+5dc
+# QOFWslkho1eBf0xlzSrhRGPy0e/IYWpl+/sEwXhD88QUkN7dSXY0fMlyGQfn6H4f
+# ozBQvCk37eoE0uAtkUrWAlJxO/4Esi83ko4hokwQJHaN64/7NdNaKlG3shC9+2QM
+# kY3j3BU+Ym2GZgtBMIIGajCCBVKgAwIBAgIQAwGaAjr/WLFr1tXq5hfwZjANBgkq
+# hkiG9w0BAQUFADBiMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5j
+# MRkwFwYDVQQLExB3d3cuZGlnaWNlcnQuY29tMSEwHwYDVQQDExhEaWdpQ2VydCBB
+# c3N1cmVkIElEIENBLTEwHhcNMTQxMDIyMDAwMDAwWhcNMjQxMDIyMDAwMDAwWjBH
+# MQswCQYDVQQGEwJVUzERMA8GA1UEChMIRGlnaUNlcnQxJTAjBgNVBAMTHERpZ2lD
+# ZXJ0IFRpbWVzdGFtcCBSZXNwb25kZXIwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+# ggEKAoIBAQCjZF38fLPggjXg4PbGKuZJdTvMbuBTqZ8fZFnmfGt/a4ydVfiS457V
+# WmNbAklQ2YPOb2bu3cuF6V+l+dSHdIhEOxnJ5fWRn8YUOawk6qhLLJGJzF4o9GS2
+# ULf1ErNzlgpno75hn67z/RJ4dQ6mWxT9RSOOhkRVfRiGBYxVh3lIRvfKDo2n3k5f
+# 4qi2LVkCYYhhchhoubh87ubnNC8xd4EwH7s2AY3vJ+P3mvBMMWSN4+v6GYeofs/s
+# jAw2W3rBerh4x8kGLkYQyI3oBGDbvHN0+k7Y/qpA8bLOcEaD6dpAoVk62RUJV5lW
+# MJPzyWHM0AjMa+xiQpGsAsDvpPCJEY93AgMBAAGjggM1MIIDMTAOBgNVHQ8BAf8E
+# BAMCB4AwDAYDVR0TAQH/BAIwADAWBgNVHSUBAf8EDDAKBggrBgEFBQcDCDCCAb8G
+# A1UdIASCAbYwggGyMIIBoQYJYIZIAYb9bAcBMIIBkjAoBggrBgEFBQcCARYcaHR0
+# cHM6Ly93d3cuZGlnaWNlcnQuY29tL0NQUzCCAWQGCCsGAQUFBwICMIIBVh6CAVIA
+# QQBuAHkAIAB1AHMAZQAgAG8AZgAgAHQAaABpAHMAIABDAGUAcgB0AGkAZgBpAGMA
+# YQB0AGUAIABjAG8AbgBzAHQAaQB0AHUAdABlAHMAIABhAGMAYwBlAHAAdABhAG4A
+# YwBlACAAbwBmACAAdABoAGUAIABEAGkAZwBpAEMAZQByAHQAIABDAFAALwBDAFAA
+# UwAgAGEAbgBkACAAdABoAGUAIABSAGUAbAB5AGkAbgBnACAAUABhAHIAdAB5ACAA
+# QQBnAHIAZQBlAG0AZQBuAHQAIAB3AGgAaQBjAGgAIABsAGkAbQBpAHQAIABsAGkA
+# YQBiAGkAbABpAHQAeQAgAGEAbgBkACAAYQByAGUAIABpAG4AYwBvAHIAcABvAHIA
+# YQB0AGUAZAAgAGgAZQByAGUAaQBuACAAYgB5ACAAcgBlAGYAZQByAGUAbgBjAGUA
+# LjALBglghkgBhv1sAxUwHwYDVR0jBBgwFoAUFQASKxOYspkH7R7for5XDStnAs0w
+# HQYDVR0OBBYEFGFaTSS2STKdSip5GoNL9B6Jwcp9MH0GA1UdHwR2MHQwOKA2oDSG
+# Mmh0dHA6Ly9jcmwzLmRpZ2ljZXJ0LmNvbS9EaWdpQ2VydEFzc3VyZWRJRENBLTEu
+# Y3JsMDigNqA0hjJodHRwOi8vY3JsNC5kaWdpY2VydC5jb20vRGlnaUNlcnRBc3N1
+# cmVkSURDQS0xLmNybDB3BggrBgEFBQcBAQRrMGkwJAYIKwYBBQUHMAGGGGh0dHA6
+# Ly9vY3NwLmRpZ2ljZXJ0LmNvbTBBBggrBgEFBQcwAoY1aHR0cDovL2NhY2VydHMu
+# ZGlnaWNlcnQuY29tL0RpZ2lDZXJ0QXNzdXJlZElEQ0EtMS5jcnQwDQYJKoZIhvcN
+# AQEFBQADggEBAJ0lfhszTbImgVybhs4jIA+Ah+WI//+x1GosMe06FxlxF82pG7xa
+# FjkAneNshORaQPveBgGMN/qbsZ0kfv4gpFetW7easGAm6mlXIV00Lx9xsIOUGQVr
+# NZAQoHuXx/Y/5+IRQaa9YtnwJz04HShvOlIJ8OxwYtNiS7Dgc6aSwNOOMdgv420X
+# Ewbu5AO2FKvzj0OncZ0h3RTKFV2SQdr5D4HRmXQNJsQOfxu19aDxxncGKBXp2JPl
+# VRbwuwqrHNtcSCdmyKOLChzlldquxC5ZoGHd2vNtomHpigtt7BIYvfdVVEADkitr
+# wlHCCkivsNRu4PQUCjob4489yq9qjXvc2EQwggbNMIIFtaADAgECAhAG/fkDlgOt
+# 6gAK6z8nu7obMA0GCSqGSIb3DQEBBQUAMGUxCzAJBgNVBAYTAlVTMRUwEwYDVQQK
+# EwxEaWdpQ2VydCBJbmMxGTAXBgNVBAsTEHd3dy5kaWdpY2VydC5jb20xJDAiBgNV
+# BAMTG0RpZ2lDZXJ0IEFzc3VyZWQgSUQgUm9vdCBDQTAeFw0wNjExMTAwMDAwMDBa
+# Fw0yMTExMTAwMDAwMDBaMGIxCzAJBgNVBAYTAlVTMRUwEwYDVQQKEwxEaWdpQ2Vy
+# dCBJbmMxGTAXBgNVBAsTEHd3dy5kaWdpY2VydC5jb20xITAfBgNVBAMTGERpZ2lD
+# ZXJ0IEFzc3VyZWQgSUQgQ0EtMTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoC
+# ggEBAOiCLZn5ysJClaWAc0Bw0p5WVFypxNJBBo/JM/xNRZFcgZ/tLJz4FlnfnrUk
+# FcKYubR3SdyJxArar8tea+2tsHEx6886QAxGTZPsi3o2CAOrDDT+GEmC/sfHMUiA
+# fB6iD5IOUMnGh+s2P9gww/+m9/uizW9zI/6sVgWQ8DIhFonGcIj5BZd9o8dD3QLo
+# Oz3tsUGj7T++25VIxO4es/K8DCuZ0MZdEkKB4YNugnM/JksUkK5ZZgrEjb7Szgau
+# rYRvSISbT0C58Uzyr5j79s5AXVz2qPEvr+yJIvJrGGWxwXOt1/HYzx4KdFxCuGh+
+# t9V3CidWfA9ipD8yFGCV/QcEogkCAwEAAaOCA3owggN2MA4GA1UdDwEB/wQEAwIB
+# hjA7BgNVHSUENDAyBggrBgEFBQcDAQYIKwYBBQUHAwIGCCsGAQUFBwMDBggrBgEF
+# BQcDBAYIKwYBBQUHAwgwggHSBgNVHSAEggHJMIIBxTCCAbQGCmCGSAGG/WwAAQQw
+# ggGkMDoGCCsGAQUFBwIBFi5odHRwOi8vd3d3LmRpZ2ljZXJ0LmNvbS9zc2wtY3Bz
+# LXJlcG9zaXRvcnkuaHRtMIIBZAYIKwYBBQUHAgIwggFWHoIBUgBBAG4AeQAgAHUA
+# cwBlACAAbwBmACAAdABoAGkAcwAgAEMAZQByAHQAaQBmAGkAYwBhAHQAZQAgAGMA
+# bwBuAHMAdABpAHQAdQB0AGUAcwAgAGEAYwBjAGUAcAB0AGEAbgBjAGUAIABvAGYA
+# IAB0AGgAZQAgAEQAaQBnAGkAQwBlAHIAdAAgAEMAUAAvAEMAUABTACAAYQBuAGQA
+# IAB0AGgAZQAgAFIAZQBsAHkAaQBuAGcAIABQAGEAcgB0AHkAIABBAGcAcgBlAGUA
+# bQBlAG4AdAAgAHcAaABpAGMAaAAgAGwAaQBtAGkAdAAgAGwAaQBhAGIAaQBsAGkA
+# dAB5ACAAYQBuAGQAIABhAHIAZQAgAGkAbgBjAG8AcgBwAG8AcgBhAHQAZQBkACAA
+# aABlAHIAZQBpAG4AIABiAHkAIAByAGUAZgBlAHIAZQBuAGMAZQAuMAsGCWCGSAGG
+# /WwDFTASBgNVHRMBAf8ECDAGAQH/AgEAMHkGCCsGAQUFBwEBBG0wazAkBggrBgEF
+# BQcwAYYYaHR0cDovL29jc3AuZGlnaWNlcnQuY29tMEMGCCsGAQUFBzAChjdodHRw
+# Oi8vY2FjZXJ0cy5kaWdpY2VydC5jb20vRGlnaUNlcnRBc3N1cmVkSURSb290Q0Eu
+# Y3J0MIGBBgNVHR8EejB4MDqgOKA2hjRodHRwOi8vY3JsMy5kaWdpY2VydC5jb20v
+# RGlnaUNlcnRBc3N1cmVkSURSb290Q0EuY3JsMDqgOKA2hjRodHRwOi8vY3JsNC5k
+# aWdpY2VydC5jb20vRGlnaUNlcnRBc3N1cmVkSURSb290Q0EuY3JsMB0GA1UdDgQW
+# BBQVABIrE5iymQftHt+ivlcNK2cCzTAfBgNVHSMEGDAWgBRF66Kv9JLLgjEtUYun
+# pyGd823IDzANBgkqhkiG9w0BAQUFAAOCAQEARlA+ybcoJKc4HbZbKa9Sz1LpMUer
+# Vlx71Q0LQbPv7HUfdDjyslxhopyVw1Dkgrkj0bo6hnKtOHisdV0XFzRyR4WUVtHr
+# uzaEd8wkpfMEGVWp5+Pnq2LN+4stkMLA0rWUvV5PsQXSDj0aqRRbpoYxYqioM+Sb
+# OafE9c4deHaUJXPkKqvPnHZL7V/CSxbkS3BMAIke/MV5vEwSV/5f4R68Al2o/vsH
+# OE8Nxl2RuQ9nRc3Wg+3nkg2NsWmMT/tZ4CMP0qquAHzunEIOz5HXJ7cW7g/DvXwK
+# oO4sCFWFIrjrGBpN/CohrUkxg0eVd3HcsRtLSxwQnHcUwZ1PL1qVCCkQJjGCBEww
+# ggRIAgEBMIGGMHIxCzAJBgNVBAYTAlVTMRUwEwYDVQQKEwxEaWdpQ2VydCBJbmMx
+# GTAXBgNVBAsTEHd3dy5kaWdpY2VydC5jb20xMTAvBgNVBAMTKERpZ2lDZXJ0IFNI
+# QTIgQXNzdXJlZCBJRCBDb2RlIFNpZ25pbmcgQ0ECEAf7Rdn3C1UpA2CXtPThQ3Aw
+# DQYJYIZIAWUDBAIBBQCggYQwGAYKKwYBBAGCNwIBDDEKMAigAoAAoQKAADAZBgkq
+# hkiG9w0BCQMxDAYKKwYBBAGCNwIBBDAcBgorBgEEAYI3AgELMQ4wDAYKKwYBBAGC
+# NwIBFTAvBgkqhkiG9w0BCQQxIgQgNGskaviydY0znPLcgNoJBA05vFcfGoE6xvUN
+# RXva/4gwDQYJKoZIhvcNAQEBBQAEggEAf2L2BgK36XAtse9Z+bBKYjqhq4shxiBA
+# kX9g4Zr5aR2SECI5gDTIEKEV5OsNzAZmPW0LblQLdyKZhTAV6JQuLnBLhMFzzysl
+# VEQUX9HAoMFvnNXLUJJ5DX9AAu4sZ0UuzVTBQRDvz5uhawdeOFjEkulKr2rxUz7S
+# HaXhuhw5JGCxBScqYeFRGhIbc/QfuqKBfQO/wGLHOdGKCdBpmRJSiAxdjgpDmVPt
+# tFlOZrd9ymI2ari0k5bW+PRmFDTtbvWT41Nq3ZUEugOuGtm/YzzLSY+CiLJCq0FS
+# /+lcm4qFKVgt6eMfwLZe+9d+HcvtX8iDL1jzygqUDOlshXCdggAA3aGCAg8wggIL
+# BgkqhkiG9w0BCQYxggH8MIIB+AIBATB2MGIxCzAJBgNVBAYTAlVTMRUwEwYDVQQK
+# EwxEaWdpQ2VydCBJbmMxGTAXBgNVBAsTEHd3dy5kaWdpY2VydC5jb20xITAfBgNV
+# BAMTGERpZ2lDZXJ0IEFzc3VyZWQgSUQgQ0EtMQIQAwGaAjr/WLFr1tXq5hfwZjAJ
+# BgUrDgMCGgUAoF0wGAYJKoZIhvcNAQkDMQsGCSqGSIb3DQEHATAcBgkqhkiG9w0B
+# CQUxDxcNMTgwNTA0MjMwOTEzWjAjBgkqhkiG9w0BCQQxFgQUGnazvknjsGIqbGvQ
+# enpF9j3WO6IwDQYJKoZIhvcNAQEBBQAEggEAa57ITXFQ0PdQpqKdAtX/v1DhnwiC
+# cTfRY2Wr2uxDCHIiy8P3lEsahczph8IM/skaugTY+iXKpjtQnzepmDsm1o0ii7Ky
+# Gd+57Yzd6UpJxQ5NiSi79YCT3UzY87iI++XeuDQcHvl6Cy+zFlJMO1aQxkhqbd7A
+# 3O6BQzICmOEamsS74ep+F60tO2EqyS2RIcMCPYQJaktYyUlWBkvwITLcFM5ahWri
+# dhD4Dv1gq0DhMoQC7sBI7uZMfhTj07wrPhwM9DlSLfsdY/wf2ptFw2nOqT+B8eBB
+# tliUcfjG4uKaf01b3WvmoFqyNcbSiHy3FHv9yRQFd4SUJT8Q2FmoAMiiqw==
+# SIG # End signature block
+
+2018-06-15 18:25:31,582 13932 [INFO ] - The package chocolatey wants to run 'chocolateyInstall.ps1'.
+2018-06-15 18:25:31,592 13932 [INFO ] - Note: If you don't run this script, the installation will fail.
+2018-06-15 18:25:31,632 13932 [INFO ] - Note: To confirm automatically next time, use '-y' or consider:
+2018-06-15 18:25:31,640 13932 [INFO ] - choco feature enable -n allowGlobalConfirmation
+2018-06-15 18:25:31,652 13932 [INFO ] - Do you want to run the script?
+2018-06-15 18:25:31,660 13932 [INFO ] -  1) yes
+2018-06-15 18:25:31,662 13932 [INFO ] -  2) no
+2018-06-15 18:25:31,672 13932 [INFO ] -  3) print
+2018-06-15 18:25:36,674 13932 [INFO ] - Choice selected: 'yes'
+2018-06-15 18:25:37,365 13932 [DEBUG] - Calling built-in PowerShell host with ['[System.Threading.Thread]::CurrentThread.CurrentCulture = '';[System.Threading.Thread]::CurrentThread.CurrentUICulture = ''; & import-module -name 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\helpers\chocolateyInstaller.psm1'; & 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\helpers\chocolateyScriptRunner.ps1' -packageScript 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall.ps1' -installArguments '' -packageParameters ''']
+2018-06-15 18:25:37,425 13932 [DEBUG] - Redirecting System.Management.Automation.resources, Version=3.0.0.0, Culture=zh-CN, PublicKeyToken=31bf3856ad364e35, requested by ''
+2018-06-15 18:25:42,092 13932 [DEBUG] - Host version is 5.1.17134.1, PowerShell Version is '5.1.17134.81' and CLR Version is '4.0.30319.42000'.
+2018-06-15 18:25:43,202 13932 [INFO ] - VERBOSE: Exporting function 'Format-FileSize'.
+2018-06-15 18:25:43,202 13932 [INFO ] - VERBOSE: Exporting function 'Get-ChecksumValid'.
+2018-06-15 18:25:43,202 13932 [INFO ] - VERBOSE: Exporting function 'Get-ChocolateyUnzip'.
+2018-06-15 18:25:43,212 13932 [INFO ] - VERBOSE: Exporting function 'Get-ChocolateyWebFile'.
+2018-06-15 18:25:43,212 13932 [INFO ] - VERBOSE: Exporting function 'Get-EnvironmentVariable'.
+2018-06-15 18:25:43,212 13932 [INFO ] - VERBOSE: Exporting function 'Get-EnvironmentVariableNames'.
+2018-06-15 18:25:43,212 13932 [INFO ] - VERBOSE: Exporting function 'Get-FtpFile'.
+2018-06-15 18:25:43,222 13932 [INFO ] - VERBOSE: Exporting function 'Get-OSArchitectureWidth'.
+2018-06-15 18:25:43,222 13932 [INFO ] - VERBOSE: Exporting function 'Get-PackageParameters'.
+2018-06-15 18:25:43,222 13932 [INFO ] - VERBOSE: Exporting function 'Get-PackageParametersBuiltIn'.
+2018-06-15 18:25:43,222 13932 [INFO ] - VERBOSE: Exporting function 'Get-ToolsLocation'.
+2018-06-15 18:25:43,232 13932 [INFO ] - VERBOSE: Exporting function 'Get-UACEnabled'.
+2018-06-15 18:25:43,232 13932 [INFO ] - VERBOSE: Exporting function 'Get-UninstallRegistryKey'.
+2018-06-15 18:25:43,232 13932 [INFO ] - VERBOSE: Exporting function 'Get-VirusCheckValid'.
+2018-06-15 18:25:43,232 13932 [INFO ] - VERBOSE: Exporting function 'Get-WebFile'.
+2018-06-15 18:25:43,232 13932 [INFO ] - VERBOSE: Exporting function 'Get-WebFileName'.
+2018-06-15 18:25:43,232 13932 [INFO ] - VERBOSE: Exporting function 'Get-WebHeaders'.
+2018-06-15 18:25:43,242 13932 [INFO ] - VERBOSE: Exporting function 'Install-BinFile'.
+2018-06-15 18:25:43,242 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyDesktopLink'.
+2018-06-15 18:25:43,242 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyEnvironmentVariable'.
+2018-06-15 18:25:43,242 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyExplorerMenuItem'.
+2018-06-15 18:25:43,242 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyFileAssociation'.
+2018-06-15 18:25:43,242 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyInstallPackage'.
+2018-06-15 18:25:43,242 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPackage'.
+2018-06-15 18:25:43,252 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPath'.
+2018-06-15 18:25:43,252 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPinnedTaskBarItem'.
+2018-06-15 18:25:43,252 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPowershellCommand'.
+2018-06-15 18:25:43,252 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyShortcut'.
+2018-06-15 18:25:43,252 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyVsixPackage'.
+2018-06-15 18:25:43,252 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyZipPackage'.
+2018-06-15 18:25:43,262 13932 [INFO ] - VERBOSE: Exporting function 'Install-Vsix'.
+2018-06-15 18:25:43,262 13932 [INFO ] - VERBOSE: Exporting function 'Set-EnvironmentVariable'.
+2018-06-15 18:25:43,262 13932 [INFO ] - VERBOSE: Exporting function 'Set-PowerShellExitCode'.
+2018-06-15 18:25:43,262 13932 [INFO ] - VERBOSE: Exporting function 'Start-ChocolateyProcessAsAdmin'.
+2018-06-15 18:25:43,262 13932 [INFO ] - VERBOSE: Exporting function 'Test-ProcessAdminRights'.
+2018-06-15 18:25:43,262 13932 [INFO ] - VERBOSE: Exporting function 'Uninstall-BinFile'.
+2018-06-15 18:25:43,272 13932 [INFO ] - VERBOSE: Exporting function 'Uninstall-ChocolateyEnvironmentVariable'.
+2018-06-15 18:25:43,272 13932 [INFO ] - VERBOSE: Exporting function 'Uninstall-ChocolateyPackage'.
+2018-06-15 18:25:43,272 13932 [INFO ] - VERBOSE: Exporting function 'Uninstall-ChocolateyZipPackage'.
+2018-06-15 18:25:43,272 13932 [INFO ] - VERBOSE: Exporting function 'Update-SessionEnvironment'.
+2018-06-15 18:25:43,272 13932 [INFO ] - VERBOSE: Exporting function 'Write-ChocolateyFailure'.
+2018-06-15 18:25:43,272 13932 [INFO ] - VERBOSE: Exporting function 'Write-ChocolateySuccess'.
+2018-06-15 18:25:43,272 13932 [INFO ] - VERBOSE: Exporting function 'Write-FileUpdateLog'.
+2018-06-15 18:25:43,282 13932 [INFO ] - VERBOSE: Exporting function 'Write-FunctionCallLogMessage'.
+2018-06-15 18:25:43,292 13932 [INFO ] - VERBOSE: Exporting alias 'Get-ProcessorBits'.
+2018-06-15 18:25:43,292 13932 [INFO ] - VERBOSE: Exporting alias 'Get-OSBitness'.
+2018-06-15 18:25:43,292 13932 [INFO ] - VERBOSE: Exporting alias 'Get-InstallRegistryKey'.
+2018-06-15 18:25:43,292 13932 [INFO ] - VERBOSE: Exporting alias 'Generate-BinFile'.
+2018-06-15 18:25:43,302 13932 [INFO ] - VERBOSE: Exporting alias 'Add-BinFile'.
+2018-06-15 18:25:43,302 13932 [INFO ] - VERBOSE: Exporting alias 'Start-ChocolateyProcess'.
+2018-06-15 18:25:43,302 13932 [INFO ] - VERBOSE: Exporting alias 'Invoke-ChocolateyProcess'.
+2018-06-15 18:25:43,302 13932 [INFO ] - VERBOSE: Exporting alias 'Remove-BinFile'.
+2018-06-15 18:25:43,302 13932 [INFO ] - VERBOSE: Exporting alias 'refreshenv'.
+2018-06-15 18:25:43,352 13932 [DEBUG] - Loading community extensions
+2018-06-15 18:25:43,422 13932 [DEBUG] - Importing 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\extensions\chocolatey-core\chocolatey-core.psm1'
+2018-06-15 18:25:43,422 13932 [INFO ] - VERBOSE: Loading module from path 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\extensions\chocolatey-core\chocolatey-core.psm1'.
+2018-06-15 18:25:43,732 13932 [INFO ] - VERBOSE: Exporting function 'Get-UninstallRegistryKey'.
+2018-06-15 18:25:43,742 13932 [INFO ] - VERBOSE: Exporting function 'Get-AppInstallLocation'.
+2018-06-15 18:25:43,742 13932 [INFO ] - VERBOSE: Exporting function 'Get-AvailableDriveLetter'.
+2018-06-15 18:25:43,742 13932 [INFO ] - VERBOSE: Exporting function 'Get-EffectiveProxy'.
+2018-06-15 18:25:43,742 13932 [INFO ] - VERBOSE: Exporting function 'Get-PackageCacheLocation'.
+2018-06-15 18:25:43,742 13932 [INFO ] - VERBOSE: Exporting function 'Get-PackageParameters'.
+2018-06-15 18:25:43,752 13932 [INFO ] - VERBOSE: Exporting function 'Get-WebContent'.
+2018-06-15 18:25:43,752 13932 [INFO ] - VERBOSE: Exporting function 'Register-Application'.
+2018-06-15 18:25:43,762 13932 [INFO ] - VERBOSE: Importing function 'Get-AppInstallLocation'.
+2018-06-15 18:25:43,772 13932 [INFO ] - VERBOSE: Importing function 'Get-AvailableDriveLetter'.
+2018-06-15 18:25:43,772 13932 [INFO ] - VERBOSE: Importing function 'Get-EffectiveProxy'.
+2018-06-15 18:25:43,772 13932 [INFO ] - VERBOSE: Importing function 'Get-PackageCacheLocation'.
+2018-06-15 18:25:43,772 13932 [INFO ] - VERBOSE: Importing function 'Get-PackageParameters'.
+2018-06-15 18:25:43,772 13932 [INFO ] - VERBOSE: Importing function 'Get-UninstallRegistryKey'.
+2018-06-15 18:25:43,772 13932 [INFO ] - VERBOSE: Importing function 'Get-WebContent'.
+2018-06-15 18:25:43,782 13932 [INFO ] - VERBOSE: Importing function 'Register-Application'.
+2018-06-15 18:25:43,782 13932 [INFO ] - VERBOSE: Exporting function 'Format-FileSize'.
+2018-06-15 18:25:43,782 13932 [INFO ] - VERBOSE: Exporting function 'Get-ChecksumValid'.
+2018-06-15 18:25:43,782 13932 [INFO ] - VERBOSE: Exporting function 'Get-ChocolateyUnzip'.
+2018-06-15 18:25:43,782 13932 [INFO ] - VERBOSE: Exporting function 'Get-ChocolateyWebFile'.
+2018-06-15 18:25:43,792 13932 [INFO ] - VERBOSE: Exporting function 'Get-EnvironmentVariable'.
+2018-06-15 18:25:43,792 13932 [INFO ] - VERBOSE: Exporting function 'Get-EnvironmentVariableNames'.
+2018-06-15 18:25:43,792 13932 [INFO ] - VERBOSE: Exporting function 'Get-FtpFile'.
+2018-06-15 18:25:43,792 13932 [INFO ] - VERBOSE: Exporting function 'Get-OSArchitectureWidth'.
+2018-06-15 18:25:43,792 13932 [INFO ] - VERBOSE: Exporting function 'Get-PackageParameters'.
+2018-06-15 18:25:43,802 13932 [INFO ] - VERBOSE: Exporting function 'Get-PackageParametersBuiltIn'.
+2018-06-15 18:25:43,802 13932 [INFO ] - VERBOSE: Exporting function 'Get-ToolsLocation'.
+2018-06-15 18:25:43,802 13932 [INFO ] - VERBOSE: Exporting function 'Get-UACEnabled'.
+2018-06-15 18:25:43,802 13932 [INFO ] - VERBOSE: Exporting function 'Get-UninstallRegistryKey'.
+2018-06-15 18:25:43,802 13932 [INFO ] - VERBOSE: Exporting function 'Get-VirusCheckValid'.
+2018-06-15 18:25:43,802 13932 [INFO ] - VERBOSE: Exporting function 'Get-WebFile'.
+2018-06-15 18:25:43,802 13932 [INFO ] - VERBOSE: Exporting function 'Get-WebFileName'.
+2018-06-15 18:25:43,812 13932 [INFO ] - VERBOSE: Exporting function 'Get-WebHeaders'.
+2018-06-15 18:25:43,812 13932 [INFO ] - VERBOSE: Exporting function 'Install-BinFile'.
+2018-06-15 18:25:43,812 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyDesktopLink'.
+2018-06-15 18:25:43,812 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyEnvironmentVariable'.
+2018-06-15 18:25:43,812 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyExplorerMenuItem'.
+2018-06-15 18:25:43,812 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyFileAssociation'.
+2018-06-15 18:25:43,822 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyInstallPackage'.
+2018-06-15 18:25:43,822 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPackage'.
+2018-06-15 18:25:43,822 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPath'.
+2018-06-15 18:25:43,822 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPinnedTaskBarItem'.
+2018-06-15 18:25:43,822 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPowershellCommand'.
+2018-06-15 18:25:43,822 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyShortcut'.
+2018-06-15 18:25:43,832 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyVsixPackage'.
+2018-06-15 18:25:43,832 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyZipPackage'.
+2018-06-15 18:25:43,832 13932 [INFO ] - VERBOSE: Exporting function 'Install-Vsix'.
+2018-06-15 18:25:43,832 13932 [INFO ] - VERBOSE: Exporting function 'Set-EnvironmentVariable'.
+2018-06-15 18:25:43,832 13932 [INFO ] - VERBOSE: Exporting function 'Set-PowerShellExitCode'.
+2018-06-15 18:25:43,832 13932 [INFO ] - VERBOSE: Exporting function 'Start-ChocolateyProcessAsAdmin'.
+2018-06-15 18:25:43,842 13932 [INFO ] - VERBOSE: Exporting function 'Test-ProcessAdminRights'.
+2018-06-15 18:25:43,842 13932 [INFO ] - VERBOSE: Exporting function 'Uninstall-BinFile'.
+2018-06-15 18:25:43,842 13932 [INFO ] - VERBOSE: Exporting function 'Uninstall-ChocolateyEnvironmentVariable'.
+2018-06-15 18:25:43,842 13932 [INFO ] - VERBOSE: Exporting function 'Uninstall-ChocolateyPackage'.
+2018-06-15 18:25:43,852 13932 [INFO ] - VERBOSE: Exporting function 'Uninstall-ChocolateyZipPackage'.
+2018-06-15 18:25:43,852 13932 [INFO ] - VERBOSE: Exporting function 'Update-SessionEnvironment'.
+2018-06-15 18:25:43,852 13932 [INFO ] - VERBOSE: Exporting function 'Write-ChocolateyFailure'.
+2018-06-15 18:25:43,852 13932 [INFO ] - VERBOSE: Exporting function 'Write-ChocolateySuccess'.
+2018-06-15 18:25:43,852 13932 [INFO ] - VERBOSE: Exporting function 'Write-FileUpdateLog'.
+2018-06-15 18:25:43,852 13932 [INFO ] - VERBOSE: Exporting function 'Write-FunctionCallLogMessage'.
+2018-06-15 18:25:43,862 13932 [INFO ] - VERBOSE: Exporting function 'Get-AppInstallLocation'.
+2018-06-15 18:25:43,862 13932 [INFO ] - VERBOSE: Exporting function 'Get-AvailableDriveLetter'.
+2018-06-15 18:25:43,862 13932 [INFO ] - VERBOSE: Exporting function 'Get-EffectiveProxy'.
+2018-06-15 18:25:43,862 13932 [INFO ] - VERBOSE: Exporting function 'Get-PackageCacheLocation'.
+2018-06-15 18:25:43,862 13932 [INFO ] - VERBOSE: Exporting function 'Get-WebContent'.
+2018-06-15 18:25:43,862 13932 [INFO ] - VERBOSE: Exporting function 'Register-Application'.
+2018-06-15 18:25:43,872 13932 [INFO ] - VERBOSE: Exporting alias 'Get-ProcessorBits'.
+2018-06-15 18:25:43,872 13932 [INFO ] - VERBOSE: Exporting alias 'Get-OSBitness'.
+2018-06-15 18:25:43,872 13932 [INFO ] - VERBOSE: Exporting alias 'Get-InstallRegistryKey'.
+2018-06-15 18:25:43,872 13932 [INFO ] - VERBOSE: Exporting alias 'Generate-BinFile'.
+2018-06-15 18:25:43,872 13932 [INFO ] - VERBOSE: Exporting alias 'Add-BinFile'.
+2018-06-15 18:25:43,872 13932 [INFO ] - VERBOSE: Exporting alias 'Start-ChocolateyProcess'.
+2018-06-15 18:25:43,882 13932 [INFO ] - VERBOSE: Exporting alias 'Invoke-ChocolateyProcess'.
+2018-06-15 18:25:43,882 13932 [INFO ] - VERBOSE: Exporting alias 'Remove-BinFile'.
+2018-06-15 18:25:43,882 13932 [INFO ] - VERBOSE: Exporting alias 'refreshenv'.
+2018-06-15 18:25:43,882 13932 [INFO ] - VERBOSE: Importing function 'Format-FileSize'.
+2018-06-15 18:25:43,882 13932 [INFO ] - VERBOSE: Importing function 'Get-AppInstallLocation'.
+2018-06-15 18:25:43,882 13932 [INFO ] - VERBOSE: Importing function 'Get-AvailableDriveLetter'.
+2018-06-15 18:25:43,882 13932 [INFO ] - VERBOSE: Importing function 'Get-ChecksumValid'.
+2018-06-15 18:25:43,892 13932 [INFO ] - VERBOSE: Importing function 'Get-ChocolateyUnzip'.
+2018-06-15 18:25:43,892 13932 [INFO ] - VERBOSE: Importing function 'Get-ChocolateyWebFile'.
+2018-06-15 18:25:43,892 13932 [INFO ] - VERBOSE: Importing function 'Get-EffectiveProxy'.
+2018-06-15 18:25:43,892 13932 [INFO ] - VERBOSE: Importing function 'Get-EnvironmentVariable'.
+2018-06-15 18:25:43,892 13932 [INFO ] - VERBOSE: Importing function 'Get-EnvironmentVariableNames'.
+2018-06-15 18:25:43,892 13932 [INFO ] - VERBOSE: Importing function 'Get-FtpFile'.
+2018-06-15 18:25:43,902 13932 [INFO ] - VERBOSE: Importing function 'Get-OSArchitectureWidth'.
+2018-06-15 18:25:43,902 13932 [INFO ] - VERBOSE: Importing function 'Get-PackageCacheLocation'.
+2018-06-15 18:25:43,902 13932 [INFO ] - VERBOSE: Importing function 'Get-PackageParameters'.
+2018-06-15 18:25:43,902 13932 [INFO ] - VERBOSE: Importing function 'Get-PackageParametersBuiltIn'.
+2018-06-15 18:25:43,902 13932 [INFO ] - VERBOSE: Importing function 'Get-ToolsLocation'.
+2018-06-15 18:25:43,902 13932 [INFO ] - VERBOSE: Importing function 'Get-UACEnabled'.
+2018-06-15 18:25:43,912 13932 [INFO ] - VERBOSE: Importing function 'Get-UninstallRegistryKey'.
+2018-06-15 18:25:43,912 13932 [INFO ] - VERBOSE: Importing function 'Get-VirusCheckValid'.
+2018-06-15 18:25:43,912 13932 [INFO ] - VERBOSE: Importing function 'Get-WebContent'.
+2018-06-15 18:25:43,912 13932 [INFO ] - VERBOSE: Importing function 'Get-WebFile'.
+2018-06-15 18:25:43,912 13932 [INFO ] - VERBOSE: Importing function 'Get-WebFileName'.
+2018-06-15 18:25:43,912 13932 [INFO ] - VERBOSE: Importing function 'Get-WebHeaders'.
+2018-06-15 18:25:43,922 13932 [INFO ] - VERBOSE: Importing function 'Install-BinFile'.
+2018-06-15 18:25:43,922 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyDesktopLink'.
+2018-06-15 18:25:43,922 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyEnvironmentVariable'.
+2018-06-15 18:25:43,922 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyExplorerMenuItem'.
+2018-06-15 18:25:43,922 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyFileAssociation'.
+2018-06-15 18:25:43,922 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyInstallPackage'.
+2018-06-15 18:25:43,922 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyPackage'.
+2018-06-15 18:25:43,932 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyPath'.
+2018-06-15 18:25:43,932 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyPinnedTaskBarItem'.
+2018-06-15 18:25:43,932 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyPowershellCommand'.
+2018-06-15 18:25:43,932 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyShortcut'.
+2018-06-15 18:25:43,932 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyVsixPackage'.
+2018-06-15 18:25:43,932 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyZipPackage'.
+2018-06-15 18:25:43,942 13932 [INFO ] - VERBOSE: Importing function 'Install-Vsix'.
+2018-06-15 18:25:43,942 13932 [INFO ] - VERBOSE: Importing function 'Register-Application'.
+2018-06-15 18:25:43,942 13932 [INFO ] - VERBOSE: Importing function 'Set-EnvironmentVariable'.
+2018-06-15 18:25:43,942 13932 [INFO ] - VERBOSE: Importing function 'Set-PowerShellExitCode'.
+2018-06-15 18:25:43,942 13932 [INFO ] - VERBOSE: Importing function 'Start-ChocolateyProcessAsAdmin'.
+2018-06-15 18:25:43,942 13932 [INFO ] - VERBOSE: Importing function 'Test-ProcessAdminRights'.
+2018-06-15 18:25:43,942 13932 [INFO ] - VERBOSE: Importing function 'Uninstall-BinFile'.
+2018-06-15 18:25:43,952 13932 [INFO ] - VERBOSE: Importing function 'Uninstall-ChocolateyEnvironmentVariable'.
+2018-06-15 18:25:43,952 13932 [INFO ] - VERBOSE: Importing function 'Uninstall-ChocolateyPackage'.
+2018-06-15 18:25:43,952 13932 [INFO ] - VERBOSE: Importing function 'Uninstall-ChocolateyZipPackage'.
+2018-06-15 18:25:43,952 13932 [INFO ] - VERBOSE: Importing function 'Update-SessionEnvironment'.
+2018-06-15 18:25:43,952 13932 [INFO ] - VERBOSE: Importing function 'Write-ChocolateyFailure'.
+2018-06-15 18:25:43,952 13932 [INFO ] - VERBOSE: Importing function 'Write-ChocolateySuccess'.
+2018-06-15 18:25:43,952 13932 [INFO ] - VERBOSE: Importing function 'Write-FileUpdateLog'.
+2018-06-15 18:25:43,962 13932 [INFO ] - VERBOSE: Importing function 'Write-FunctionCallLogMessage'.
+2018-06-15 18:25:43,962 13932 [INFO ] - VERBOSE: Importing alias 'Add-BinFile'.
+2018-06-15 18:25:43,962 13932 [INFO ] - VERBOSE: Importing alias 'Generate-BinFile'.
+2018-06-15 18:25:43,962 13932 [INFO ] - VERBOSE: Importing alias 'Get-InstallRegistryKey'.
+2018-06-15 18:25:43,962 13932 [INFO ] - VERBOSE: Importing alias 'Get-OSBitness'.
+2018-06-15 18:25:43,962 13932 [INFO ] - VERBOSE: Importing alias 'Get-ProcessorBits'.
+2018-06-15 18:25:43,972 13932 [INFO ] - VERBOSE: Importing alias 'Invoke-ChocolateyProcess'.
+2018-06-15 18:25:43,972 13932 [INFO ] - VERBOSE: Importing alias 'refreshenv'.
+2018-06-15 18:25:43,972 13932 [INFO ] - VERBOSE: Importing alias 'Remove-BinFile'.
+2018-06-15 18:25:43,972 13932 [INFO ] - VERBOSE: Importing alias 'Start-ChocolateyProcess'.
+2018-06-15 18:25:44,192 13932 [DEBUG] - Running 'ChocolateyScriptRunner' for chocolatey v0.10.11 with packageScript 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall.ps1', packageFolder:'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey', installArguments: '', packageParameters: '',
+2018-06-15 18:25:44,212 13932 [DEBUG] - Running 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall.ps1'
+2018-06-15 18:25:44,252 13932 [INFO ] - VERBOSE: Loading module from path 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateysetup.psm1'.
+2018-06-15 18:25:44,292 13932 [INFO ] - VERBOSE: Exporting function 'Initialize-Chocolatey'.
+2018-06-15 18:25:44,302 13932 [INFO ] - VERBOSE: Importing function 'Initialize-Chocolatey'.
+2018-06-15 18:25:44,322 13932 [DEBUG] - Initialize-Chocolatey
+2018-06-15 18:25:44,332 13932 [INFO ] - VERBOSE: Loading module from path 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\helpers\chocolateyInstaller.psm1'.
+2018-06-15 18:25:44,342 13932 [DEBUG] - Host version is 5.1.17134.1, PowerShell Version is '5.1.17134.81' and CLR Version is '4.0.30319.42000'.
+2018-06-15 18:25:44,742 13932 [INFO ] - VERBOSE: Exporting function 'Format-FileSize'.
+2018-06-15 18:25:44,742 13932 [INFO ] - VERBOSE: Exporting function 'Get-ChecksumValid'.
+2018-06-15 18:25:44,752 13932 [INFO ] - VERBOSE: Exporting function 'Get-ChocolateyUnzip'.
+2018-06-15 18:25:44,752 13932 [INFO ] - VERBOSE: Exporting function 'Get-ChocolateyWebFile'.
+2018-06-15 18:25:44,752 13932 [INFO ] - VERBOSE: Exporting function 'Get-EnvironmentVariable'.
+2018-06-15 18:25:44,752 13932 [INFO ] - VERBOSE: Exporting function 'Get-EnvironmentVariableNames'.
+2018-06-15 18:25:44,752 13932 [INFO ] - VERBOSE: Exporting function 'Get-FtpFile'.
+2018-06-15 18:25:44,752 13932 [INFO ] - VERBOSE: Exporting function 'Get-OSArchitectureWidth'.
+2018-06-15 18:25:44,762 13932 [INFO ] - VERBOSE: Exporting function 'Get-PackageParameters'.
+2018-06-15 18:25:44,762 13932 [INFO ] - VERBOSE: Exporting function 'Get-ToolsLocation'.
+2018-06-15 18:25:44,762 13932 [INFO ] - VERBOSE: Exporting function 'Get-UACEnabled'.
+2018-06-15 18:25:44,762 13932 [INFO ] - VERBOSE: Exporting function 'Get-UninstallRegistryKey'.
+2018-06-15 18:25:44,762 13932 [INFO ] - VERBOSE: Exporting function 'Get-VirusCheckValid'.
+2018-06-15 18:25:44,762 13932 [INFO ] - VERBOSE: Exporting function 'Get-WebFile'.
+2018-06-15 18:25:44,772 13932 [INFO ] - VERBOSE: Exporting function 'Get-WebFileName'.
+2018-06-15 18:25:44,772 13932 [INFO ] - VERBOSE: Exporting function 'Get-WebHeaders'.
+2018-06-15 18:25:44,772 13932 [INFO ] - VERBOSE: Exporting function 'Install-BinFile'.
+2018-06-15 18:25:44,772 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyDesktopLink'.
+2018-06-15 18:25:44,772 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyEnvironmentVariable'.
+2018-06-15 18:25:44,772 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyExplorerMenuItem'.
+2018-06-15 18:25:44,782 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyFileAssociation'.
+2018-06-15 18:25:44,782 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyInstallPackage'.
+2018-06-15 18:25:44,782 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPackage'.
+2018-06-15 18:25:44,782 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPath'.
+2018-06-15 18:25:44,782 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPinnedTaskBarItem'.
+2018-06-15 18:25:44,782 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPowershellCommand'.
+2018-06-15 18:25:44,782 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyShortcut'.
+2018-06-15 18:25:44,792 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyVsixPackage'.
+2018-06-15 18:25:44,792 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyZipPackage'.
+2018-06-15 18:25:44,792 13932 [INFO ] - VERBOSE: Exporting function 'Install-Vsix'.
+2018-06-15 18:25:44,792 13932 [INFO ] - VERBOSE: Exporting function 'Set-EnvironmentVariable'.
+2018-06-15 18:25:44,792 13932 [INFO ] - VERBOSE: Exporting function 'Set-PowerShellExitCode'.
+2018-06-15 18:25:44,792 13932 [INFO ] - VERBOSE: Exporting function 'Start-ChocolateyProcessAsAdmin'.
+2018-06-15 18:25:44,802 13932 [INFO ] - VERBOSE: Exporting function 'Test-ProcessAdminRights'.
+2018-06-15 18:25:44,802 13932 [INFO ] - VERBOSE: Exporting function 'Uninstall-BinFile'.
+2018-06-15 18:25:44,802 13932 [INFO ] - VERBOSE: Exporting function 'Uninstall-ChocolateyEnvironmentVariable'.
+2018-06-15 18:25:44,802 13932 [INFO ] - VERBOSE: Exporting function 'Uninstall-ChocolateyPackage'.
+2018-06-15 18:25:44,802 13932 [INFO ] - VERBOSE: Exporting function 'Uninstall-ChocolateyZipPackage'.
+2018-06-15 18:25:44,812 13932 [INFO ] - VERBOSE: Exporting function 'Update-SessionEnvironment'.
+2018-06-15 18:25:44,812 13932 [INFO ] - VERBOSE: Exporting function 'Write-ChocolateyFailure'.
+2018-06-15 18:25:44,822 13932 [INFO ] - VERBOSE: Exporting function 'Write-ChocolateySuccess'.
+2018-06-15 18:25:44,822 13932 [INFO ] - VERBOSE: Exporting function 'Write-FileUpdateLog'.
+2018-06-15 18:25:44,822 13932 [INFO ] - VERBOSE: Exporting function 'Write-FunctionCallLogMessage'.
+2018-06-15 18:25:44,822 13932 [INFO ] - VERBOSE: Exporting alias 'Get-ProcessorBits'.
+2018-06-15 18:25:44,822 13932 [INFO ] - VERBOSE: Exporting alias 'Get-OSBitness'.
+2018-06-15 18:25:44,822 13932 [INFO ] - VERBOSE: Exporting alias 'Get-InstallRegistryKey'.
+2018-06-15 18:25:44,832 13932 [INFO ] - VERBOSE: Exporting alias 'Generate-BinFile'.
+2018-06-15 18:25:44,832 13932 [INFO ] - VERBOSE: Exporting alias 'Add-BinFile'.
+2018-06-15 18:25:44,832 13932 [INFO ] - VERBOSE: Exporting alias 'Start-ChocolateyProcess'.
+2018-06-15 18:25:44,832 13932 [INFO ] - VERBOSE: Exporting alias 'Invoke-ChocolateyProcess'.
+2018-06-15 18:25:44,832 13932 [INFO ] - VERBOSE: Exporting alias 'Remove-BinFile'.
+2018-06-15 18:25:44,832 13932 [INFO ] - VERBOSE: Exporting alias 'refreshenv'.
+2018-06-15 18:25:44,842 13932 [INFO ] - VERBOSE: Exporting function 'Format-FileSize'.
+2018-06-15 18:25:44,842 13932 [INFO ] - VERBOSE: Exporting function 'Get-ChecksumValid'.
+2018-06-15 18:25:44,842 13932 [INFO ] - VERBOSE: Exporting function 'Get-ChocolateyUnzip'.
+2018-06-15 18:25:44,842 13932 [INFO ] - VERBOSE: Exporting function 'Get-ChocolateyWebFile'.
+2018-06-15 18:25:44,842 13932 [INFO ] - VERBOSE: Exporting function 'Get-EnvironmentVariable'.
+2018-06-15 18:25:44,852 13932 [INFO ] - VERBOSE: Exporting function 'Get-EnvironmentVariableNames'.
+2018-06-15 18:25:44,852 13932 [INFO ] - VERBOSE: Exporting function 'Get-FtpFile'.
+2018-06-15 18:25:44,852 13932 [INFO ] - VERBOSE: Exporting function 'Get-OSArchitectureWidth'.
+2018-06-15 18:25:44,852 13932 [INFO ] - VERBOSE: Exporting function 'Get-PackageParameters'.
+2018-06-15 18:25:44,852 13932 [INFO ] - VERBOSE: Exporting function 'Get-ToolsLocation'.
+2018-06-15 18:25:44,852 13932 [INFO ] - VERBOSE: Exporting function 'Get-UACEnabled'.
+2018-06-15 18:25:44,862 13932 [INFO ] - VERBOSE: Exporting function 'Get-UninstallRegistryKey'.
+2018-06-15 18:25:44,862 13932 [INFO ] - VERBOSE: Exporting function 'Get-VirusCheckValid'.
+2018-06-15 18:25:44,862 13932 [INFO ] - VERBOSE: Exporting function 'Get-WebFile'.
+2018-06-15 18:25:44,862 13932 [INFO ] - VERBOSE: Exporting function 'Get-WebFileName'.
+2018-06-15 18:25:44,872 13932 [INFO ] - VERBOSE: Exporting function 'Get-WebHeaders'.
+2018-06-15 18:25:44,872 13932 [INFO ] - VERBOSE: Exporting function 'Install-BinFile'.
+2018-06-15 18:25:44,872 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyDesktopLink'.
+2018-06-15 18:25:44,872 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyEnvironmentVariable'.
+2018-06-15 18:25:44,872 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyExplorerMenuItem'.
+2018-06-15 18:25:44,872 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyFileAssociation'.
+2018-06-15 18:25:44,882 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyInstallPackage'.
+2018-06-15 18:25:44,882 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPackage'.
+2018-06-15 18:25:44,882 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPath'.
+2018-06-15 18:25:44,882 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPinnedTaskBarItem'.
+2018-06-15 18:25:44,892 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPowershellCommand'.
+2018-06-15 18:25:44,892 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyShortcut'.
+2018-06-15 18:25:44,892 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyVsixPackage'.
+2018-06-15 18:25:44,892 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyZipPackage'.
+2018-06-15 18:25:44,892 13932 [INFO ] - VERBOSE: Exporting function 'Install-Vsix'.
+2018-06-15 18:25:44,892 13932 [INFO ] - VERBOSE: Exporting function 'Set-EnvironmentVariable'.
+2018-06-15 18:25:44,902 13932 [INFO ] - VERBOSE: Exporting function 'Set-PowerShellExitCode'.
+2018-06-15 18:25:44,902 13932 [INFO ] - VERBOSE: Exporting function 'Start-ChocolateyProcessAsAdmin'.
+2018-06-15 18:25:44,902 13932 [INFO ] - VERBOSE: Exporting function 'Test-ProcessAdminRights'.
+2018-06-15 18:25:44,902 13932 [INFO ] - VERBOSE: Exporting function 'Uninstall-BinFile'.
+2018-06-15 18:25:44,902 13932 [INFO ] - VERBOSE: Exporting function 'Uninstall-ChocolateyEnvironmentVariable'.
+2018-06-15 18:25:44,902 13932 [INFO ] - VERBOSE: Exporting function 'Uninstall-ChocolateyPackage'.
+2018-06-15 18:25:44,912 13932 [INFO ] - VERBOSE: Exporting function 'Uninstall-ChocolateyZipPackage'.
+2018-06-15 18:25:44,912 13932 [INFO ] - VERBOSE: Exporting function 'Update-SessionEnvironment'.
+2018-06-15 18:25:44,912 13932 [INFO ] - VERBOSE: Exporting function 'Write-ChocolateyFailure'.
+2018-06-15 18:25:44,912 13932 [INFO ] - VERBOSE: Exporting function 'Write-ChocolateySuccess'.
+2018-06-15 18:25:44,912 13932 [INFO ] - VERBOSE: Exporting function 'Write-FileUpdateLog'.
+2018-06-15 18:25:44,912 13932 [INFO ] - VERBOSE: Exporting function 'Write-FunctionCallLogMessage'.
+2018-06-15 18:25:44,922 13932 [INFO ] - VERBOSE: Exporting alias 'Get-ProcessorBits'.
+2018-06-15 18:25:44,922 13932 [INFO ] - VERBOSE: Exporting alias 'Get-OSBitness'.
+2018-06-15 18:25:44,922 13932 [INFO ] - VERBOSE: Exporting alias 'Get-InstallRegistryKey'.
+2018-06-15 18:25:44,922 13932 [INFO ] - VERBOSE: Exporting alias 'Generate-BinFile'.
+2018-06-15 18:25:44,922 13932 [INFO ] - VERBOSE: Exporting alias 'Add-BinFile'.
+2018-06-15 18:25:44,922 13932 [INFO ] - VERBOSE: Exporting alias 'Start-ChocolateyProcess'.
+2018-06-15 18:25:44,932 13932 [INFO ] - VERBOSE: Exporting alias 'Invoke-ChocolateyProcess'.
+2018-06-15 18:25:44,932 13932 [INFO ] - VERBOSE: Exporting alias 'Remove-BinFile'.
+2018-06-15 18:25:44,932 13932 [INFO ] - VERBOSE: Exporting alias 'refreshenv'.
+2018-06-15 18:25:44,932 13932 [INFO ] - VERBOSE: Importing function 'Format-FileSize'.
+2018-06-15 18:25:44,932 13932 [INFO ] - VERBOSE: Importing function 'Get-ChecksumValid'.
+2018-06-15 18:25:44,932 13932 [INFO ] - VERBOSE: Importing function 'Get-ChocolateyUnzip'.
+2018-06-15 18:25:44,942 13932 [INFO ] - VERBOSE: Importing function 'Get-ChocolateyWebFile'.
+2018-06-15 18:25:44,942 13932 [INFO ] - VERBOSE: Importing function 'Get-EnvironmentVariable'.
+2018-06-15 18:25:44,942 13932 [INFO ] - VERBOSE: Importing function 'Get-EnvironmentVariableNames'.
+2018-06-15 18:25:44,942 13932 [INFO ] - VERBOSE: Importing function 'Get-FtpFile'.
+2018-06-15 18:25:44,942 13932 [INFO ] - VERBOSE: Importing function 'Get-OSArchitectureWidth'.
+2018-06-15 18:25:44,942 13932 [INFO ] - VERBOSE: Importing function 'Get-PackageParameters'.
+2018-06-15 18:25:44,952 13932 [INFO ] - VERBOSE: Importing function 'Get-ToolsLocation'.
+2018-06-15 18:25:44,952 13932 [INFO ] - VERBOSE: Importing function 'Get-UACEnabled'.
+2018-06-15 18:25:44,952 13932 [INFO ] - VERBOSE: Importing function 'Get-UninstallRegistryKey'.
+2018-06-15 18:25:44,952 13932 [INFO ] - VERBOSE: Importing function 'Get-VirusCheckValid'.
+2018-06-15 18:25:44,952 13932 [INFO ] - VERBOSE: Importing function 'Get-WebFile'.
+2018-06-15 18:25:44,952 13932 [INFO ] - VERBOSE: Importing function 'Get-WebFileName'.
+2018-06-15 18:25:44,962 13932 [INFO ] - VERBOSE: Importing function 'Get-WebHeaders'.
+2018-06-15 18:25:44,962 13932 [INFO ] - VERBOSE: Importing function 'Install-BinFile'.
+2018-06-15 18:25:44,962 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyDesktopLink'.
+2018-06-15 18:25:44,962 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyEnvironmentVariable'.
+2018-06-15 18:25:44,962 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyExplorerMenuItem'.
+2018-06-15 18:25:44,962 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyFileAssociation'.
+2018-06-15 18:25:44,962 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyInstallPackage'.
+2018-06-15 18:25:44,972 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyPackage'.
+2018-06-15 18:25:44,972 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyPath'.
+2018-06-15 18:25:44,972 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyPinnedTaskBarItem'.
+2018-06-15 18:25:44,972 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyPowershellCommand'.
+2018-06-15 18:25:44,972 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyShortcut'.
+2018-06-15 18:25:44,972 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyVsixPackage'.
+2018-06-15 18:25:44,982 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyZipPackage'.
+2018-06-15 18:25:44,982 13932 [INFO ] - VERBOSE: Importing function 'Install-Vsix'.
+2018-06-15 18:25:44,982 13932 [INFO ] - VERBOSE: Importing function 'Set-EnvironmentVariable'.
+2018-06-15 18:25:44,982 13932 [INFO ] - VERBOSE: Importing function 'Set-PowerShellExitCode'.
+2018-06-15 18:25:44,982 13932 [INFO ] - VERBOSE: Importing function 'Start-ChocolateyProcessAsAdmin'.
+2018-06-15 18:25:44,982 13932 [INFO ] - VERBOSE: Importing function 'Test-ProcessAdminRights'.
+2018-06-15 18:25:44,992 13932 [INFO ] - VERBOSE: Importing function 'Uninstall-BinFile'.
+2018-06-15 18:25:44,992 13932 [INFO ] - VERBOSE: Importing function 'Uninstall-ChocolateyEnvironmentVariable'.
+2018-06-15 18:25:44,992 13932 [INFO ] - VERBOSE: Importing function 'Uninstall-ChocolateyPackage'.
+2018-06-15 18:25:44,992 13932 [INFO ] - VERBOSE: Importing function 'Uninstall-ChocolateyZipPackage'.
+2018-06-15 18:25:44,992 13932 [INFO ] - VERBOSE: Importing function 'Update-SessionEnvironment'.
+2018-06-15 18:25:44,992 13932 [INFO ] - VERBOSE: Importing function 'Write-ChocolateyFailure'.
+2018-06-15 18:25:44,992 13932 [INFO ] - VERBOSE: Importing function 'Write-ChocolateySuccess'.
+2018-06-15 18:25:45,002 13932 [INFO ] - VERBOSE: Importing function 'Write-FileUpdateLog'.
+2018-06-15 18:25:45,002 13932 [INFO ] - VERBOSE: Importing function 'Write-FunctionCallLogMessage'.
+2018-06-15 18:25:45,002 13932 [INFO ] - VERBOSE: Importing alias 'Add-BinFile'.
+2018-06-15 18:25:45,002 13932 [INFO ] - VERBOSE: Importing alias 'Generate-BinFile'.
+2018-06-15 18:25:45,002 13932 [INFO ] - VERBOSE: Importing alias 'Get-InstallRegistryKey'.
+2018-06-15 18:25:45,002 13932 [INFO ] - VERBOSE: Importing alias 'Get-OSBitness'.
+2018-06-15 18:25:45,002 13932 [INFO ] - VERBOSE: Importing alias 'Get-ProcessorBits'.
+2018-06-15 18:25:45,012 13932 [INFO ] - VERBOSE: Importing alias 'Invoke-ChocolateyProcess'.
+2018-06-15 18:25:45,012 13932 [INFO ] - VERBOSE: Importing alias 'refreshenv'.
+2018-06-15 18:25:45,012 13932 [INFO ] - VERBOSE: Importing alias 'Remove-BinFile'.
+2018-06-15 18:25:45,022 13932 [INFO ] - VERBOSE: Importing alias 'Start-ChocolateyProcess'.
+2018-06-15 18:25:45,032 13932 [DEBUG] - Get-ChocolateyInstallFolder
+2018-06-15 18:25:45,072 13932 [DEBUG] - Create-DirectoryIfNotExists
+2018-06-15 18:25:45,112 13932 [DEBUG] - Ensure-Permissions
+2018-06-15 18:25:45,182 13932 [INFO ] - WARNING: Installation folder is not the default. Not changing permissions. Please ensure your installation is secure.
+2018-06-15 18:25:45,202 13932 [INFO ] - We are setting up the Chocolatey package repository.
+The packages themselves go to 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib'
+  (i.e. C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\yourPackageName).
+A shim file for the command line goes to 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\bin'
+  and points to an executable in 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\yourPackageName'.
+
+Creating Chocolatey folders if they do not already exist.
+
+2018-06-15 18:25:45,212 13932 [INFO ] - WARNING: You can safely ignore errors related to missing log files when 
+  upgrading from a version of Chocolatey less than 0.9.9. 
+  'Batch file could not be found' is also safe to ignore. 
+  'The system cannot find the file specified' - also safe.
+2018-06-15 18:25:45,222 13932 [DEBUG] - Create-DirectoryIfNotExists
+2018-06-15 18:25:45,222 13932 [DEBUG] - Create-DirectoryIfNotExists
+2018-06-15 18:25:45,232 13932 [DEBUG] - Install-ChocolateyFiles
+2018-06-15 18:25:45,242 13932 [DEBUG] - Removing install files in chocolateyInstall, helpers, redirects, and tools
+2018-06-15 18:25:45,252 13932 [DEBUG] - Removing functions unless matches .log
+2018-06-15 18:25:45,402 13932 [DEBUG] - Removing chocolateyInstaller.psm1 unless matches .log
+2018-06-15 18:25:45,422 13932 [DEBUG] - Removing chocolateyProfile.psm1 unless matches .log
+2018-06-15 18:25:45,432 13932 [DEBUG] - Removing chocolateyScriptRunner.ps1 unless matches .log
+2018-06-15 18:25:45,442 13932 [DEBUG] - Removing ChocolateyTabExpansion.ps1 unless matches .log
+2018-06-15 18:25:45,452 13932 [DEBUG] - Removing choco.exe unless matches .log
+2018-06-15 18:25:45,462 13932 [DEBUG] - Removing choco.exe.ignore unless matches .log
+2018-06-15 18:25:45,472 13932 [DEBUG] - Removing chocolatey.exe unless matches .log
+2018-06-15 18:25:45,482 13932 [DEBUG] - Removing chocolatey.exe.ignore unless matches .log
+2018-06-15 18:25:45,492 13932 [DEBUG] - Removing cinst.exe unless matches .log
+2018-06-15 18:25:45,502 13932 [DEBUG] - Removing cinst.exe.ignore unless matches .log
+2018-06-15 18:25:45,512 13932 [DEBUG] - Removing clist.exe unless matches .log
+2018-06-15 18:25:45,512 13932 [DEBUG] - Removing clist.exe.ignore unless matches .log
+2018-06-15 18:25:45,522 13932 [DEBUG] - Removing cpack.exe unless matches .log
+2018-06-15 18:25:45,542 13932 [DEBUG] - Removing cpack.exe.ignore unless matches .log
+2018-06-15 18:25:45,552 13932 [DEBUG] - Removing cpush.exe unless matches .log
+2018-06-15 18:25:45,562 13932 [DEBUG] - Removing cpush.exe.ignore unless matches .log
+2018-06-15 18:25:45,572 13932 [DEBUG] - Removing cuninst.exe unless matches .log
+2018-06-15 18:25:45,582 13932 [DEBUG] - Removing cuninst.exe.ignore unless matches .log
+2018-06-15 18:25:45,592 13932 [DEBUG] - Removing cup.exe unless matches .log
+2018-06-15 18:25:45,602 13932 [DEBUG] - Removing cup.exe.ignore unless matches .log
+2018-06-15 18:25:45,602 13932 [DEBUG] - Removing cver.exe unless matches .log
+2018-06-15 18:25:45,612 13932 [DEBUG] - Removing cver.exe.ignore unless matches .log
+2018-06-15 18:25:45,622 13932 [DEBUG] - Removing RefreshEnv.cmd unless matches .log
+2018-06-15 18:25:45,652 13932 [DEBUG] - Removing 7z.dll unless matches .log
+2018-06-15 18:25:45,662 13932 [DEBUG] - Removing 7z.dll.manifest unless matches .log
+2018-06-15 18:25:45,672 13932 [DEBUG] - Removing 7z.exe unless matches .log
+2018-06-15 18:25:45,682 13932 [DEBUG] - Removing 7z.exe.ignore unless matches .log
+2018-06-15 18:25:45,692 13932 [DEBUG] - Removing 7z.exe.manifest unless matches .log
+2018-06-15 18:25:45,732 13932 [DEBUG] - Removing 7zip.license.txt unless matches .log
+2018-06-15 18:25:45,792 13932 [DEBUG] - Removing checksum.exe unless matches .log
+2018-06-15 18:25:45,802 13932 [DEBUG] - Removing checksum.exe.config unless matches .log
+2018-06-15 18:25:45,812 13932 [DEBUG] - Removing checksum.exe.ignore unless matches .log
+2018-06-15 18:25:45,822 13932 [DEBUG] - Removing checksum.license.txt unless matches .log
+2018-06-15 18:25:45,872 13932 [DEBUG] - Removing detector.zip unless matches .log
+2018-06-15 18:25:45,892 13932 [DEBUG] - Removing shimgen.exe unless matches .log
+2018-06-15 18:25:45,892 13932 [DEBUG] - Removing shimgen.exe.ignore unless matches .log
+2018-06-15 18:25:45,902 13932 [DEBUG] - Removing shimgen.license.txt unless matches .log
+2018-06-15 18:25:45,942 13932 [DEBUG] - Attempting to move choco.exe to choco.exe.old so we can place the new version here.
+2018-06-15 18:25:45,942 13932 [DEBUG] - Renaming 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\choco.exe' to 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\choco.exe.old'
+2018-06-15 18:25:46,002 13932 [DEBUG] - Unpacking files required for Chocolatey.
+2018-06-15 18:25:46,022 13932 [DEBUG] - Copying the contents of 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall' to 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg'.
+2018-06-15 18:25:47,332 13932 [DEBUG] - Ensure-ChocolateyLibFiles
+2018-06-15 18:25:47,332 13932 [DEBUG] - Create-DirectoryIfNotExists
+2018-06-15 18:25:47,382 13932 [DEBUG] - Install-ChocolateyBinFiles
+2018-06-15 18:25:47,392 13932 [DEBUG] - Installing the bin file redirects
+2018-06-15 18:25:47,422 13932 [DEBUG] - Attempting to copy C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\redirects\choco.exe to C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\bin\choco.exe
+2018-06-15 18:25:47,432 13932 [DEBUG] - Added command choco
+2018-06-15 18:25:47,432 13932 [DEBUG] - Attempting to copy C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\redirects\chocolatey.exe to C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\bin\chocolatey.exe
+2018-06-15 18:25:47,442 13932 [DEBUG] - Added command chocolatey
+2018-06-15 18:25:47,442 13932 [DEBUG] - Attempting to copy C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\redirects\cinst.exe to C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\bin\cinst.exe
+2018-06-15 18:25:47,452 13932 [DEBUG] - Added command cinst
+2018-06-15 18:25:47,452 13932 [DEBUG] - Attempting to copy C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\redirects\clist.exe to C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\bin\clist.exe
+2018-06-15 18:25:47,472 13932 [DEBUG] - Added command clist
+2018-06-15 18:25:47,472 13932 [DEBUG] - Attempting to copy C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\redirects\cpack.exe to C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\bin\cpack.exe
+2018-06-15 18:25:47,482 13932 [DEBUG] - Added command cpack
+2018-06-15 18:25:47,482 13932 [DEBUG] - Attempting to copy C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\redirects\cpush.exe to C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\bin\cpush.exe
+2018-06-15 18:25:47,492 13932 [DEBUG] - Added command cpush
+2018-06-15 18:25:47,502 13932 [DEBUG] - Attempting to copy C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\redirects\cuninst.exe to C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\bin\cuninst.exe
+2018-06-15 18:25:47,502 13932 [DEBUG] - Added command cuninst
+2018-06-15 18:25:47,512 13932 [DEBUG] - Attempting to copy C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\redirects\cup.exe to C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\bin\cup.exe
+2018-06-15 18:25:47,522 13932 [DEBUG] - Added command cup
+2018-06-15 18:25:47,532 13932 [DEBUG] - Attempting to copy C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\redirects\cver.exe to C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\bin\cver.exe
+2018-06-15 18:25:47,532 13932 [DEBUG] - Added command cver
+2018-06-15 18:25:47,532 13932 [DEBUG] - Attempting to copy C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\redirects\RefreshEnv.cmd to C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\bin\RefreshEnv.cmd
+2018-06-15 18:25:47,542 13932 [DEBUG] - Added command RefreshEnv
+2018-06-15 18:25:47,552 13932 [DEBUG] - Initialize-ChocolateyPath
+2018-06-15 18:25:47,552 13932 [DEBUG] - Initializing Chocolatey Path if required
+2018-06-15 18:25:47,662 13932 [DEBUG] - Test-ProcessAdminRights: returning False
+2018-06-15 18:25:47,672 13932 [INFO ] - WARNING: Setting ChocolateyInstall Path on USER PATH and not SYSTEM Path.
+  This is due to either non-administrator install OR the process you are running is not being run as an Administrator.
+2018-06-15 18:25:47,822 13932 [DEBUG] - Running Install-ChocolateyPath -pathToInstall 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\bin' -pathType 'User' 
+2018-06-15 18:25:47,852 13932 [DEBUG] - Running Update-SessionEnvironment 
+2018-06-15 18:25:47,852 13932 [INFO ] - VERBOSE: Refreshing environment variables from the registry.
+2018-06-15 18:25:48,382 13932 [INFO ] - PATH environment variable does not have C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\bin in it. Adding...
+2018-06-15 18:25:48,562 13932 [INFO ] - VERBOSE: Choosing not to expand environment names
+2018-06-15 18:25:48,702 13932 [DEBUG] - Running Set-EnvironmentVariable -Name 'Path' -Value 'C:\Users\zzh\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\zzh\AppData\Local\Programs\Python\Python36-32\;C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Microsoft MPI\Bin\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\Xoreax\IncrediBuild;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;C:\Program Files (x86)\nodejs\;C:\Program Files\Git\cmd;c:\Program Files (x86)\Common Files\Ulead Systems\MPEG;C:\Users\zzh\AppData\Local\Microsoft\WindowsApps;C:\Users\zzh\AppData\Roaming\npm;C:\wget;C:\Program Files (x86)\Dev-Cpp\MinGW64\bin;C:\Program Files\Oracle\VirtualBox;C:\Program Files\Git\usr\bin;C:\Program Files (x86)\Cloudbility\CloudGateway\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\bin;' -Scope 'User' 
+2018-06-15 18:25:48,732 13932 [DEBUG] - Registry type for Path is/will be ExpandString
+2018-06-15 18:25:48,842 13932 [DEBUG] - 
+using System;
+using System.Runtime.InteropServices;
+
+namespace Win32
+{
+    public class NativeMethods
+    {
+    [DllImport("user32.dll", SetLastError = true, CharSet = CharSet.Auto)]
+public static extern IntPtr SendMessageTimeout(
+    IntPtr hWnd, uint Msg, UIntPtr wParam, string lParam,
+    uint fuFlags, uint uTimeout, out UIntPtr lpdwResult);
+
+    }
+
+}
+
+2018-06-15 18:25:53,049 13932 [DEBUG] - Running Update-SessionEnvironment 
+2018-06-15 18:25:53,049 13932 [INFO ] - VERBOSE: Refreshing environment variables from the registry.
+2018-06-15 18:25:53,399 13932 [DEBUG] - Process-ChocolateyBinFiles
+2018-06-15 18:25:53,509 13932 [INFO ] - VERBOSE: Removing the imported "Get-AppInstallLocation" function.
+2018-06-15 18:25:53,509 13932 [INFO ] - VERBOSE: Removing the imported "Get-AvailableDriveLetter" function.
+2018-06-15 18:25:53,519 13932 [INFO ] - VERBOSE: Removing the imported "Get-EffectiveProxy" function.
+2018-06-15 18:25:53,519 13932 [INFO ] - VERBOSE: Removing the imported "Get-PackageCacheLocation" function.
+2018-06-15 18:25:53,519 13932 [INFO ] - VERBOSE: Removing the imported "Get-WebContent" function.
+2018-06-15 18:25:53,529 13932 [INFO ] - VERBOSE: Removing the imported "Register-Application" function.
+2018-06-15 18:25:53,529 13932 [INFO ] - VERBOSE: Removing the imported "Get-BinRoot" alias.
+2018-06-15 18:25:53,539 13932 [INFO ] - VERBOSE: Loading module from path 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\helpers\chocolateyInstaller.psm1'.
+2018-06-15 18:25:53,589 13932 [DEBUG] - Host version is 5.1.17134.1, PowerShell Version is '5.1.17134.81' and CLR Version is '4.0.30319.42000'.
+2018-06-15 18:25:53,899 13932 [INFO ] - VERBOSE: Exporting function 'Format-FileSize'.
+2018-06-15 18:25:53,899 13932 [INFO ] - VERBOSE: Exporting function 'Get-ChecksumValid'.
+2018-06-15 18:25:53,909 13932 [INFO ] - VERBOSE: Exporting function 'Get-ChocolateyUnzip'.
+2018-06-15 18:25:53,909 13932 [INFO ] - VERBOSE: Exporting function 'Get-ChocolateyWebFile'.
+2018-06-15 18:25:53,909 13932 [INFO ] - VERBOSE: Exporting function 'Get-EnvironmentVariable'.
+2018-06-15 18:25:53,909 13932 [INFO ] - VERBOSE: Exporting function 'Get-EnvironmentVariableNames'.
+2018-06-15 18:25:53,909 13932 [INFO ] - VERBOSE: Exporting function 'Get-FtpFile'.
+2018-06-15 18:25:53,909 13932 [INFO ] - VERBOSE: Exporting function 'Get-OSArchitectureWidth'.
+2018-06-15 18:25:53,909 13932 [INFO ] - VERBOSE: Exporting function 'Get-PackageParameters'.
+2018-06-15 18:25:53,919 13932 [INFO ] - VERBOSE: Exporting function 'Get-ToolsLocation'.
+2018-06-15 18:25:53,919 13932 [INFO ] - VERBOSE: Exporting function 'Get-UACEnabled'.
+2018-06-15 18:25:53,919 13932 [INFO ] - VERBOSE: Exporting function 'Get-UninstallRegistryKey'.
+2018-06-15 18:25:53,919 13932 [INFO ] - VERBOSE: Exporting function 'Get-VirusCheckValid'.
+2018-06-15 18:25:53,919 13932 [INFO ] - VERBOSE: Exporting function 'Get-WebFile'.
+2018-06-15 18:25:53,919 13932 [INFO ] - VERBOSE: Exporting function 'Get-WebFileName'.
+2018-06-15 18:25:53,919 13932 [INFO ] - VERBOSE: Exporting function 'Get-WebHeaders'.
+2018-06-15 18:25:53,929 13932 [INFO ] - VERBOSE: Exporting function 'Install-BinFile'.
+2018-06-15 18:25:53,929 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyDesktopLink'.
+2018-06-15 18:25:53,929 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyEnvironmentVariable'.
+2018-06-15 18:25:53,929 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyExplorerMenuItem'.
+2018-06-15 18:25:53,929 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyFileAssociation'.
+2018-06-15 18:25:53,929 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyInstallPackage'.
+2018-06-15 18:25:53,939 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPackage'.
+2018-06-15 18:25:53,939 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPath'.
+2018-06-15 18:25:53,939 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPinnedTaskBarItem'.
+2018-06-15 18:25:53,939 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPowershellCommand'.
+2018-06-15 18:25:53,939 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyShortcut'.
+2018-06-15 18:25:53,939 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyVsixPackage'.
+2018-06-15 18:25:53,939 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyZipPackage'.
+2018-06-15 18:25:53,949 13932 [INFO ] - VERBOSE: Exporting function 'Install-Vsix'.
+2018-06-15 18:25:53,949 13932 [INFO ] - VERBOSE: Exporting function 'Set-EnvironmentVariable'.
+2018-06-15 18:25:53,949 13932 [INFO ] - VERBOSE: Exporting function 'Set-PowerShellExitCode'.
+2018-06-15 18:25:53,949 13932 [INFO ] - VERBOSE: Exporting function 'Start-ChocolateyProcessAsAdmin'.
+2018-06-15 18:25:53,949 13932 [INFO ] - VERBOSE: Exporting function 'Test-ProcessAdminRights'.
+2018-06-15 18:25:53,949 13932 [INFO ] - VERBOSE: Exporting function 'Uninstall-BinFile'.
+2018-06-15 18:25:53,959 13932 [INFO ] - VERBOSE: Exporting function 'Uninstall-ChocolateyEnvironmentVariable'.
+2018-06-15 18:25:53,959 13932 [INFO ] - VERBOSE: Exporting function 'Uninstall-ChocolateyPackage'.
+2018-06-15 18:25:53,959 13932 [INFO ] - VERBOSE: Exporting function 'Uninstall-ChocolateyZipPackage'.
+2018-06-15 18:25:53,959 13932 [INFO ] - VERBOSE: Exporting function 'Update-SessionEnvironment'.
+2018-06-15 18:25:53,959 13932 [INFO ] - VERBOSE: Exporting function 'Write-ChocolateyFailure'.
+2018-06-15 18:25:53,959 13932 [INFO ] - VERBOSE: Exporting function 'Write-ChocolateySuccess'.
+2018-06-15 18:25:53,969 13932 [INFO ] - VERBOSE: Exporting function 'Write-FileUpdateLog'.
+2018-06-15 18:25:53,969 13932 [INFO ] - VERBOSE: Exporting function 'Write-FunctionCallLogMessage'.
+2018-06-15 18:25:53,969 13932 [INFO ] - VERBOSE: Exporting alias 'Get-ProcessorBits'.
+2018-06-15 18:25:53,969 13932 [INFO ] - VERBOSE: Exporting alias 'Get-OSBitness'.
+2018-06-15 18:25:53,969 13932 [INFO ] - VERBOSE: Exporting alias 'Get-InstallRegistryKey'.
+2018-06-15 18:25:53,969 13932 [INFO ] - VERBOSE: Exporting alias 'Generate-BinFile'.
+2018-06-15 18:25:53,979 13932 [INFO ] - VERBOSE: Exporting alias 'Add-BinFile'.
+2018-06-15 18:25:53,979 13932 [INFO ] - VERBOSE: Exporting alias 'Start-ChocolateyProcess'.
+2018-06-15 18:25:53,979 13932 [INFO ] - VERBOSE: Exporting alias 'Invoke-ChocolateyProcess'.
+2018-06-15 18:25:53,979 13932 [INFO ] - VERBOSE: Exporting alias 'Remove-BinFile'.
+2018-06-15 18:25:53,979 13932 [INFO ] - VERBOSE: Exporting alias 'refreshenv'.
+2018-06-15 18:25:53,989 13932 [DEBUG] - Loading community extensions
+2018-06-15 18:25:53,999 13932 [DEBUG] - Importing 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\extensions\chocolatey-core\chocolatey-core.psm1'
+2018-06-15 18:25:53,999 13932 [INFO ] - VERBOSE: Importing function 'Get-AppInstallLocation'.
+2018-06-15 18:25:53,999 13932 [INFO ] - VERBOSE: Importing function 'Get-AvailableDriveLetter'.
+2018-06-15 18:25:53,999 13932 [INFO ] - VERBOSE: Importing function 'Get-EffectiveProxy'.
+2018-06-15 18:25:54,009 13932 [INFO ] - VERBOSE: Importing function 'Get-PackageCacheLocation'.
+2018-06-15 18:25:54,009 13932 [INFO ] - VERBOSE: Importing function 'Get-PackageParameters'.
+2018-06-15 18:25:54,009 13932 [INFO ] - VERBOSE: Importing function 'Get-UninstallRegistryKey'.
+2018-06-15 18:25:54,009 13932 [INFO ] - VERBOSE: Importing function 'Get-WebContent'.
+2018-06-15 18:25:54,009 13932 [INFO ] - VERBOSE: Importing function 'Register-Application'.
+2018-06-15 18:25:54,019 13932 [INFO ] - VERBOSE: Exporting function 'Format-FileSize'.
+2018-06-15 18:25:54,019 13932 [INFO ] - VERBOSE: Exporting function 'Get-ChecksumValid'.
+2018-06-15 18:25:54,019 13932 [INFO ] - VERBOSE: Exporting function 'Get-ChocolateyUnzip'.
+2018-06-15 18:25:54,019 13932 [INFO ] - VERBOSE: Exporting function 'Get-ChocolateyWebFile'.
+2018-06-15 18:25:54,019 13932 [INFO ] - VERBOSE: Exporting function 'Get-EnvironmentVariable'.
+2018-06-15 18:25:54,019 13932 [INFO ] - VERBOSE: Exporting function 'Get-EnvironmentVariableNames'.
+2018-06-15 18:25:54,029 13932 [INFO ] - VERBOSE: Exporting function 'Get-FtpFile'.
+2018-06-15 18:25:54,029 13932 [INFO ] - VERBOSE: Exporting function 'Get-OSArchitectureWidth'.
+2018-06-15 18:25:54,029 13932 [INFO ] - VERBOSE: Exporting function 'Get-PackageParameters'.
+2018-06-15 18:25:54,029 13932 [INFO ] - VERBOSE: Exporting function 'Get-ToolsLocation'.
+2018-06-15 18:25:54,029 13932 [INFO ] - VERBOSE: Exporting function 'Get-UACEnabled'.
+2018-06-15 18:25:54,029 13932 [INFO ] - VERBOSE: Exporting function 'Get-UninstallRegistryKey'.
+2018-06-15 18:25:54,039 13932 [INFO ] - VERBOSE: Exporting function 'Get-VirusCheckValid'.
+2018-06-15 18:25:54,039 13932 [INFO ] - VERBOSE: Exporting function 'Get-WebFile'.
+2018-06-15 18:25:54,039 13932 [INFO ] - VERBOSE: Exporting function 'Get-WebFileName'.
+2018-06-15 18:25:54,039 13932 [INFO ] - VERBOSE: Exporting function 'Get-WebHeaders'.
+2018-06-15 18:25:54,039 13932 [INFO ] - VERBOSE: Exporting function 'Install-BinFile'.
+2018-06-15 18:25:54,039 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyDesktopLink'.
+2018-06-15 18:25:54,039 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyEnvironmentVariable'.
+2018-06-15 18:25:54,049 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyExplorerMenuItem'.
+2018-06-15 18:25:54,049 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyFileAssociation'.
+2018-06-15 18:25:54,049 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyInstallPackage'.
+2018-06-15 18:25:54,049 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPackage'.
+2018-06-15 18:25:54,049 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPath'.
+2018-06-15 18:25:54,049 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPinnedTaskBarItem'.
+2018-06-15 18:25:54,049 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPowershellCommand'.
+2018-06-15 18:25:54,059 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyShortcut'.
+2018-06-15 18:25:54,069 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyVsixPackage'.
+2018-06-15 18:25:54,069 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyZipPackage'.
+2018-06-15 18:25:54,069 13932 [INFO ] - VERBOSE: Exporting function 'Install-Vsix'.
+2018-06-15 18:25:54,069 13932 [INFO ] - VERBOSE: Exporting function 'Set-EnvironmentVariable'.
+2018-06-15 18:25:54,069 13932 [INFO ] - VERBOSE: Exporting function 'Set-PowerShellExitCode'.
+2018-06-15 18:25:54,069 13932 [INFO ] - VERBOSE: Exporting function 'Start-ChocolateyProcessAsAdmin'.
+2018-06-15 18:25:54,079 13932 [INFO ] - VERBOSE: Exporting function 'Test-ProcessAdminRights'.
+2018-06-15 18:25:54,099 13932 [INFO ] - VERBOSE: Exporting function 'Uninstall-BinFile'.
+2018-06-15 18:25:54,099 13932 [INFO ] - VERBOSE: Exporting function 'Uninstall-ChocolateyEnvironmentVariable'.
+2018-06-15 18:25:54,099 13932 [INFO ] - VERBOSE: Exporting function 'Uninstall-ChocolateyPackage'.
+2018-06-15 18:25:54,109 13932 [INFO ] - VERBOSE: Exporting function 'Uninstall-ChocolateyZipPackage'.
+2018-06-15 18:25:54,109 13932 [INFO ] - VERBOSE: Exporting function 'Update-SessionEnvironment'.
+2018-06-15 18:25:54,109 13932 [INFO ] - VERBOSE: Exporting function 'Write-ChocolateyFailure'.
+2018-06-15 18:25:54,109 13932 [INFO ] - VERBOSE: Exporting function 'Write-ChocolateySuccess'.
+2018-06-15 18:25:54,109 13932 [INFO ] - VERBOSE: Exporting function 'Write-FileUpdateLog'.
+2018-06-15 18:25:54,109 13932 [INFO ] - VERBOSE: Exporting function 'Write-FunctionCallLogMessage'.
+2018-06-15 18:25:54,109 13932 [INFO ] - VERBOSE: Exporting function 'Get-AppInstallLocation'.
+2018-06-15 18:25:54,119 13932 [INFO ] - VERBOSE: Exporting function 'Get-AvailableDriveLetter'.
+2018-06-15 18:25:54,119 13932 [INFO ] - VERBOSE: Exporting function 'Get-EffectiveProxy'.
+2018-06-15 18:25:54,119 13932 [INFO ] - VERBOSE: Exporting function 'Get-PackageCacheLocation'.
+2018-06-15 18:25:54,119 13932 [INFO ] - VERBOSE: Exporting function 'Get-WebContent'.
+2018-06-15 18:25:54,119 13932 [INFO ] - VERBOSE: Exporting function 'Register-Application'.
+2018-06-15 18:25:54,119 13932 [INFO ] - VERBOSE: Exporting alias 'Get-ProcessorBits'.
+2018-06-15 18:25:54,129 13932 [INFO ] - VERBOSE: Exporting alias 'Get-OSBitness'.
+2018-06-15 18:25:54,129 13932 [INFO ] - VERBOSE: Exporting alias 'Get-InstallRegistryKey'.
+2018-06-15 18:25:54,129 13932 [INFO ] - VERBOSE: Exporting alias 'Generate-BinFile'.
+2018-06-15 18:25:54,129 13932 [INFO ] - VERBOSE: Exporting alias 'Add-BinFile'.
+2018-06-15 18:25:54,129 13932 [INFO ] - VERBOSE: Exporting alias 'Start-ChocolateyProcess'.
+2018-06-15 18:25:54,129 13932 [INFO ] - VERBOSE: Exporting alias 'Invoke-ChocolateyProcess'.
+2018-06-15 18:25:54,129 13932 [INFO ] - VERBOSE: Exporting alias 'Remove-BinFile'.
+2018-06-15 18:25:54,139 13932 [INFO ] - VERBOSE: Exporting alias 'refreshenv'.
+2018-06-15 18:25:54,139 13932 [INFO ] - VERBOSE: Importing function 'Format-FileSize'.
+2018-06-15 18:25:54,139 13932 [INFO ] - VERBOSE: Importing function 'Get-AppInstallLocation'.
+2018-06-15 18:25:54,139 13932 [INFO ] - VERBOSE: Importing function 'Get-AvailableDriveLetter'.
+2018-06-15 18:25:54,139 13932 [INFO ] - VERBOSE: Importing function 'Get-ChecksumValid'.
+2018-06-15 18:25:54,149 13932 [INFO ] - VERBOSE: Importing function 'Get-ChocolateyUnzip'.
+2018-06-15 18:25:54,149 13932 [INFO ] - VERBOSE: Importing function 'Get-ChocolateyWebFile'.
+2018-06-15 18:25:54,149 13932 [INFO ] - VERBOSE: Importing function 'Get-EffectiveProxy'.
+2018-06-15 18:25:54,149 13932 [INFO ] - VERBOSE: Importing function 'Get-EnvironmentVariable'.
+2018-06-15 18:25:54,149 13932 [INFO ] - VERBOSE: Importing function 'Get-EnvironmentVariableNames'.
+2018-06-15 18:25:54,149 13932 [INFO ] - VERBOSE: Importing function 'Get-FtpFile'.
+2018-06-15 18:25:54,149 13932 [INFO ] - VERBOSE: Importing function 'Get-OSArchitectureWidth'.
+2018-06-15 18:25:54,159 13932 [INFO ] - VERBOSE: Importing function 'Get-PackageCacheLocation'.
+2018-06-15 18:25:54,159 13932 [INFO ] - VERBOSE: Importing function 'Get-PackageParameters'.
+2018-06-15 18:25:54,159 13932 [INFO ] - VERBOSE: Importing function 'Get-ToolsLocation'.
+2018-06-15 18:25:54,159 13932 [INFO ] - VERBOSE: Importing function 'Get-UACEnabled'.
+2018-06-15 18:25:54,159 13932 [INFO ] - VERBOSE: Importing function 'Get-UninstallRegistryKey'.
+2018-06-15 18:25:54,159 13932 [INFO ] - VERBOSE: Importing function 'Get-VirusCheckValid'.
+2018-06-15 18:25:54,159 13932 [INFO ] - VERBOSE: Importing function 'Get-WebContent'.
+2018-06-15 18:25:54,169 13932 [INFO ] - VERBOSE: Importing function 'Get-WebFile'.
+2018-06-15 18:25:54,169 13932 [INFO ] - VERBOSE: Importing function 'Get-WebFileName'.
+2018-06-15 18:25:54,169 13932 [INFO ] - VERBOSE: Importing function 'Get-WebHeaders'.
+2018-06-15 18:25:54,169 13932 [INFO ] - VERBOSE: Importing function 'Install-BinFile'.
+2018-06-15 18:25:54,169 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyDesktopLink'.
+2018-06-15 18:25:54,169 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyEnvironmentVariable'.
+2018-06-15 18:25:54,179 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyExplorerMenuItem'.
+2018-06-15 18:25:54,179 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyFileAssociation'.
+2018-06-15 18:25:54,179 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyInstallPackage'.
+2018-06-15 18:25:54,179 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyPackage'.
+2018-06-15 18:25:54,179 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyPath'.
+2018-06-15 18:25:54,179 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyPinnedTaskBarItem'.
+2018-06-15 18:25:54,179 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyPowershellCommand'.
+2018-06-15 18:25:54,189 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyShortcut'.
+2018-06-15 18:25:54,189 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyVsixPackage'.
+2018-06-15 18:25:54,189 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyZipPackage'.
+2018-06-15 18:25:54,189 13932 [INFO ] - VERBOSE: Importing function 'Install-Vsix'.
+2018-06-15 18:25:54,189 13932 [INFO ] - VERBOSE: Importing function 'Register-Application'.
+2018-06-15 18:25:54,189 13932 [INFO ] - VERBOSE: Importing function 'Set-EnvironmentVariable'.
+2018-06-15 18:25:54,199 13932 [INFO ] - VERBOSE: Importing function 'Set-PowerShellExitCode'.
+2018-06-15 18:25:54,199 13932 [INFO ] - VERBOSE: Importing function 'Start-ChocolateyProcessAsAdmin'.
+2018-06-15 18:25:54,199 13932 [INFO ] - VERBOSE: Importing function 'Test-ProcessAdminRights'.
+2018-06-15 18:25:54,199 13932 [INFO ] - VERBOSE: Importing function 'Uninstall-BinFile'.
+2018-06-15 18:25:54,199 13932 [INFO ] - VERBOSE: Importing function 'Uninstall-ChocolateyEnvironmentVariable'.
+2018-06-15 18:25:54,199 13932 [INFO ] - VERBOSE: Importing function 'Uninstall-ChocolateyPackage'.
+2018-06-15 18:25:54,209 13932 [INFO ] - VERBOSE: Importing function 'Uninstall-ChocolateyZipPackage'.
+2018-06-15 18:25:54,209 13932 [INFO ] - VERBOSE: Importing function 'Update-SessionEnvironment'.
+2018-06-15 18:25:54,209 13932 [INFO ] - VERBOSE: Importing function 'Write-ChocolateyFailure'.
+2018-06-15 18:25:54,209 13932 [INFO ] - VERBOSE: Importing function 'Write-ChocolateySuccess'.
+2018-06-15 18:25:54,209 13932 [INFO ] - VERBOSE: Importing function 'Write-FileUpdateLog'.
+2018-06-15 18:25:54,209 13932 [INFO ] - VERBOSE: Importing function 'Write-FunctionCallLogMessage'.
+2018-06-15 18:25:54,219 13932 [INFO ] - VERBOSE: Importing alias 'Add-BinFile'.
+2018-06-15 18:25:54,219 13932 [INFO ] - VERBOSE: Importing alias 'Generate-BinFile'.
+2018-06-15 18:25:54,219 13932 [INFO ] - VERBOSE: Importing alias 'Get-InstallRegistryKey'.
+2018-06-15 18:25:54,219 13932 [INFO ] - VERBOSE: Importing alias 'Get-OSBitness'.
+2018-06-15 18:25:54,219 13932 [INFO ] - VERBOSE: Importing alias 'Get-ProcessorBits'.
+2018-06-15 18:25:54,219 13932 [INFO ] - VERBOSE: Importing alias 'Invoke-ChocolateyProcess'.
+2018-06-15 18:25:54,229 13932 [INFO ] - VERBOSE: Importing alias 'refreshenv'.
+2018-06-15 18:25:54,229 13932 [INFO ] - VERBOSE: Importing alias 'Remove-BinFile'.
+2018-06-15 18:25:54,229 13932 [INFO ] - VERBOSE: Importing alias 'Start-ChocolateyProcess'.
+2018-06-15 18:25:54,239 13932 [DEBUG] - Add-ChocolateyProfile
+2018-06-15 18:25:54,279 13932 [DEBUG] - Creating 'C:\Users\zzh\Documents\WindowsPowerShell'
+2018-06-15 18:25:54,289 13932 [WARN ] - WARNING: Not setting tab completion: Profile file does not exist at 'C:\Users\zzh\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1'.
+2018-06-15 18:25:54,339 13932 [DEBUG] - Install-DotNet4IfMissing called with $forceFxInstall=False
+2018-06-15 18:25:54,349 13932 [DEBUG] - Initializing Chocolatey files, etc by running Chocolatey...
+2018-06-15 18:25:54,359 13932 [DEBUG] - Get-ChocolateyInstallFolder
+2018-06-15 18:25:55,369 12500 [DEBUG] - XmlConfiguration is now operational
+2018-06-15 18:25:55,549 12500 [INFO ] - ============================================================
+2018-06-15 18:25:56,099 12500 [DEBUG] - User may be subject to UAC, checking for a split token (not 100% 
+ effective).
+2018-06-15 18:25:56,179 12500 [INFO ] - 0.10.11
+2018-06-15 18:25:56,249 12500 [DEBUG] - Exiting with 0
+2018-06-15 18:25:56,359 13932 [DEBUG] - Chocolatey execution completed successfully.
+2018-06-15 18:25:56,359 13932 [INFO ] - Chocolatey (choco.exe) is now ready.
+You can call choco from anywhere, command line or powershell by typing choco.
+Run choco /? for a list of functions.
+You may need to shut down and restart powershell and/or consoles
+ first prior to using choco.
+2018-06-15 18:25:56,369 13932 [DEBUG] - Remove-OldChocolateyInstall
+2018-06-15 18:25:56,569 13932 [DEBUG] - Built-in PowerShell host called with ['[System.Threading.Thread]::CurrentThread.CurrentCulture = '';[System.Threading.Thread]::CurrentThread.CurrentUICulture = ''; & import-module -name 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\helpers\chocolateyInstaller.psm1'; & 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\helpers\chocolateyScriptRunner.ps1' -packageScript 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall.ps1' -installArguments '' -packageParameters '''] exited with '0'.
+2018-06-15 18:25:56,579 13932 [DEBUG] - Calling command ['"C:\WINDOWS\System32\shutdown.exe" /a']
+2018-06-15 18:25:57,144 13932 [DEBUG] - Command ['"C:\WINDOWS\System32\shutdown.exe" /a'] exited with '1116'
+2018-06-15 18:26:01,423 13932 [WARN ] - Environment Vars (like PATH) have changed. Close/reopen your shell to
+ see the changes (or in powershell/cmd.exe just type `refreshenv`).
+2018-06-15 18:26:01,433 13932 [DEBUG] - Logging of values is not turned on by default because it
+ could potentially expose sensitive data. If you understand the risk,
+ please see `choco feature -h` for information to turn it on.
+2018-06-15 18:26:01,433 13932 [DEBUG] - The following values have been added/changed (may contain sensitive data):
+2018-06-15 18:26:01,433 13932 [DEBUG] -   * Path='[REDACTED]' (User)
+2018-06-15 18:26:01,433 13932 [DEBUG] -   * ChocolateyLastPathUpdate='[REDACTED]' (User)
+2018-06-15 18:26:01,615 13932 [DEBUG] - Capturing package files in 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey'
+2018-06-15 18:26:01,646 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\chocolatey.nupkg'
+  with checksum '54C5AE123FE526B22C395CFC87AFFA83'
+2018-06-15 18:26:01,646 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\chocolatey.nuspec'
+  with checksum '1FBF1E90CDD64D93975338A062D51AF1'
+2018-06-15 18:26:01,646 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall.ps1'
+  with checksum 'BA6315B965CD598537CCBCE10E5279CF'
+2018-06-15 18:26:01,656 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateysetup.psm1'
+  with checksum 'A33EC0E0467EF4DB75AF97FC74F07D9B'
+2018-06-15 18:26:01,656 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\init.ps1'
+  with checksum 'D32690E6F05677507BF637E505B38F1A'
+2018-06-15 18:26:01,747 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\choco.exe'
+  with checksum '153D260471A77E4BED99282C2E99F415'
+2018-06-15 18:26:01,747 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\choco.exe.ignore'
+  with checksum 'D41D8CD98F00B204E9800998ECF8427E'
+2018-06-15 18:26:01,747 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\choco.exe.manifest'
+  with checksum '0C06846A0B58120180B3FA54C52D9AF6'
+2018-06-15 18:26:01,747 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\CREDITS.txt'
+  with checksum 'BC85F4A97C8028049950FB665E6E8F38'
+2018-06-15 18:26:01,755 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\LICENSE.txt'
+  with checksum 'B4ECFC2FF4822CE40435ADA0A02D4EC5'
+2018-06-15 18:26:01,757 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\helpers\chocolateyInstaller.psm1'
+  with checksum 'C182F16ECA18063977C8884F5F45ADCD'
+2018-06-15 18:26:01,757 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\helpers\chocolateyProfile.psm1'
+  with checksum '2EA289F3706D1F59C2117D1124C167FE'
+2018-06-15 18:26:01,757 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\helpers\chocolateyScriptRunner.ps1'
+  with checksum '19B017043D0B9807104F504EED6A3D79'
+2018-06-15 18:26:01,757 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\helpers\ChocolateyTabExpansion.ps1'
+  with checksum '1608021FB1C94705D142EDF7ABE91EE7'
+2018-06-15 18:26:01,767 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\helpers\functions\Format-FileSize.ps1'
+  with checksum 'DC4CE70FB0A36545C548ECA063C1E120'
+2018-06-15 18:26:01,767 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\helpers\functions\Get-CheckSumValid.ps1'
+  with checksum 'ED25BDC7F147D1346E56396E7EF9B937'
+2018-06-15 18:26:01,767 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\helpers\functions\Get-ChocolateyUnzip.ps1'
+  with checksum '5DD8006A01B5B9FAFCD5DDC95E6026E9'
+2018-06-15 18:26:01,775 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\helpers\functions\Get-ChocolateyWebFile.ps1'
+  with checksum 'E8F823B626AD806104A6251B6EF0A28E'
+2018-06-15 18:26:01,777 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\helpers\functions\Get-EnvironmentVariable.ps1'
+  with checksum 'EDEF8A3C8582CFAB6A9E1199C62CA0A7'
+2018-06-15 18:26:01,777 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\helpers\functions\Get-EnvironmentVariableNames.ps1'
+  with checksum '9884E391DC5DBF6F920043D771447FD1'
+2018-06-15 18:26:01,777 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\helpers\functions\Get-FtpFile.ps1'
+  with checksum 'C3FFB18B6183A77EF838BE454968F8E5'
+2018-06-15 18:26:01,785 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\helpers\functions\Get-OSArchitectureWidth.ps1'
+  with checksum '0D06B7977E4D8A254763B5D981C2BB0E'
+2018-06-15 18:26:01,787 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\helpers\functions\Get-PackageParameters.ps1'
+  with checksum 'C58116BEB2F11E3C8604983A8B70282A'
+2018-06-15 18:26:01,787 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\helpers\functions\Get-ToolsLocation.ps1'
+  with checksum 'EA04D378E275644789357CF4E523E62B'
+2018-06-15 18:26:01,787 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\helpers\functions\Get-UACEnabled.ps1'
+  with checksum '0E7F15E31D2C7FFA7B873AF94202B03F'
+2018-06-15 18:26:01,795 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\helpers\functions\Get-UninstallRegistryKey.ps1'
+  with checksum '4F8D2C66AAB6636DC8A8FE0033E33673'
+2018-06-15 18:26:01,797 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\helpers\functions\Get-VirusCheckValid.ps1'
+  with checksum 'A2028440FEDD3021873841DC368CD33F'
+2018-06-15 18:26:01,797 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\helpers\functions\Get-WebFile.ps1'
+  with checksum '5F6BF699EEBF5677384F449A154AE756'
+2018-06-15 18:26:01,797 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\helpers\functions\Get-WebFileName.ps1'
+  with checksum 'B75495DE288FCA752E2AE6A8E6FEE61D'
+2018-06-15 18:26:01,805 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\helpers\functions\Get-WebHeaders.ps1'
+  with checksum '0BD467CF2784B225310F99C817A2F95C'
+2018-06-15 18:26:01,807 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\helpers\functions\Install-BinFile.ps1'
+  with checksum '5B86F431B2BA14F15829B8607E70423E'
+2018-06-15 18:26:01,807 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\helpers\functions\Install-ChocolateyDesktopLink.ps1'
+  with checksum 'FEC08F5783104AD5544D2E8DAE8D5FFF'
+2018-06-15 18:26:01,807 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\helpers\functions\Install-ChocolateyEnvironmentVariable.ps1'
+  with checksum '0658F6F0758023615089EA3B1AF966CC'
+2018-06-15 18:26:01,815 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\helpers\functions\Install-ChocolateyExplorerMenuItem.ps1'
+  with checksum '9A307ECE945358396B2E4633474FFB9D'
+2018-06-15 18:26:01,817 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\helpers\functions\Install-ChocolateyFileAssociation.ps1'
+  with checksum 'AE985EBA3663C90C8B04E527F58897BC'
+2018-06-15 18:26:01,817 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\helpers\functions\Install-ChocolateyInstallPackage.ps1'
+  with checksum '0F9BC9F3782FAD0D187BE1CDD3372AC1'
+2018-06-15 18:26:01,817 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\helpers\functions\Install-ChocolateyPackage.ps1'
+  with checksum '43E23929EB346DD5280FAB716C429210'
+2018-06-15 18:26:01,825 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\helpers\functions\Install-ChocolateyPath.ps1'
+  with checksum 'BDC417E235F5FAA8AE366BDE9D1C0D01'
+2018-06-15 18:26:01,827 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\helpers\functions\Install-ChocolateyPinnedTaskBarItem.ps1'
+  with checksum '4F3976B3686974C5F8001BD6225F67E6'
+2018-06-15 18:26:01,827 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\helpers\functions\Install-ChocolateyPowershellCommand.ps1'
+  with checksum '18A97287C47A61AC0FAB35BF0538A82F'
+2018-06-15 18:26:01,827 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\helpers\functions\Install-ChocolateyShortcut.ps1'
+  with checksum '4648A57A21C776A54E580F9DEA660633'
+2018-06-15 18:26:01,836 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\helpers\functions\Install-ChocolateyVsixPackage.ps1'
+  with checksum '9ECC51CCBDCD88FB51E42144ECE71CFF'
+2018-06-15 18:26:01,838 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\helpers\functions\Install-ChocolateyZipPackage.ps1'
+  with checksum '02AD768E3C4A50B348FA7E0927F72E37'
+2018-06-15 18:26:01,838 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\helpers\functions\Install-Vsix.ps1'
+  with checksum '0FD50F15B1E2AE0432FFC34821FE388F'
+2018-06-15 18:26:01,838 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\helpers\functions\Set-EnvironmentVariable.ps1'
+  with checksum '76FE7A31140BFF0BF79D4889CE2F281D'
+2018-06-15 18:26:01,848 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\helpers\functions\Set-PowerShellExitCode.ps1'
+  with checksum '2944A7F0740A9AF8517779E5548E9D97'
+2018-06-15 18:26:01,848 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\helpers\functions\Start-ChocolateyProcessAsAdmin.ps1'
+  with checksum '0227AD13AD7D7934DC61FA0AC7C841C8'
+2018-06-15 18:26:01,848 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\helpers\functions\Test-ProcessAdminRights.ps1'
+  with checksum '4D161562F470590093EB4C8BB4D85644'
+2018-06-15 18:26:01,848 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\helpers\functions\Uninstall-BinFile.ps1'
+  with checksum '7C7098802E4FD65F0E7EEB643CD2523A'
+2018-06-15 18:26:01,848 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\helpers\functions\Uninstall-ChocolateyEnvironmentVariable.ps1'
+  with checksum 'CD7F6EF1DF4DC2885328795EE1D235CF'
+2018-06-15 18:26:01,856 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\helpers\functions\Uninstall-ChocolateyPackage.ps1'
+  with checksum 'E6119BFEEBC7ABDB458073622322A2B9'
+2018-06-15 18:26:01,858 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\helpers\functions\UnInstall-ChocolateyZipPackage.ps1'
+  with checksum '61DD7490CED3EC02C01C2F2A22B6695C'
+2018-06-15 18:26:01,858 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\helpers\functions\Update-SessionEnvironment.ps1'
+  with checksum '577235542BCF35E9A5F616AC2E6B258D'
+2018-06-15 18:26:01,858 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\helpers\functions\Write-ChocolateyFailure.ps1'
+  with checksum 'D87C0BA847B010331BB2B1813ACA2116'
+2018-06-15 18:26:01,858 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\helpers\functions\Write-ChocolateySuccess.ps1'
+  with checksum '3AA276B5C51E8764D054C8B199483AA4'
+2018-06-15 18:26:01,866 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\helpers\functions\Write-FileUpdateLog.ps1'
+  with checksum 'DCBDE59E49A1A48D38B13E7040785ACE'
+2018-06-15 18:26:01,868 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\helpers\functions\Write-FunctionCallLogMessage.ps1'
+  with checksum '41423D04EBD0EE2E6A5FC051B017A8CE'
+2018-06-15 18:26:01,868 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\redirects\choco.exe'
+  with checksum '29AE0D3B1585A504262EA6B45D5CB451'
+2018-06-15 18:26:01,899 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\redirects\choco.exe.ignore'
+  with checksum 'D41D8CD98F00B204E9800998ECF8427E'
+2018-06-15 18:26:01,899 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\redirects\chocolatey.exe'
+  with checksum '24B75CC23BA48F561D1B7FEDF128FE91'
+2018-06-15 18:26:01,899 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\redirects\chocolatey.exe.ignore'
+  with checksum 'D41D8CD98F00B204E9800998ECF8427E'
+2018-06-15 18:26:01,909 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\redirects\cinst.exe'
+  with checksum '6BBA5F0A2D8B0A1A1B7F4D6944C33221'
+2018-06-15 18:26:01,909 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\redirects\cinst.exe.ignore'
+  with checksum 'D41D8CD98F00B204E9800998ECF8427E'
+2018-06-15 18:26:01,909 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\redirects\clist.exe'
+  with checksum 'C4C56237086D335B3AD8D73A6111AD8E'
+2018-06-15 18:26:01,909 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\redirects\clist.exe.ignore'
+  with checksum 'D41D8CD98F00B204E9800998ECF8427E'
+2018-06-15 18:26:01,917 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\redirects\cpack.exe'
+  with checksum 'D4DEE1F6CBFD2C208F70362E4C9E84F9'
+2018-06-15 18:26:01,919 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\redirects\cpack.exe.ignore'
+  with checksum 'D41D8CD98F00B204E9800998ECF8427E'
+2018-06-15 18:26:01,919 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\redirects\cpush.exe'
+  with checksum 'A16119774C4E2DCE5C5E471881343F21'
+2018-06-15 18:26:01,919 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\redirects\cpush.exe.ignore'
+  with checksum 'D41D8CD98F00B204E9800998ECF8427E'
+2018-06-15 18:26:01,937 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\redirects\cuninst.exe'
+  with checksum '45AB578A8C5DAC56217E17EEACECE3DF'
+2018-06-15 18:26:01,939 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\redirects\cuninst.exe.ignore'
+  with checksum 'D41D8CD98F00B204E9800998ECF8427E'
+2018-06-15 18:26:01,939 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\redirects\cup.exe'
+  with checksum '440E58D3160AD8EEE893F986961543B6'
+2018-06-15 18:26:01,939 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\redirects\cup.exe.ignore'
+  with checksum 'D41D8CD98F00B204E9800998ECF8427E'
+2018-06-15 18:26:01,939 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\redirects\cver.exe'
+  with checksum 'ED0A41D55CC50626F930B84242C430F3'
+2018-06-15 18:26:01,947 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\redirects\cver.exe.ignore'
+  with checksum 'D41D8CD98F00B204E9800998ECF8427E'
+2018-06-15 18:26:01,949 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\redirects\RefreshEnv.cmd'
+  with checksum '141BC4AC0E9A7F6B7A5636B6237AB6E5'
+2018-06-15 18:26:01,959 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\tools\7z.dll'
+  with checksum '04E4F293970589EAD1DC19FC8BE60C92'
+2018-06-15 18:26:01,959 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\tools\7z.dll.manifest'
+  with checksum '8F89387331C12B55EAA26E5188D9E2FF'
+2018-06-15 18:26:01,967 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\tools\7z.exe'
+  with checksum '77E556CDFDC5C592F5C46DB4127C6F4C'
+2018-06-15 18:26:01,970 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\tools\7z.exe.ignore'
+  with checksum 'D41D8CD98F00B204E9800998ECF8427E'
+2018-06-15 18:26:01,970 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\tools\7z.exe.manifest'
+  with checksum '8F89387331C12B55EAA26E5188D9E2FF'
+2018-06-15 18:26:01,970 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\tools\7zip.license.txt'
+  with checksum '899A48828B85C4B0402EE7CF1F65B62B'
+2018-06-15 18:26:01,978 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\tools\checksum.exe'
+  with checksum '4F4C29EE7DC4A397868AD16B8006AFE7'
+2018-06-15 18:26:01,980 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\tools\checksum.exe.config'
+  with checksum 'E9AD5DD7B32C44F8A241DE0E883D7733'
+2018-06-15 18:26:01,980 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\tools\checksum.exe.ignore'
+  with checksum 'D41D8CD98F00B204E9800998ECF8427E'
+2018-06-15 18:26:01,990 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\tools\checksum.license.txt'
+  with checksum 'A10B78183254DA1214DD51A5ACE74BC0'
+2018-06-15 18:26:01,990 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\tools\shimgen.exe'
+  with checksum 'AB73266108370473173A9C0773E96FE2'
+2018-06-15 18:26:02,000 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\tools\shimgen.exe.ignore'
+  with checksum 'D41D8CD98F00B204E9800998ECF8427E'
+2018-06-15 18:26:02,000 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\tools\shimgen.license.txt'
+  with checksum '58FA6B4B88C177B273F25D9324FDF301'
+2018-06-15 18:26:02,059 13932 [DEBUG] - Attempting to create directory "C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\.chocolatey\chocolatey.0.10.11".
+2018-06-15 18:26:02,091 13932 [DEBUG] - There was no original file at 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\.chocolatey\chocolatey.0.10.11\.files'
+2018-06-15 18:26:02,101 13932 [DEBUG] - Attempting to delete file "C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\.chocolatey\chocolatey.0.10.11\.extra".
+2018-06-15 18:26:02,101 13932 [DEBUG] - Attempting to delete file "C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\.chocolatey\chocolatey.0.10.11\.version".
+2018-06-15 18:26:02,101 13932 [DEBUG] - Attempting to delete file "C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\.chocolatey\chocolatey.0.10.11\.sxs".
+2018-06-15 18:26:02,101 13932 [DEBUG] - Attempting to delete file "C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\.chocolatey\chocolatey.0.10.11\.pin".
+2018-06-15 18:26:02,111 13932 [DEBUG] - Attempting to delete directory "C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib-bad\chocolatey".
+2018-06-15 18:26:02,313 13932 [DEBUG] - Sending message 'HandlePackageResultCompletedMessage' out if there are subscribers...
+2018-06-15 18:26:02,313 13932 [DEBUG] - Attempting to delete file "C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\.chocolateyPending".
+2018-06-15 18:26:02,323 13932 [INFO ] -  The install of chocolatey was successful.
+2018-06-15 18:26:02,334 13932 [INFO ] -   Software install location not explicitly set, could be in package or
+  default install location if installer.
+2018-06-15 18:26:02,342 13932 [INFO ] - [NuGet] Installing 'python3 3.6.5'.
+2018-06-15 18:26:02,344 13932 [DEBUG] - [NuGet] Added file 'LICENSE.txt' to folder 'python3\legal'.
+2018-06-15 18:26:02,352 13932 [DEBUG] - [NuGet] Added file 'VERIFICATION.txt' to folder 'python3\legal'.
+2018-06-15 18:26:02,354 13932 [DEBUG] - [NuGet] Added file 'chocolateyInstall.ps1' to folder 'python3\tools'.
+2018-06-15 18:26:02,425 13932 [DEBUG] - [NuGet] Added file 'python-3.6.5-amd64.exe' to folder 'python3\tools'.
+2018-06-15 18:26:02,486 13932 [DEBUG] - [NuGet] Added file 'python-3.6.5.exe' to folder 'python3\tools'.
+2018-06-15 18:26:02,588 13932 [DEBUG] - [NuGet] Added file 'python3.nuspec' to folder 'python3'.
+2018-06-15 18:26:03,204 13932 [DEBUG] - [NuGet] Added file 'python3.nupkg' to folder 'python3'.
+2018-06-15 18:26:03,212 13932 [INFO ] - [NuGet] Successfully installed 'python3 3.6.5'.
+2018-06-15 18:26:03,214 13932 [INFO ] - 
+python3 v3.6.5 [Approved]
+2018-06-15 18:26:03,255 13932 [INFO ] - python3 package files install completed. Performing other installation steps.
+2018-06-15 18:26:08,286 13932 [DEBUG] - Contents of 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\python3\tools\chocolateyInstall.ps1':
+2018-06-15 18:26:08,288 13932 [DEBUG] - $ErrorActionPreference = 'STOP'
+
+$toolsPath = Split-Path $MyInvocation.MyCommand.Definition
+
+$pp = Get-PackageParameters
+$installDir  = '{0}\Python{1}' -f $Env:SystemDrive, ($Env:ChocolateyPackageVersion -replace '\.').Substring(0,2)
+if ( $pp.InstallDir ) {
+    $installDir = $pp.InstallDir
+    if ($installDir.StartsWith("'") -or $installDir.StartsWith('"')){  $installDir = $installDir -replace '^.|.$' }
+    mkdir -force $installDir -ea 0 | out-null
+}
+
+$packageArgs = @{
+    packageName    = 'python3'
+    fileType       = 'exe'
+    file           = "$toolsPath\python-3.6.5.exe"
+    file64         = "$toolsPath\python-3.6.5-amd64.exe"
+    silentArgs     = '/quiet InstallAllUsers=1 PrependPath=1 TargetDir="{0}"' -f $installDir
+    validExitCodes = @(0)
+    softwareName   = 'Python*'
+}
+Install-ChocolateyInstallPackage @packageArgs
+Get-ChildItem $toolsPath\*.exe | ForEach-Object { Remove-Item $_ -ea 0; if (Test-Path $_) { Set-Content "$_.ignore" }
+
+Write-Host "Installed to: '$installDir'"
+
+if (($Env:PYTHONHOME -ne $null) -and ($Env:PYTHONHOME -ne $InstallDir)) {
+    Write-Warning "Environment variable PYTHONHOME points to different version: $Env:PYTHONHOME"
+}
+
+2018-06-15 18:26:08,288 13932 [INFO ] - The package python3 wants to run 'chocolateyInstall.ps1'.
+2018-06-15 18:26:08,288 13932 [INFO ] - Note: If you don't run this script, the installation will fail.
+2018-06-15 18:26:08,296 13932 [INFO ] - Note: To confirm automatically next time, use '-y' or consider:
+2018-06-15 18:26:08,298 13932 [INFO ] - choco feature enable -n allowGlobalConfirmation
+2018-06-15 18:26:08,308 13932 [INFO ] - Do you want to run the script?
+2018-06-15 18:26:08,308 13932 [INFO ] -  1) yes
+2018-06-15 18:26:08,308 13932 [INFO ] -  2) no
+2018-06-15 18:26:08,317 13932 [INFO ] -  3) print
+2018-06-15 18:26:11,386 13932 [INFO ] - Choice selected: 'yes'
+2018-06-15 18:26:11,386 13932 [DEBUG] - Calling built-in PowerShell host with ['[System.Threading.Thread]::CurrentThread.CurrentCulture = '';[System.Threading.Thread]::CurrentThread.CurrentUICulture = ''; & import-module -name 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\helpers\chocolateyInstaller.psm1'; & 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\helpers\chocolateyScriptRunner.ps1' -packageScript 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\python3\tools\chocolateyInstall.ps1' -installArguments '' -packageParameters ''']
+2018-06-15 18:26:11,426 13932 [DEBUG] - Redirecting Microsoft.WSMan.Management.resources, Version=3.0.0.0, Culture=zh-CN, PublicKeyToken=31bf3856ad364e35, requested by ''
+2018-06-15 18:26:11,466 13932 [DEBUG] - Host version is 5.1.17134.1, PowerShell Version is '5.1.17134.81' and CLR Version is '4.0.30319.42000'.
+2018-06-15 18:26:11,697 13932 [INFO ] - VERBOSE: Exporting function 'Format-FileSize'.
+2018-06-15 18:26:11,697 13932 [INFO ] - VERBOSE: Exporting function 'Get-ChecksumValid'.
+2018-06-15 18:26:11,705 13932 [INFO ] - VERBOSE: Exporting function 'Get-ChocolateyUnzip'.
+2018-06-15 18:26:11,707 13932 [INFO ] - VERBOSE: Exporting function 'Get-ChocolateyWebFile'.
+2018-06-15 18:26:11,707 13932 [INFO ] - VERBOSE: Exporting function 'Get-EnvironmentVariable'.
+2018-06-15 18:26:11,707 13932 [INFO ] - VERBOSE: Exporting function 'Get-EnvironmentVariableNames'.
+2018-06-15 18:26:11,707 13932 [INFO ] - VERBOSE: Exporting function 'Get-FtpFile'.
+2018-06-15 18:26:11,707 13932 [INFO ] - VERBOSE: Exporting function 'Get-OSArchitectureWidth'.
+2018-06-15 18:26:11,715 13932 [INFO ] - VERBOSE: Exporting function 'Get-PackageParameters'.
+2018-06-15 18:26:11,717 13932 [INFO ] - VERBOSE: Exporting function 'Get-PackageParametersBuiltIn'.
+2018-06-15 18:26:11,717 13932 [INFO ] - VERBOSE: Exporting function 'Get-ToolsLocation'.
+2018-06-15 18:26:11,717 13932 [INFO ] - VERBOSE: Exporting function 'Get-UACEnabled'.
+2018-06-15 18:26:11,717 13932 [INFO ] - VERBOSE: Exporting function 'Get-UninstallRegistryKey'.
+2018-06-15 18:26:11,717 13932 [INFO ] - VERBOSE: Exporting function 'Get-VirusCheckValid'.
+2018-06-15 18:26:11,725 13932 [INFO ] - VERBOSE: Exporting function 'Get-WebFile'.
+2018-06-15 18:26:11,725 13932 [INFO ] - VERBOSE: Exporting function 'Get-WebFileName'.
+2018-06-15 18:26:11,727 13932 [INFO ] - VERBOSE: Exporting function 'Get-WebHeaders'.
+2018-06-15 18:26:11,727 13932 [INFO ] - VERBOSE: Exporting function 'Install-BinFile'.
+2018-06-15 18:26:11,727 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyDesktopLink'.
+2018-06-15 18:26:11,727 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyEnvironmentVariable'.
+2018-06-15 18:26:11,727 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyExplorerMenuItem'.
+2018-06-15 18:26:11,735 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyFileAssociation'.
+2018-06-15 18:26:11,737 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyInstallPackage'.
+2018-06-15 18:26:11,737 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPackage'.
+2018-06-15 18:26:11,737 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPath'.
+2018-06-15 18:26:11,737 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPinnedTaskBarItem'.
+2018-06-15 18:26:11,737 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPowershellCommand'.
+2018-06-15 18:26:11,745 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyShortcut'.
+2018-06-15 18:26:11,748 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyVsixPackage'.
+2018-06-15 18:26:11,748 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyZipPackage'.
+2018-06-15 18:26:11,748 13932 [INFO ] - VERBOSE: Exporting function 'Install-Vsix'.
+2018-06-15 18:26:11,748 13932 [INFO ] - VERBOSE: Exporting function 'Set-EnvironmentVariable'.
+2018-06-15 18:26:11,748 13932 [INFO ] - VERBOSE: Exporting function 'Set-PowerShellExitCode'.
+2018-06-15 18:26:11,756 13932 [INFO ] - VERBOSE: Exporting function 'Start-ChocolateyProcessAsAdmin'.
+2018-06-15 18:26:11,756 13932 [INFO ] - VERBOSE: Exporting function 'Test-ProcessAdminRights'.
+2018-06-15 18:26:11,758 13932 [INFO ] - VERBOSE: Exporting function 'Uninstall-BinFile'.
+2018-06-15 18:26:11,758 13932 [INFO ] - VERBOSE: Exporting function 'Uninstall-ChocolateyEnvironmentVariable'.
+2018-06-15 18:26:11,758 13932 [INFO ] - VERBOSE: Exporting function 'Uninstall-ChocolateyPackage'.
+2018-06-15 18:26:11,758 13932 [INFO ] - VERBOSE: Exporting function 'Uninstall-ChocolateyZipPackage'.
+2018-06-15 18:26:11,758 13932 [INFO ] - VERBOSE: Exporting function 'Update-SessionEnvironment'.
+2018-06-15 18:26:11,766 13932 [INFO ] - VERBOSE: Exporting function 'Write-ChocolateyFailure'.
+2018-06-15 18:26:11,768 13932 [INFO ] - VERBOSE: Exporting function 'Write-ChocolateySuccess'.
+2018-06-15 18:26:11,768 13932 [INFO ] - VERBOSE: Exporting function 'Write-FileUpdateLog'.
+2018-06-15 18:26:11,768 13932 [INFO ] - VERBOSE: Exporting function 'Write-FunctionCallLogMessage'.
+2018-06-15 18:26:11,768 13932 [INFO ] - VERBOSE: Exporting alias 'Get-ProcessorBits'.
+2018-06-15 18:26:11,768 13932 [INFO ] - VERBOSE: Exporting alias 'Get-OSBitness'.
+2018-06-15 18:26:11,768 13932 [INFO ] - VERBOSE: Exporting alias 'Get-InstallRegistryKey'.
+2018-06-15 18:26:11,776 13932 [INFO ] - VERBOSE: Exporting alias 'Generate-BinFile'.
+2018-06-15 18:26:11,776 13932 [INFO ] - VERBOSE: Exporting alias 'Add-BinFile'.
+2018-06-15 18:26:11,776 13932 [INFO ] - VERBOSE: Exporting alias 'Start-ChocolateyProcess'.
+2018-06-15 18:26:11,776 13932 [INFO ] - VERBOSE: Exporting alias 'Invoke-ChocolateyProcess'.
+2018-06-15 18:26:11,776 13932 [INFO ] - VERBOSE: Exporting alias 'Remove-BinFile'.
+2018-06-15 18:26:11,776 13932 [INFO ] - VERBOSE: Exporting alias 'refreshenv'.
+2018-06-15 18:26:11,786 13932 [DEBUG] - Loading community extensions
+2018-06-15 18:26:11,786 13932 [DEBUG] - Importing 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\extensions\chocolatey-core\chocolatey-core.psm1'
+2018-06-15 18:26:11,796 13932 [INFO ] - VERBOSE: Loading module from path 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\extensions\chocolatey-core\chocolatey-core.psm1'.
+2018-06-15 18:26:11,975 13932 [INFO ] - VERBOSE: Exporting function 'Get-UninstallRegistryKey'.
+2018-06-15 18:26:11,975 13932 [INFO ] - VERBOSE: Exporting function 'Get-AppInstallLocation'.
+2018-06-15 18:26:11,983 13932 [INFO ] - VERBOSE: Exporting function 'Get-AvailableDriveLetter'.
+2018-06-15 18:26:11,985 13932 [INFO ] - VERBOSE: Exporting function 'Get-EffectiveProxy'.
+2018-06-15 18:26:11,985 13932 [INFO ] - VERBOSE: Exporting function 'Get-PackageCacheLocation'.
+2018-06-15 18:26:11,985 13932 [INFO ] - VERBOSE: Exporting function 'Get-PackageParameters'.
+2018-06-15 18:26:11,993 13932 [INFO ] - VERBOSE: Exporting function 'Get-WebContent'.
+2018-06-15 18:26:11,995 13932 [INFO ] - VERBOSE: Exporting function 'Register-Application'.
+2018-06-15 18:26:11,995 13932 [INFO ] - VERBOSE: Importing function 'Get-AppInstallLocation'.
+2018-06-15 18:26:11,995 13932 [INFO ] - VERBOSE: Importing function 'Get-AvailableDriveLetter'.
+2018-06-15 18:26:11,995 13932 [INFO ] - VERBOSE: Importing function 'Get-EffectiveProxy'.
+2018-06-15 18:26:12,003 13932 [INFO ] - VERBOSE: Importing function 'Get-PackageCacheLocation'.
+2018-06-15 18:26:12,003 13932 [INFO ] - VERBOSE: Importing function 'Get-PackageParameters'.
+2018-06-15 18:26:12,005 13932 [INFO ] - VERBOSE: Importing function 'Get-UninstallRegistryKey'.
+2018-06-15 18:26:12,005 13932 [INFO ] - VERBOSE: Importing function 'Get-WebContent'.
+2018-06-15 18:26:12,005 13932 [INFO ] - VERBOSE: Importing function 'Register-Application'.
+2018-06-15 18:26:12,005 13932 [INFO ] - VERBOSE: Exporting function 'Format-FileSize'.
+2018-06-15 18:26:12,013 13932 [INFO ] - VERBOSE: Exporting function 'Get-ChecksumValid'.
+2018-06-15 18:26:12,015 13932 [INFO ] - VERBOSE: Exporting function 'Get-ChocolateyUnzip'.
+2018-06-15 18:26:12,015 13932 [INFO ] - VERBOSE: Exporting function 'Get-ChocolateyWebFile'.
+2018-06-15 18:26:12,015 13932 [INFO ] - VERBOSE: Exporting function 'Get-EnvironmentVariable'.
+2018-06-15 18:26:12,015 13932 [INFO ] - VERBOSE: Exporting function 'Get-EnvironmentVariableNames'.
+2018-06-15 18:26:12,015 13932 [INFO ] - VERBOSE: Exporting function 'Get-FtpFile'.
+2018-06-15 18:26:12,015 13932 [INFO ] - VERBOSE: Exporting function 'Get-OSArchitectureWidth'.
+2018-06-15 18:26:12,023 13932 [INFO ] - VERBOSE: Exporting function 'Get-PackageParameters'.
+2018-06-15 18:26:12,025 13932 [INFO ] - VERBOSE: Exporting function 'Get-PackageParametersBuiltIn'.
+2018-06-15 18:26:12,025 13932 [INFO ] - VERBOSE: Exporting function 'Get-ToolsLocation'.
+2018-06-15 18:26:12,025 13932 [INFO ] - VERBOSE: Exporting function 'Get-UACEnabled'.
+2018-06-15 18:26:12,025 13932 [INFO ] - VERBOSE: Exporting function 'Get-UninstallRegistryKey'.
+2018-06-15 18:26:12,025 13932 [INFO ] - VERBOSE: Exporting function 'Get-VirusCheckValid'.
+2018-06-15 18:26:12,035 13932 [INFO ] - VERBOSE: Exporting function 'Get-WebFile'.
+2018-06-15 18:26:12,035 13932 [INFO ] - VERBOSE: Exporting function 'Get-WebFileName'.
+2018-06-15 18:26:12,035 13932 [INFO ] - VERBOSE: Exporting function 'Get-WebHeaders'.
+2018-06-15 18:26:12,035 13932 [INFO ] - VERBOSE: Exporting function 'Install-BinFile'.
+2018-06-15 18:26:12,035 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyDesktopLink'.
+2018-06-15 18:26:12,046 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyEnvironmentVariable'.
+2018-06-15 18:26:12,046 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyExplorerMenuItem'.
+2018-06-15 18:26:12,046 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyFileAssociation'.
+2018-06-15 18:26:12,046 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyInstallPackage'.
+2018-06-15 18:26:12,046 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPackage'.
+2018-06-15 18:26:12,054 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPath'.
+2018-06-15 18:26:12,056 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPinnedTaskBarItem'.
+2018-06-15 18:26:12,056 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPowershellCommand'.
+2018-06-15 18:26:12,056 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyShortcut'.
+2018-06-15 18:26:12,056 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyVsixPackage'.
+2018-06-15 18:26:12,056 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyZipPackage'.
+2018-06-15 18:26:12,064 13932 [INFO ] - VERBOSE: Exporting function 'Install-Vsix'.
+2018-06-15 18:26:12,064 13932 [INFO ] - VERBOSE: Exporting function 'Set-EnvironmentVariable'.
+2018-06-15 18:26:12,066 13932 [INFO ] - VERBOSE: Exporting function 'Set-PowerShellExitCode'.
+2018-06-15 18:26:12,066 13932 [INFO ] - VERBOSE: Exporting function 'Start-ChocolateyProcessAsAdmin'.
+2018-06-15 18:26:12,066 13932 [INFO ] - VERBOSE: Exporting function 'Test-ProcessAdminRights'.
+2018-06-15 18:26:12,066 13932 [INFO ] - VERBOSE: Exporting function 'Uninstall-BinFile'.
+2018-06-15 18:26:12,066 13932 [INFO ] - VERBOSE: Exporting function 'Uninstall-ChocolateyEnvironmentVariable'.
+2018-06-15 18:26:12,074 13932 [INFO ] - VERBOSE: Exporting function 'Uninstall-ChocolateyPackage'.
+2018-06-15 18:26:12,076 13932 [INFO ] - VERBOSE: Exporting function 'Uninstall-ChocolateyZipPackage'.
+2018-06-15 18:26:12,076 13932 [INFO ] - VERBOSE: Exporting function 'Update-SessionEnvironment'.
+2018-06-15 18:26:12,076 13932 [INFO ] - VERBOSE: Exporting function 'Write-ChocolateyFailure'.
+2018-06-15 18:26:12,076 13932 [INFO ] - VERBOSE: Exporting function 'Write-ChocolateySuccess'.
+2018-06-15 18:26:12,084 13932 [INFO ] - VERBOSE: Exporting function 'Write-FileUpdateLog'.
+2018-06-15 18:26:12,086 13932 [INFO ] - VERBOSE: Exporting function 'Write-FunctionCallLogMessage'.
+2018-06-15 18:26:12,086 13932 [INFO ] - VERBOSE: Exporting function 'Get-AppInstallLocation'.
+2018-06-15 18:26:12,086 13932 [INFO ] - VERBOSE: Exporting function 'Get-AvailableDriveLetter'.
+2018-06-15 18:26:12,086 13932 [INFO ] - VERBOSE: Exporting function 'Get-EffectiveProxy'.
+2018-06-15 18:26:12,086 13932 [INFO ] - VERBOSE: Exporting function 'Get-PackageCacheLocation'.
+2018-06-15 18:26:12,094 13932 [INFO ] - VERBOSE: Exporting function 'Get-WebContent'.
+2018-06-15 18:26:12,096 13932 [INFO ] - VERBOSE: Exporting function 'Register-Application'.
+2018-06-15 18:26:12,096 13932 [INFO ] - VERBOSE: Exporting alias 'Get-ProcessorBits'.
+2018-06-15 18:26:12,096 13932 [INFO ] - VERBOSE: Exporting alias 'Get-OSBitness'.
+2018-06-15 18:26:12,096 13932 [INFO ] - VERBOSE: Exporting alias 'Get-InstallRegistryKey'.
+2018-06-15 18:26:12,096 13932 [INFO ] - VERBOSE: Exporting alias 'Generate-BinFile'.
+2018-06-15 18:26:12,104 13932 [INFO ] - VERBOSE: Exporting alias 'Add-BinFile'.
+2018-06-15 18:26:12,106 13932 [INFO ] - VERBOSE: Exporting alias 'Start-ChocolateyProcess'.
+2018-06-15 18:26:12,106 13932 [INFO ] - VERBOSE: Exporting alias 'Invoke-ChocolateyProcess'.
+2018-06-15 18:26:12,106 13932 [INFO ] - VERBOSE: Exporting alias 'Remove-BinFile'.
+2018-06-15 18:26:12,106 13932 [INFO ] - VERBOSE: Exporting alias 'refreshenv'.
+2018-06-15 18:26:12,114 13932 [INFO ] - VERBOSE: Importing function 'Format-FileSize'.
+2018-06-15 18:26:12,116 13932 [INFO ] - VERBOSE: Importing function 'Get-AppInstallLocation'.
+2018-06-15 18:26:12,116 13932 [INFO ] - VERBOSE: Importing function 'Get-AvailableDriveLetter'.
+2018-06-15 18:26:12,116 13932 [INFO ] - VERBOSE: Importing function 'Get-ChecksumValid'.
+2018-06-15 18:26:12,116 13932 [INFO ] - VERBOSE: Importing function 'Get-ChocolateyUnzip'.
+2018-06-15 18:26:12,125 13932 [INFO ] - VERBOSE: Importing function 'Get-ChocolateyWebFile'.
+2018-06-15 18:26:12,127 13932 [INFO ] - VERBOSE: Importing function 'Get-EffectiveProxy'.
+2018-06-15 18:26:12,127 13932 [INFO ] - VERBOSE: Importing function 'Get-EnvironmentVariable'.
+2018-06-15 18:26:12,127 13932 [INFO ] - VERBOSE: Importing function 'Get-EnvironmentVariableNames'.
+2018-06-15 18:26:12,127 13932 [INFO ] - VERBOSE: Importing function 'Get-FtpFile'.
+2018-06-15 18:26:12,127 13932 [INFO ] - VERBOSE: Importing function 'Get-OSArchitectureWidth'.
+2018-06-15 18:26:12,135 13932 [INFO ] - VERBOSE: Importing function 'Get-PackageCacheLocation'.
+2018-06-15 18:26:12,137 13932 [INFO ] - VERBOSE: Importing function 'Get-PackageParameters'.
+2018-06-15 18:26:12,137 13932 [INFO ] - VERBOSE: Importing function 'Get-PackageParametersBuiltIn'.
+2018-06-15 18:26:12,137 13932 [INFO ] - VERBOSE: Importing function 'Get-ToolsLocation'.
+2018-06-15 18:26:12,137 13932 [INFO ] - VERBOSE: Importing function 'Get-UACEnabled'.
+2018-06-15 18:26:12,145 13932 [INFO ] - VERBOSE: Importing function 'Get-UninstallRegistryKey'.
+2018-06-15 18:26:12,147 13932 [INFO ] - VERBOSE: Importing function 'Get-VirusCheckValid'.
+2018-06-15 18:26:12,147 13932 [INFO ] - VERBOSE: Importing function 'Get-WebContent'.
+2018-06-15 18:26:12,147 13932 [INFO ] - VERBOSE: Importing function 'Get-WebFile'.
+2018-06-15 18:26:12,147 13932 [INFO ] - VERBOSE: Importing function 'Get-WebFileName'.
+2018-06-15 18:26:12,147 13932 [INFO ] - VERBOSE: Importing function 'Get-WebHeaders'.
+2018-06-15 18:26:12,155 13932 [INFO ] - VERBOSE: Importing function 'Install-BinFile'.
+2018-06-15 18:26:12,155 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyDesktopLink'.
+2018-06-15 18:26:12,157 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyEnvironmentVariable'.
+2018-06-15 18:26:12,157 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyExplorerMenuItem'.
+2018-06-15 18:26:12,157 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyFileAssociation'.
+2018-06-15 18:26:12,157 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyInstallPackage'.
+2018-06-15 18:26:12,157 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyPackage'.
+2018-06-15 18:26:12,165 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyPath'.
+2018-06-15 18:26:12,167 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyPinnedTaskBarItem'.
+2018-06-15 18:26:12,167 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyPowershellCommand'.
+2018-06-15 18:26:12,167 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyShortcut'.
+2018-06-15 18:26:12,167 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyVsixPackage'.
+2018-06-15 18:26:12,167 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyZipPackage'.
+2018-06-15 18:26:12,175 13932 [INFO ] - VERBOSE: Importing function 'Install-Vsix'.
+2018-06-15 18:26:12,176 13932 [INFO ] - VERBOSE: Importing function 'Register-Application'.
+2018-06-15 18:26:12,178 13932 [INFO ] - VERBOSE: Importing function 'Set-EnvironmentVariable'.
+2018-06-15 18:26:12,178 13932 [INFO ] - VERBOSE: Importing function 'Set-PowerShellExitCode'.
+2018-06-15 18:26:12,178 13932 [INFO ] - VERBOSE: Importing function 'Start-ChocolateyProcessAsAdmin'.
+2018-06-15 18:26:12,178 13932 [INFO ] - VERBOSE: Importing function 'Test-ProcessAdminRights'.
+2018-06-15 18:26:12,178 13932 [INFO ] - VERBOSE: Importing function 'Uninstall-BinFile'.
+2018-06-15 18:26:12,186 13932 [INFO ] - VERBOSE: Importing function 'Uninstall-ChocolateyEnvironmentVariable'.
+2018-06-15 18:26:12,188 13932 [INFO ] - VERBOSE: Importing function 'Uninstall-ChocolateyPackage'.
+2018-06-15 18:26:12,188 13932 [INFO ] - VERBOSE: Importing function 'Uninstall-ChocolateyZipPackage'.
+2018-06-15 18:26:12,188 13932 [INFO ] - VERBOSE: Importing function 'Update-SessionEnvironment'.
+2018-06-15 18:26:12,188 13932 [INFO ] - VERBOSE: Importing function 'Write-ChocolateyFailure'.
+2018-06-15 18:26:12,188 13932 [INFO ] - VERBOSE: Importing function 'Write-ChocolateySuccess'.
+2018-06-15 18:26:12,196 13932 [INFO ] - VERBOSE: Importing function 'Write-FileUpdateLog'.
+2018-06-15 18:26:12,196 13932 [INFO ] - VERBOSE: Importing function 'Write-FunctionCallLogMessage'.
+2018-06-15 18:26:12,198 13932 [INFO ] - VERBOSE: Importing alias 'Add-BinFile'.
+2018-06-15 18:26:12,198 13932 [INFO ] - VERBOSE: Importing alias 'Generate-BinFile'.
+2018-06-15 18:26:12,198 13932 [INFO ] - VERBOSE: Importing alias 'Get-InstallRegistryKey'.
+2018-06-15 18:26:12,198 13932 [INFO ] - VERBOSE: Importing alias 'Get-OSBitness'.
+2018-06-15 18:26:12,198 13932 [INFO ] - VERBOSE: Importing alias 'Get-ProcessorBits'.
+2018-06-15 18:26:12,208 13932 [INFO ] - VERBOSE: Importing alias 'Invoke-ChocolateyProcess'.
+2018-06-15 18:26:12,208 13932 [INFO ] - VERBOSE: Importing alias 'refreshenv'.
+2018-06-15 18:26:12,208 13932 [INFO ] - VERBOSE: Importing alias 'Remove-BinFile'.
+2018-06-15 18:26:12,208 13932 [INFO ] - VERBOSE: Importing alias 'Start-ChocolateyProcess'.
+2018-06-15 18:26:12,228 13932 [DEBUG] - Running 'ChocolateyScriptRunner' for python3 v3.6.5 with packageScript 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\python3\tools\chocolateyInstall.ps1', packageFolder:'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\python3', installArguments: '', packageParameters: '',
+2018-06-15 18:26:12,228 13932 [DEBUG] - Running 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\python3\tools\chocolateyInstall.ps1'
+2018-06-15 18:26:12,276 13932 [DEBUG] - Running Get-PackageParameters 
+2018-06-15 18:26:12,276 13932 [DEBUG] - Parsing $env:ChocolateyPackageParameters and $env:ChocolateyPackageParametersSensitive for parameters
+2018-06-15 18:26:12,366 13932 [DEBUG] - Running Install-ChocolateyInstallPackage -silentArgs '/quiet InstallAllUsers=1 PrependPath=1 TargetDir="C:\Python36"' -file 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\python3\tools\python-3.6.5.exe' -file64 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\python3\tools\python-3.6.5-amd64.exe' -fileType 'exe' -validExitCodes '0' -packageName 'python3' 
+2018-06-15 18:26:12,376 13932 [DEBUG] - Running Get-ProcessorBits -compare '32' 
+2018-06-15 18:26:12,396 13932 [INFO ] - Installing 64-bit python3...
+2018-06-15 18:26:12,755 13932 [DEBUG] - Ensuring 'C:\' exists
+2018-06-15 18:26:12,826 13932 [DEBUG] - Running Start-ChocolateyProcessAsAdmin -validExitCodes '0' -workingDirectory 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\python3\tools' -statements '/quiet InstallAllUsers=1 PrependPath=1 TargetDir="C:\Python36" ' -exeToRun 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\python3\tools\python-3.6.5-amd64.exe' 
+2018-06-15 18:26:12,836 13932 [DEBUG] - Test-ProcessAdminRights: returning False
+2018-06-15 18:26:12,857 13932 [DEBUG] - Elevating permissions and running ["C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\python3\tools\python-3.6.5-amd64.exe" /quiet InstallAllUsers=1 PrependPath=1 TargetDir="C:\Python36" ]. This may take a while, depending on the statements.
+2018-06-15 18:26:13,057 13932 [DEBUG] - Setting RunAs for elevation
+2018-06-15 18:30:44,675 13932 [DEBUG] - Command ["C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\python3\tools\python-3.6.5-amd64.exe" /quiet InstallAllUsers=1 PrependPath=1 TargetDir="C:\Python36" ] exited with '0'.
+2018-06-15 18:30:44,736 13932 [DEBUG] - Finishing 'Start-ChocolateyProcessAsAdmin'
+2018-06-15 18:30:44,780 13932 [INFO ] - python3 has been installed.
+2018-06-15 18:30:44,858 13932 [INFO ] - Installed to: 'C:\Python36'
+2018-06-15 18:30:44,868 13932 [DEBUG] - Built-in PowerShell host called with ['[System.Threading.Thread]::CurrentThread.CurrentCulture = '';[System.Threading.Thread]::CurrentThread.CurrentUICulture = ''; & import-module -name 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\helpers\chocolateyInstaller.psm1'; & 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\helpers\chocolateyScriptRunner.ps1' -packageScript 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\python3\tools\chocolateyInstall.ps1' -installArguments '' -packageParameters '''] exited with '0'.
+2018-06-15 18:30:44,879 13932 [DEBUG] - Calling command ['"C:\WINDOWS\System32\shutdown.exe" /a']
+2018-06-15 18:30:45,172 13932 [DEBUG] - Command ['"C:\WINDOWS\System32\shutdown.exe" /a'] exited with '1116'
+2018-06-15 18:30:51,334 13932 [INFO ] -   python3 can be automatically uninstalled.
+2018-06-15 18:30:51,362 13932 [WARN ] - Environment Vars (like PATH) have changed. Close/reopen your shell to
+ see the changes (or in powershell/cmd.exe just type `refreshenv`).
+2018-06-15 18:30:51,365 13932 [DEBUG] - Logging of values is not turned on by default because it
+ could potentially expose sensitive data. If you understand the risk,
+ please see `choco feature -h` for information to turn it on.
+2018-06-15 18:30:51,365 13932 [DEBUG] - The following values have been added/changed (may contain sensitive data):
+2018-06-15 18:30:51,373 13932 [DEBUG] -   * PATHEXT='[REDACTED]' (Machine)
+2018-06-15 18:30:51,375 13932 [DEBUG] -   * Path='[REDACTED]' (Machine)
+2018-06-15 18:30:51,385 13932 [DEBUG] - Capturing package files in 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\python3'
+2018-06-15 18:30:52,045 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\python3\python3.nupkg'
+  with checksum '868E6F5F3BBF61762ACA4E8A764432EB'
+2018-06-15 18:30:52,045 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\python3\python3.nuspec'
+  with checksum 'A9A719AD4A0703FC24E1642D4B41A461'
+2018-06-15 18:30:52,045 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\python3\legal\LICENSE.txt'
+  with checksum '3FBFBB88B1C6F11A666EB20C490B6DD6'
+2018-06-15 18:30:52,053 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\python3\legal\VERIFICATION.txt'
+  with checksum 'FAD0FE0C6981A4EF2DDB516D354CD44E'
+2018-06-15 18:30:52,055 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\python3\tools\chocolateyInstall.ps1'
+  with checksum '925A028EC8F74426CC8C326338875AAD'
+2018-06-15 18:30:52,055 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\python3\tools\python-3.6.5-amd64.exe.ignore'
+  with checksum 'BEA07E6D2B8DCE396FE21BAA61B34956'
+2018-06-15 18:30:52,065 13932 [DEBUG] - Attempting to create directory "C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\.chocolatey\python3.3.6.5".
+2018-06-15 18:30:52,154 13932 [DEBUG] - There was no original file at 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\.chocolatey\python3.3.6.5\.registry'
+2018-06-15 18:30:52,154 13932 [DEBUG] - There was no original file at 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\.chocolatey\python3.3.6.5\.files'
+2018-06-15 18:30:52,174 13932 [DEBUG] - Attempting to delete file "C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\.chocolatey\python3.3.6.5\.extra".
+2018-06-15 18:30:52,174 13932 [DEBUG] - Attempting to delete file "C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\.chocolatey\python3.3.6.5\.version".
+2018-06-15 18:30:52,184 13932 [DEBUG] - Attempting to delete file "C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\.chocolatey\python3.3.6.5\.sxs".
+2018-06-15 18:30:52,184 13932 [DEBUG] - Attempting to delete file "C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\.chocolatey\python3.3.6.5\.pin".
+2018-06-15 18:30:52,194 13932 [DEBUG] - Sending message 'HandlePackageResultCompletedMessage' out if there are subscribers...
+2018-06-15 18:30:52,194 13932 [DEBUG] - Attempting to delete file "C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\python3\.chocolateyPending".
+2018-06-15 18:30:52,204 13932 [INFO ] -  The install of python3 was successful.
+2018-06-15 18:30:52,204 13932 [INFO ] -   Software installed as 'exe', install location is likely default.
+2018-06-15 18:30:52,214 13932 [INFO ] - [NuGet] Installing 'python 3.6.5'.
+2018-06-15 18:30:52,234 13932 [DEBUG] - [NuGet] Added file 'python.nuspec' to folder 'python'.
+2018-06-15 18:30:52,234 13932 [DEBUG] - [NuGet] Added file 'python.nupkg' to folder 'python'.
+2018-06-15 18:30:52,234 13932 [INFO ] - [NuGet] Successfully installed 'python 3.6.5'.
+2018-06-15 18:30:52,244 13932 [INFO ] - 
+python v3.6.5 [Approved]
+2018-06-15 18:30:52,244 13932 [INFO ] - python package files install completed. Performing other installation steps.
+2018-06-15 18:31:02,533 13932 [DEBUG] - Capturing package files in 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\python'
+2018-06-15 18:31:02,533 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\python\python.nupkg'
+  with checksum '4471339D4E712F73F92742A3F10B6D1E'
+2018-06-15 18:31:02,533 13932 [DEBUG] -  Found 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\python\python.nuspec'
+  with checksum 'D14B0496168F00284126720C1707EE10'
+2018-06-15 18:31:02,543 13932 [DEBUG] - Attempting to create directory "C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\.chocolatey\python.3.6.5".
+2018-06-15 18:31:02,543 13932 [DEBUG] - There was no original file at 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\.chocolatey\python.3.6.5\.files'
+2018-06-15 18:31:02,543 13932 [DEBUG] - Attempting to delete file "C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\.chocolatey\python.3.6.5\.extra".
+2018-06-15 18:31:02,553 13932 [DEBUG] - Attempting to delete file "C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\.chocolatey\python.3.6.5\.version".
+2018-06-15 18:31:02,553 13932 [DEBUG] - Attempting to delete file "C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\.chocolatey\python.3.6.5\.sxs".
+2018-06-15 18:31:02,553 13932 [DEBUG] - Attempting to delete file "C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\.chocolatey\python.3.6.5\.pin".
+2018-06-15 18:31:02,553 13932 [DEBUG] - Sending message 'HandlePackageResultCompletedMessage' out if there are subscribers...
+2018-06-15 18:31:02,553 13932 [DEBUG] - Attempting to delete file "C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\python\.chocolateyPending".
+2018-06-15 18:31:02,563 13932 [INFO ] -  The install of python was successful.
+2018-06-15 18:31:02,573 13932 [INFO ] -   Software install location not explicitly set, could be in package or
+  default install location if installer.
+2018-06-15 18:31:02,583 13932 [DEBUG] - Attempting to delete file "C:\Users\zzh\AppData\Local\NuGet\Cache\python.3.6.5.nupkg".
+2018-06-15 18:31:02,643 13932 [WARN ] - 
+Chocolatey installed 3/3 packages. 
+ See the log for details (C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\logs\chocolatey.log).
+2018-06-15 18:31:02,653 13932 [DEBUG] - Sending message 'PostRunMessage' out if there are subscribers...
+2018-06-15 18:31:02,893 13932 [DEBUG] - Exiting with 0
+2018-06-15 18:31:04,763 10040 [DEBUG] - XmlConfiguration is now operational
+2018-06-15 18:31:04,853 10040 [INFO ] - ============================================================
+2018-06-15 18:31:05,283 10040 [DEBUG] - User may be subject to UAC, checking for a split token (not 100% 
+ effective).
+2018-06-15 18:31:05,343 10040 [INFO ] - Chocolatey v0.10.11
+2018-06-15 18:31:05,363 10040 [DEBUG] - Chocolatey is running on Windows v 10.0.17134.0
+2018-06-15 18:31:05,363 10040 [DEBUG] - Attempting to delete file "C:/Users/zzh/Desktop/Git/Browser-code/小曾高效浏览器6.2/browser/pkg/choco.exe.old".
+2018-06-15 18:31:05,373 10040 [DEBUG] - Attempting to delete file "C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\choco.exe.old".
+2018-06-15 18:31:05,463 10040 [DEBUG] - Command line: choco  uninstally
+2018-06-15 18:31:05,463 10040 [DEBUG] - Received arguments: uninstally
+2018-06-15 18:31:05,543 10040 [ERROR] - Exiting chocolatey abnormally. Please manually clean up anything that 
+ was not finished.
+2018-06-15 18:31:05,543 10040 [ERROR] - Please do not ever use Control+C or close the window to exit.
+2018-07-16 15:03:12,958 10996 [DEBUG] - XmlConfiguration is now operational
+2018-07-16 15:03:13,292 10996 [INFO ] - ============================================================
+2018-07-16 15:03:15,392 10996 [DEBUG] - Attempting to create directory "C:\Users\zzh\AppData\Local\Temp\chocolatey".
+2018-07-16 15:03:15,426 10996 [DEBUG] - User may be subject to UAC, checking for a split token (not 100% 
+ effective).
+2018-07-16 15:03:15,471 10996 [INFO ] - Chocolatey v0.10.11
+2018-07-16 15:03:15,511 10996 [DEBUG] - Chocolatey is running on Windows v 10.0.17134.0
+2018-07-16 15:03:15,514 10996 [DEBUG] - Attempting to delete file "C:/Users/zzh/Desktop/Git/Browser-code/小曾高效浏览器6.2/browser/pkg/choco.exe.old".
+2018-07-16 15:03:15,535 10996 [DEBUG] - Attempting to delete file "C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\choco.exe.old".
+2018-07-16 15:03:15,948 10996 [DEBUG] - Command line: "C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\choco.exe" install github-desktop
+2018-07-16 15:03:15,950 10996 [DEBUG] - Received arguments: install github-desktop
+2018-07-16 15:03:16,049 10996 [DEBUG] - RemovePendingPackagesTask is now ready and waiting for PreRunMessage.
+2018-07-16 15:03:16,065 10996 [DEBUG] - Sending message 'PreRunMessage' out if there are subscribers...
+2018-07-16 15:03:16,077 10996 [DEBUG] - [Pending] Removing all pending packages that should not be considered installed...
+2018-07-16 15:03:16,359 10996 [WARN ] - Chocolatey detected you are not running from an elevated command shell
+ (cmd/powershell).
+2018-07-16 15:03:16,363 10996 [WARN ] - 
+ You may experience errors - many functions/packages
+ require admin rights. Only advanced users should run choco w/out an
+ elevated shell. When you open the command shell, you should ensure 
+ that you do so with "Run as Administrator" selected. If you are 
+ attempting to use Chocolatey in a non-administrator setting, you
+ must select a different location other than the default install
+ location. See 
+ https://chocolatey.org/install#non-administrative-install for details.
+
+2018-07-16 15:03:16,425 10996 [INFO ] - 
+ Do you want to continue?
+2018-07-16 15:03:16,426 10996 [INFO ] -  1) yes
+2018-07-16 15:03:16,427 10996 [INFO ] -  2) no
+2018-07-16 15:03:19,235 10996 [INFO ] - Choice selected: 'yes'
+2018-07-16 15:03:19,238 10996 [DEBUG] - The source 'https://chocolatey.org/api/v2/' evaluated to a 'normal' source type
+2018-07-16 15:03:19,240 10996 [DEBUG] - 
+NOTE: Hiding sensitive configuration data! Please double and triple 
+ check to be sure no sensitive data is shown, especially if copying 
+ output to a gist for review.
+2018-07-16 15:03:19,275 10996 [DEBUG] - Configuration: CommandName='install'|
+CacheLocation='C:\Users\zzh\AppData\Local\Temp\chocolatey'|
+ContainsLegacyPackageInstalls='True'|
+CommandExecutionTimeoutSeconds='2700'|WebRequestTimeoutSeconds='30'|
+Sources='https://chocolatey.org/api/v2/'|SourceType='normal'|
+Debug='False'|Verbose='False'|Trace='False'|Force='False'|Noop='False'|
+HelpRequested='False'|UnsuccessfulParsing='False'|RegularOutput='True'|
+QuietOutput='False'|PromptForConfirmation='True'|AcceptLicense='False'|
+AllowUnofficialBuild='False'|Input='github-desktop'|
+AllVersions='False'|
+SkipPackageInstallProvider='False'|PackageNames='github-desktop'|
+Prerelease='False'|ForceX86='False'|OverrideArguments='False'|
+NotSilent='False'|ApplyPackageParametersToDependencies='False'|
+ApplyInstallArgumentsToDependencies='False'|IgnoreDependencies='False'|
+AllowMultipleVersions='False'|AllowDowngrade='False'|
+ForceDependencies='False'|Information.PlatformType='Windows'|
+Information.PlatformVersion='10.0.17134.0'|
+Information.PlatformName='Windows 10'|
+Information.ChocolateyVersion='0.10.11.0'|
+Information.ChocolateyProductVersion='0.10.11'|
+Information.FullName='choco, Version=0.10.11.0, Culture=neutral, PublicKeyToken=79d02ea9cad655eb'|
+
+Information.Is64BitOperatingSystem='True'|
+Information.Is64BitProcess='True'|Information.IsInteractive='True'|
+Information.UserName='zzh'|
+Information.UserDomainName='DESKTOP-TREMV1C'|
+Information.IsUserAdministrator='True'|
+Information.IsUserSystemAccount='False'|
+Information.IsUserRemoteDesktop='False'|
+Information.IsUserRemote='False'|Information.IsProcessElevated='False'|
+Information.IsLicensedVersion='False'|Information.LicenseType='Foss'|
+Features.AutoUninstaller='True'|Features.ChecksumFiles='True'|
+Features.AllowEmptyChecksums='False'|
+Features.AllowEmptyChecksumsSecure='True'|
+Features.FailOnAutoUninstaller='False'|
+Features.FailOnStandardError='False'|Features.UsePowerShellHost='True'|
+Features.LogEnvironmentValues='False'|Features.LogWithoutColor='False'|
+Features.VirusCheck='False'|
+Features.FailOnInvalidOrMissingLicense='False'|
+Features.IgnoreInvalidOptionsSwitches='True'|
+Features.UsePackageExitCodes='True'|
+Features.UseFipsCompliantChecksums='False'|
+Features.ShowNonElevatedWarnings='True'|
+Features.ShowDownloadProgress='True'|
+Features.StopOnFirstPackageFailure='False'|
+Features.UseRememberedArgumentsForUpgrades='False'|
+Features.IgnoreUnfoundPackagesOnUpgradeOutdated='False'|
+Features.RemovePackageInformationOnUninstall='False'|
+Features.ScriptsCheckLastExitCode='False'|
+ListCommand.LocalOnly='False'|
+ListCommand.IdOnly='False'|ListCommand.IncludeRegistryPrograms='False'|
+ListCommand.PageSize='25'|ListCommand.Exact='False'|
+ListCommand.ByIdOnly='False'|ListCommand.ByTagOnly='False'|
+ListCommand.IdStartsWith='False'|ListCommand.OrderByPopularity='False'|
+ListCommand.ApprovedOnly='False'|
+ListCommand.DownloadCacheAvailable='False'|
+ListCommand.NotBroken='False'|
+ListCommand.IncludeVersionOverrides='False'|
+UpgradeCommand.FailOnUnfound='False'|
+UpgradeCommand.FailOnNotInstalled='False'|
+UpgradeCommand.NotifyOnlyAvailableUpgrades='False'|
+UpgradeCommand.ExcludePrerelease='False'|
+NewCommand.AutomaticPackage='False'|
+NewCommand.UseOriginalTemplate='False'|SourceCommand.Command='unknown'|
+SourceCommand.Priority='0'|SourceCommand.BypassProxy='False'|
+SourceCommand.AllowSelfService='False'|
+SourceCommand.VisibleToAdminsOnly='False'|
+FeatureCommand.Command='unknown'|ConfigCommand.Command='unknown'|
+PinCommand.Command='unknown'|OutdatedCommand.IgnorePinned='False'|
+Proxy.BypassOnLocal='True'|
+2018-07-16 15:03:19,276 10996 [DEBUG] - _ Chocolatey:ChocolateyInstallCommand - Normal Run Mode _
+2018-07-16 15:03:19,289 10996 [INFO ] - Installing the following packages:
+2018-07-16 15:03:19,292 10996 [INFO ] - github-desktop
+2018-07-16 15:03:19,294 10996 [INFO ] - By installing you accept licenses for the packages.
+2018-07-16 15:05:05,857 10996 [ERROR] - github-desktop not installed. An error occurred during installation:
+ 操作超时
+2018-07-16 15:05:05,867 10996 [INFO ] - github-desktop package files install completed. Performing other installation steps.
+2018-07-16 15:05:05,867 10996 [DEBUG] - No package information as package is null.
+2018-07-16 15:05:05,907 10996 [DEBUG] - No package information to save as package is null.
+2018-07-16 15:05:05,917 10996 [DEBUG] - Sending message 'HandlePackageResultCompletedMessage' out if there are subscribers...
+2018-07-16 15:05:05,917 10996 [ERROR] - The install of github-desktop was NOT successful.
+2018-07-16 15:05:05,917 10996 [ERROR] - github-desktop not installed. An error occurred during installation:
+ 操作超时
+2018-07-16 15:05:05,937 10996 [WARN ] - 
+Chocolatey installed 0/1 packages. 1 packages failed.
+ See the log for details (C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\logs\chocolatey.log).
+2018-07-16 15:05:05,937 10996 [INFO ] - 
+2018-07-16 15:05:05,947 10996 [ERROR] - Failures
+2018-07-16 15:05:05,947 10996 [ERROR] -  - github-desktop (exited 1) - github-desktop not installed. An error occurred during installation:
+ 操作超时
+2018-07-16 15:05:05,947 10996 [WARN ] - 
+Did you know the proceeds of Pro (and some proceeds from other
+ licensed editions) go into bettering the community infrastructure?
+ Your support ensures an active community, keeps Chocolatey tip top,
+ plus it nets you some awesome features!
+ https://chocolatey.org/compare
+2018-07-16 15:05:05,957 10996 [DEBUG] - Sending message 'PostRunMessage' out if there are subscribers...
+2018-07-16 15:05:05,967 10996 [DEBUG] - Exiting with 1

@@ -9627,3 +9627,959 @@ Did you know the proceeds of Pro (and some proceeds from other
 2018-05-04 22:43:39,675 13932 [ERROR] - Exiting chocolatey abnormally. Please manually clean up anything that 
  was not finished.
 2018-05-04 22:43:39,675 13932 [ERROR] - Please do not ever use Control+C or close the window to exit.
+2018-06-15 18:24:15,192 13508 [INFO ] - ============================================================
+2018-06-15 18:24:16,346 13508 [INFO ] - Chocolatey v0.10.10
+2018-06-15 18:24:16,761 13508 [WARN ] - Chocolatey detected you are not running from an elevated command shell
+ (cmd/powershell).
+2018-06-15 18:24:16,781 13508 [WARN ] - 
+ You may experience errors - many functions/packages
+ require admin rights. Only advanced users should run choco w/out an
+ elevated shell. When you open the command shell, you should ensure 
+ that you do so with "Run as Administrator" selected. If you are 
+ attempting to use Chocolatey in a non-administrator setting, you
+ must select a different location other than the default install
+ location. See 
+ https://chocolatey.org/install#non-administrative-install for details.
+
+2018-06-15 18:24:16,849 13508 [INFO ] - 
+ Do you want to continue?
+2018-06-15 18:24:16,851 13508 [INFO ] -  1) yes
+2018-06-15 18:24:16,851 13508 [INFO ] -  2) no
+2018-06-15 18:24:19,625 13508 [INFO ] - Choice selected: 'yes'
+2018-06-15 18:24:19,676 13508 [INFO ] - Uninstalling the following packages:
+2018-06-15 18:24:19,684 13508 [INFO ] - python
+2018-06-15 18:24:20,835 13508 [ERROR] - python is not installed. Cannot uninstall a non-existent package.
+2018-06-15 18:24:20,895 13508 [WARN ] - 
+Chocolatey uninstalled 0/1 packages. 1 packages failed.
+ See the log for details (C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\logs\chocolatey.log).
+2018-06-15 18:24:20,905 13508 [INFO ] - 
+2018-06-15 18:24:20,945 13508 [ERROR] - Failures
+2018-06-15 18:24:20,945 13508 [ERROR] -  - python - python is not installed. Cannot uninstall a non-existent package.
+2018-06-15 18:24:20,955 13508 [WARN ] - 
+If a package uninstall is failing and/or you've already uninstalled the
+ software outside of Chocolatey, you can attempt to run the command
+ with `-n` to skip running a chocolateyUninstall script, additionally
+ adding `--skip-autouninstaller` to skip an attempt to automatically
+ remove system-installed software. This will only remove the packaging
+ files and not things like software installed to Programs and Features.
+
+If a package is failing because it is a dependency of another package
+ or packages, then you may first need to consider if it needs removed
+ as it is typically installed as a dependency for a reason. If you
+ decide that you still want to remove it, head into
+ `$env:ChocolateyInstall\lib` and find the package folder you want
+ removed. Then delete the folder for the package. This option should
+ only be used as a last resort.
+ 
+2018-06-15 18:24:29,051 6644 [INFO ] - ============================================================
+2018-06-15 18:24:29,509 6644 [INFO ] - Chocolatey v0.10.10
+2018-06-15 18:24:29,793 6644 [WARN ] - Chocolatey detected you are not running from an elevated command shell
+ (cmd/powershell).
+2018-06-15 18:24:29,803 6644 [WARN ] - 
+ You may experience errors - many functions/packages
+ require admin rights. Only advanced users should run choco w/out an
+ elevated shell. When you open the command shell, you should ensure 
+ that you do so with "Run as Administrator" selected. If you are 
+ attempting to use Chocolatey in a non-administrator setting, you
+ must select a different location other than the default install
+ location. See 
+ https://chocolatey.org/install#non-administrative-install for details.
+
+2018-06-15 18:24:29,843 6644 [INFO ] - 
+ Do you want to continue?
+2018-06-15 18:24:29,851 6644 [INFO ] -  1) yes
+2018-06-15 18:24:29,853 6644 [INFO ] -  2) no
+2018-06-15 18:24:31,373 6644 [INFO ] - Choice selected: 'yes'
+2018-06-15 18:24:31,404 6644 [INFO ] - Uninstalling the following packages:
+2018-06-15 18:24:31,412 6644 [INFO ] - python
+2018-06-15 18:24:31,881 6644 [ERROR] - python is not installed. Cannot uninstall a non-existent package.
+2018-06-15 18:24:31,923 6644 [WARN ] - 
+Chocolatey uninstalled 0/1 packages. 1 packages failed.
+ See the log for details (C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\logs\chocolatey.log).
+2018-06-15 18:24:31,931 6644 [INFO ] - 
+2018-06-15 18:24:31,933 6644 [ERROR] - Failures
+2018-06-15 18:24:31,943 6644 [ERROR] -  - python - python is not installed. Cannot uninstall a non-existent package.
+2018-06-15 18:24:31,943 6644 [WARN ] - 
+If a package uninstall is failing and/or you've already uninstalled the
+ software outside of Chocolatey, you can attempt to run the command
+ with `-n` to skip running a chocolateyUninstall script, additionally
+ adding `--skip-autouninstaller` to skip an attempt to automatically
+ remove system-installed software. This will only remove the packaging
+ files and not things like software installed to Programs and Features.
+
+If a package is failing because it is a dependency of another package
+ or packages, then you may first need to consider if it needs removed
+ as it is typically installed as a dependency for a reason. If you
+ decide that you still want to remove it, head into
+ `$env:ChocolateyInstall\lib` and find the package folder you want
+ removed. Then delete the folder for the package. This option should
+ only be used as a last resort.
+ 
+2018-06-15 18:24:42,459 13932 [INFO ] - ============================================================
+2018-06-15 18:24:42,896 13932 [INFO ] - Chocolatey v0.10.10
+2018-06-15 18:24:43,170 13932 [WARN ] - Chocolatey detected you are not running from an elevated command shell
+ (cmd/powershell).
+2018-06-15 18:24:43,180 13932 [WARN ] - 
+ You may experience errors - many functions/packages
+ require admin rights. Only advanced users should run choco w/out an
+ elevated shell. When you open the command shell, you should ensure 
+ that you do so with "Run as Administrator" selected. If you are 
+ attempting to use Chocolatey in a non-administrator setting, you
+ must select a different location other than the default install
+ location. See 
+ https://chocolatey.org/install#non-administrative-install for details.
+
+2018-06-15 18:24:43,229 13932 [INFO ] - 
+ Do you want to continue?
+2018-06-15 18:24:43,231 13932 [INFO ] -  1) yes
+2018-06-15 18:24:43,231 13932 [INFO ] -  2) no
+2018-06-15 18:24:44,598 13932 [INFO ] - Choice selected: 'yes'
+2018-06-15 18:24:44,639 13932 [INFO ] - Installing the following packages:
+2018-06-15 18:24:44,649 13932 [INFO ] - python
+2018-06-15 18:24:44,649 13932 [INFO ] - By installing you accept licenses for the packages.
+2018-06-15 18:24:49,577 13932 [INFO ] - [NuGet] Attempting to resolve dependency 'python3 (= 3.6.5)'.
+2018-06-15 18:25:04,259 13932 [INFO ] - [NuGet] Attempting to resolve dependency 'chocolatey (≥ 0.10.5)'.
+2018-06-15 18:25:18,713 13932 [INFO ] - [NuGet] Attempting to resolve dependency 'chocolatey-core.extension (≥ 1.3.3)'.
+2018-06-15 18:25:21,328 13932 [INFO ] - [NuGet] Installing 'chocolatey 0.10.11'.
+2018-06-15 18:25:21,906 13932 [INFO ] - [NuGet] Successfully installed 'chocolatey 0.10.11'.
+2018-06-15 18:25:21,906 13932 [INFO ] - 
+chocolatey v0.10.11 [Approved]
+2018-06-15 18:25:21,927 13932 [INFO ] - chocolatey package files install completed. Performing other installation steps.
+2018-06-15 18:25:31,582 13932 [INFO ] - The package chocolatey wants to run 'chocolateyInstall.ps1'.
+2018-06-15 18:25:31,592 13932 [INFO ] - Note: If you don't run this script, the installation will fail.
+2018-06-15 18:25:31,632 13932 [INFO ] - Note: To confirm automatically next time, use '-y' or consider:
+2018-06-15 18:25:31,640 13932 [INFO ] - choco feature enable -n allowGlobalConfirmation
+2018-06-15 18:25:31,652 13932 [INFO ] - Do you want to run the script?
+2018-06-15 18:25:31,660 13932 [INFO ] -  1) yes
+2018-06-15 18:25:31,662 13932 [INFO ] -  2) no
+2018-06-15 18:25:31,672 13932 [INFO ] -  3) print
+2018-06-15 18:25:36,674 13932 [INFO ] - Choice selected: 'yes'
+2018-06-15 18:25:43,202 13932 [INFO ] - VERBOSE: Exporting function 'Format-FileSize'.
+2018-06-15 18:25:43,202 13932 [INFO ] - VERBOSE: Exporting function 'Get-ChecksumValid'.
+2018-06-15 18:25:43,202 13932 [INFO ] - VERBOSE: Exporting function 'Get-ChocolateyUnzip'.
+2018-06-15 18:25:43,212 13932 [INFO ] - VERBOSE: Exporting function 'Get-ChocolateyWebFile'.
+2018-06-15 18:25:43,212 13932 [INFO ] - VERBOSE: Exporting function 'Get-EnvironmentVariable'.
+2018-06-15 18:25:43,212 13932 [INFO ] - VERBOSE: Exporting function 'Get-EnvironmentVariableNames'.
+2018-06-15 18:25:43,212 13932 [INFO ] - VERBOSE: Exporting function 'Get-FtpFile'.
+2018-06-15 18:25:43,222 13932 [INFO ] - VERBOSE: Exporting function 'Get-OSArchitectureWidth'.
+2018-06-15 18:25:43,222 13932 [INFO ] - VERBOSE: Exporting function 'Get-PackageParameters'.
+2018-06-15 18:25:43,222 13932 [INFO ] - VERBOSE: Exporting function 'Get-PackageParametersBuiltIn'.
+2018-06-15 18:25:43,222 13932 [INFO ] - VERBOSE: Exporting function 'Get-ToolsLocation'.
+2018-06-15 18:25:43,232 13932 [INFO ] - VERBOSE: Exporting function 'Get-UACEnabled'.
+2018-06-15 18:25:43,232 13932 [INFO ] - VERBOSE: Exporting function 'Get-UninstallRegistryKey'.
+2018-06-15 18:25:43,232 13932 [INFO ] - VERBOSE: Exporting function 'Get-VirusCheckValid'.
+2018-06-15 18:25:43,232 13932 [INFO ] - VERBOSE: Exporting function 'Get-WebFile'.
+2018-06-15 18:25:43,232 13932 [INFO ] - VERBOSE: Exporting function 'Get-WebFileName'.
+2018-06-15 18:25:43,232 13932 [INFO ] - VERBOSE: Exporting function 'Get-WebHeaders'.
+2018-06-15 18:25:43,242 13932 [INFO ] - VERBOSE: Exporting function 'Install-BinFile'.
+2018-06-15 18:25:43,242 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyDesktopLink'.
+2018-06-15 18:25:43,242 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyEnvironmentVariable'.
+2018-06-15 18:25:43,242 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyExplorerMenuItem'.
+2018-06-15 18:25:43,242 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyFileAssociation'.
+2018-06-15 18:25:43,242 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyInstallPackage'.
+2018-06-15 18:25:43,242 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPackage'.
+2018-06-15 18:25:43,252 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPath'.
+2018-06-15 18:25:43,252 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPinnedTaskBarItem'.
+2018-06-15 18:25:43,252 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPowershellCommand'.
+2018-06-15 18:25:43,252 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyShortcut'.
+2018-06-15 18:25:43,252 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyVsixPackage'.
+2018-06-15 18:25:43,252 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyZipPackage'.
+2018-06-15 18:25:43,262 13932 [INFO ] - VERBOSE: Exporting function 'Install-Vsix'.
+2018-06-15 18:25:43,262 13932 [INFO ] - VERBOSE: Exporting function 'Set-EnvironmentVariable'.
+2018-06-15 18:25:43,262 13932 [INFO ] - VERBOSE: Exporting function 'Set-PowerShellExitCode'.
+2018-06-15 18:25:43,262 13932 [INFO ] - VERBOSE: Exporting function 'Start-ChocolateyProcessAsAdmin'.
+2018-06-15 18:25:43,262 13932 [INFO ] - VERBOSE: Exporting function 'Test-ProcessAdminRights'.
+2018-06-15 18:25:43,262 13932 [INFO ] - VERBOSE: Exporting function 'Uninstall-BinFile'.
+2018-06-15 18:25:43,272 13932 [INFO ] - VERBOSE: Exporting function 'Uninstall-ChocolateyEnvironmentVariable'.
+2018-06-15 18:25:43,272 13932 [INFO ] - VERBOSE: Exporting function 'Uninstall-ChocolateyPackage'.
+2018-06-15 18:25:43,272 13932 [INFO ] - VERBOSE: Exporting function 'Uninstall-ChocolateyZipPackage'.
+2018-06-15 18:25:43,272 13932 [INFO ] - VERBOSE: Exporting function 'Update-SessionEnvironment'.
+2018-06-15 18:25:43,272 13932 [INFO ] - VERBOSE: Exporting function 'Write-ChocolateyFailure'.
+2018-06-15 18:25:43,272 13932 [INFO ] - VERBOSE: Exporting function 'Write-ChocolateySuccess'.
+2018-06-15 18:25:43,272 13932 [INFO ] - VERBOSE: Exporting function 'Write-FileUpdateLog'.
+2018-06-15 18:25:43,282 13932 [INFO ] - VERBOSE: Exporting function 'Write-FunctionCallLogMessage'.
+2018-06-15 18:25:43,292 13932 [INFO ] - VERBOSE: Exporting alias 'Get-ProcessorBits'.
+2018-06-15 18:25:43,292 13932 [INFO ] - VERBOSE: Exporting alias 'Get-OSBitness'.
+2018-06-15 18:25:43,292 13932 [INFO ] - VERBOSE: Exporting alias 'Get-InstallRegistryKey'.
+2018-06-15 18:25:43,292 13932 [INFO ] - VERBOSE: Exporting alias 'Generate-BinFile'.
+2018-06-15 18:25:43,302 13932 [INFO ] - VERBOSE: Exporting alias 'Add-BinFile'.
+2018-06-15 18:25:43,302 13932 [INFO ] - VERBOSE: Exporting alias 'Start-ChocolateyProcess'.
+2018-06-15 18:25:43,302 13932 [INFO ] - VERBOSE: Exporting alias 'Invoke-ChocolateyProcess'.
+2018-06-15 18:25:43,302 13932 [INFO ] - VERBOSE: Exporting alias 'Remove-BinFile'.
+2018-06-15 18:25:43,302 13932 [INFO ] - VERBOSE: Exporting alias 'refreshenv'.
+2018-06-15 18:25:43,422 13932 [INFO ] - VERBOSE: Loading module from path 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\extensions\chocolatey-core\chocolatey-core.psm1'.
+2018-06-15 18:25:43,732 13932 [INFO ] - VERBOSE: Exporting function 'Get-UninstallRegistryKey'.
+2018-06-15 18:25:43,742 13932 [INFO ] - VERBOSE: Exporting function 'Get-AppInstallLocation'.
+2018-06-15 18:25:43,742 13932 [INFO ] - VERBOSE: Exporting function 'Get-AvailableDriveLetter'.
+2018-06-15 18:25:43,742 13932 [INFO ] - VERBOSE: Exporting function 'Get-EffectiveProxy'.
+2018-06-15 18:25:43,742 13932 [INFO ] - VERBOSE: Exporting function 'Get-PackageCacheLocation'.
+2018-06-15 18:25:43,742 13932 [INFO ] - VERBOSE: Exporting function 'Get-PackageParameters'.
+2018-06-15 18:25:43,752 13932 [INFO ] - VERBOSE: Exporting function 'Get-WebContent'.
+2018-06-15 18:25:43,752 13932 [INFO ] - VERBOSE: Exporting function 'Register-Application'.
+2018-06-15 18:25:43,762 13932 [INFO ] - VERBOSE: Importing function 'Get-AppInstallLocation'.
+2018-06-15 18:25:43,772 13932 [INFO ] - VERBOSE: Importing function 'Get-AvailableDriveLetter'.
+2018-06-15 18:25:43,772 13932 [INFO ] - VERBOSE: Importing function 'Get-EffectiveProxy'.
+2018-06-15 18:25:43,772 13932 [INFO ] - VERBOSE: Importing function 'Get-PackageCacheLocation'.
+2018-06-15 18:25:43,772 13932 [INFO ] - VERBOSE: Importing function 'Get-PackageParameters'.
+2018-06-15 18:25:43,772 13932 [INFO ] - VERBOSE: Importing function 'Get-UninstallRegistryKey'.
+2018-06-15 18:25:43,772 13932 [INFO ] - VERBOSE: Importing function 'Get-WebContent'.
+2018-06-15 18:25:43,782 13932 [INFO ] - VERBOSE: Importing function 'Register-Application'.
+2018-06-15 18:25:43,782 13932 [INFO ] - VERBOSE: Exporting function 'Format-FileSize'.
+2018-06-15 18:25:43,782 13932 [INFO ] - VERBOSE: Exporting function 'Get-ChecksumValid'.
+2018-06-15 18:25:43,782 13932 [INFO ] - VERBOSE: Exporting function 'Get-ChocolateyUnzip'.
+2018-06-15 18:25:43,782 13932 [INFO ] - VERBOSE: Exporting function 'Get-ChocolateyWebFile'.
+2018-06-15 18:25:43,792 13932 [INFO ] - VERBOSE: Exporting function 'Get-EnvironmentVariable'.
+2018-06-15 18:25:43,792 13932 [INFO ] - VERBOSE: Exporting function 'Get-EnvironmentVariableNames'.
+2018-06-15 18:25:43,792 13932 [INFO ] - VERBOSE: Exporting function 'Get-FtpFile'.
+2018-06-15 18:25:43,792 13932 [INFO ] - VERBOSE: Exporting function 'Get-OSArchitectureWidth'.
+2018-06-15 18:25:43,792 13932 [INFO ] - VERBOSE: Exporting function 'Get-PackageParameters'.
+2018-06-15 18:25:43,802 13932 [INFO ] - VERBOSE: Exporting function 'Get-PackageParametersBuiltIn'.
+2018-06-15 18:25:43,802 13932 [INFO ] - VERBOSE: Exporting function 'Get-ToolsLocation'.
+2018-06-15 18:25:43,802 13932 [INFO ] - VERBOSE: Exporting function 'Get-UACEnabled'.
+2018-06-15 18:25:43,802 13932 [INFO ] - VERBOSE: Exporting function 'Get-UninstallRegistryKey'.
+2018-06-15 18:25:43,802 13932 [INFO ] - VERBOSE: Exporting function 'Get-VirusCheckValid'.
+2018-06-15 18:25:43,802 13932 [INFO ] - VERBOSE: Exporting function 'Get-WebFile'.
+2018-06-15 18:25:43,802 13932 [INFO ] - VERBOSE: Exporting function 'Get-WebFileName'.
+2018-06-15 18:25:43,812 13932 [INFO ] - VERBOSE: Exporting function 'Get-WebHeaders'.
+2018-06-15 18:25:43,812 13932 [INFO ] - VERBOSE: Exporting function 'Install-BinFile'.
+2018-06-15 18:25:43,812 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyDesktopLink'.
+2018-06-15 18:25:43,812 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyEnvironmentVariable'.
+2018-06-15 18:25:43,812 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyExplorerMenuItem'.
+2018-06-15 18:25:43,812 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyFileAssociation'.
+2018-06-15 18:25:43,822 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyInstallPackage'.
+2018-06-15 18:25:43,822 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPackage'.
+2018-06-15 18:25:43,822 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPath'.
+2018-06-15 18:25:43,822 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPinnedTaskBarItem'.
+2018-06-15 18:25:43,822 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPowershellCommand'.
+2018-06-15 18:25:43,822 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyShortcut'.
+2018-06-15 18:25:43,832 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyVsixPackage'.
+2018-06-15 18:25:43,832 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyZipPackage'.
+2018-06-15 18:25:43,832 13932 [INFO ] - VERBOSE: Exporting function 'Install-Vsix'.
+2018-06-15 18:25:43,832 13932 [INFO ] - VERBOSE: Exporting function 'Set-EnvironmentVariable'.
+2018-06-15 18:25:43,832 13932 [INFO ] - VERBOSE: Exporting function 'Set-PowerShellExitCode'.
+2018-06-15 18:25:43,832 13932 [INFO ] - VERBOSE: Exporting function 'Start-ChocolateyProcessAsAdmin'.
+2018-06-15 18:25:43,842 13932 [INFO ] - VERBOSE: Exporting function 'Test-ProcessAdminRights'.
+2018-06-15 18:25:43,842 13932 [INFO ] - VERBOSE: Exporting function 'Uninstall-BinFile'.
+2018-06-15 18:25:43,842 13932 [INFO ] - VERBOSE: Exporting function 'Uninstall-ChocolateyEnvironmentVariable'.
+2018-06-15 18:25:43,842 13932 [INFO ] - VERBOSE: Exporting function 'Uninstall-ChocolateyPackage'.
+2018-06-15 18:25:43,852 13932 [INFO ] - VERBOSE: Exporting function 'Uninstall-ChocolateyZipPackage'.
+2018-06-15 18:25:43,852 13932 [INFO ] - VERBOSE: Exporting function 'Update-SessionEnvironment'.
+2018-06-15 18:25:43,852 13932 [INFO ] - VERBOSE: Exporting function 'Write-ChocolateyFailure'.
+2018-06-15 18:25:43,852 13932 [INFO ] - VERBOSE: Exporting function 'Write-ChocolateySuccess'.
+2018-06-15 18:25:43,852 13932 [INFO ] - VERBOSE: Exporting function 'Write-FileUpdateLog'.
+2018-06-15 18:25:43,852 13932 [INFO ] - VERBOSE: Exporting function 'Write-FunctionCallLogMessage'.
+2018-06-15 18:25:43,862 13932 [INFO ] - VERBOSE: Exporting function 'Get-AppInstallLocation'.
+2018-06-15 18:25:43,862 13932 [INFO ] - VERBOSE: Exporting function 'Get-AvailableDriveLetter'.
+2018-06-15 18:25:43,862 13932 [INFO ] - VERBOSE: Exporting function 'Get-EffectiveProxy'.
+2018-06-15 18:25:43,862 13932 [INFO ] - VERBOSE: Exporting function 'Get-PackageCacheLocation'.
+2018-06-15 18:25:43,862 13932 [INFO ] - VERBOSE: Exporting function 'Get-WebContent'.
+2018-06-15 18:25:43,862 13932 [INFO ] - VERBOSE: Exporting function 'Register-Application'.
+2018-06-15 18:25:43,872 13932 [INFO ] - VERBOSE: Exporting alias 'Get-ProcessorBits'.
+2018-06-15 18:25:43,872 13932 [INFO ] - VERBOSE: Exporting alias 'Get-OSBitness'.
+2018-06-15 18:25:43,872 13932 [INFO ] - VERBOSE: Exporting alias 'Get-InstallRegistryKey'.
+2018-06-15 18:25:43,872 13932 [INFO ] - VERBOSE: Exporting alias 'Generate-BinFile'.
+2018-06-15 18:25:43,872 13932 [INFO ] - VERBOSE: Exporting alias 'Add-BinFile'.
+2018-06-15 18:25:43,872 13932 [INFO ] - VERBOSE: Exporting alias 'Start-ChocolateyProcess'.
+2018-06-15 18:25:43,882 13932 [INFO ] - VERBOSE: Exporting alias 'Invoke-ChocolateyProcess'.
+2018-06-15 18:25:43,882 13932 [INFO ] - VERBOSE: Exporting alias 'Remove-BinFile'.
+2018-06-15 18:25:43,882 13932 [INFO ] - VERBOSE: Exporting alias 'refreshenv'.
+2018-06-15 18:25:43,882 13932 [INFO ] - VERBOSE: Importing function 'Format-FileSize'.
+2018-06-15 18:25:43,882 13932 [INFO ] - VERBOSE: Importing function 'Get-AppInstallLocation'.
+2018-06-15 18:25:43,882 13932 [INFO ] - VERBOSE: Importing function 'Get-AvailableDriveLetter'.
+2018-06-15 18:25:43,882 13932 [INFO ] - VERBOSE: Importing function 'Get-ChecksumValid'.
+2018-06-15 18:25:43,892 13932 [INFO ] - VERBOSE: Importing function 'Get-ChocolateyUnzip'.
+2018-06-15 18:25:43,892 13932 [INFO ] - VERBOSE: Importing function 'Get-ChocolateyWebFile'.
+2018-06-15 18:25:43,892 13932 [INFO ] - VERBOSE: Importing function 'Get-EffectiveProxy'.
+2018-06-15 18:25:43,892 13932 [INFO ] - VERBOSE: Importing function 'Get-EnvironmentVariable'.
+2018-06-15 18:25:43,892 13932 [INFO ] - VERBOSE: Importing function 'Get-EnvironmentVariableNames'.
+2018-06-15 18:25:43,892 13932 [INFO ] - VERBOSE: Importing function 'Get-FtpFile'.
+2018-06-15 18:25:43,902 13932 [INFO ] - VERBOSE: Importing function 'Get-OSArchitectureWidth'.
+2018-06-15 18:25:43,902 13932 [INFO ] - VERBOSE: Importing function 'Get-PackageCacheLocation'.
+2018-06-15 18:25:43,902 13932 [INFO ] - VERBOSE: Importing function 'Get-PackageParameters'.
+2018-06-15 18:25:43,902 13932 [INFO ] - VERBOSE: Importing function 'Get-PackageParametersBuiltIn'.
+2018-06-15 18:25:43,902 13932 [INFO ] - VERBOSE: Importing function 'Get-ToolsLocation'.
+2018-06-15 18:25:43,902 13932 [INFO ] - VERBOSE: Importing function 'Get-UACEnabled'.
+2018-06-15 18:25:43,912 13932 [INFO ] - VERBOSE: Importing function 'Get-UninstallRegistryKey'.
+2018-06-15 18:25:43,912 13932 [INFO ] - VERBOSE: Importing function 'Get-VirusCheckValid'.
+2018-06-15 18:25:43,912 13932 [INFO ] - VERBOSE: Importing function 'Get-WebContent'.
+2018-06-15 18:25:43,912 13932 [INFO ] - VERBOSE: Importing function 'Get-WebFile'.
+2018-06-15 18:25:43,912 13932 [INFO ] - VERBOSE: Importing function 'Get-WebFileName'.
+2018-06-15 18:25:43,912 13932 [INFO ] - VERBOSE: Importing function 'Get-WebHeaders'.
+2018-06-15 18:25:43,922 13932 [INFO ] - VERBOSE: Importing function 'Install-BinFile'.
+2018-06-15 18:25:43,922 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyDesktopLink'.
+2018-06-15 18:25:43,922 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyEnvironmentVariable'.
+2018-06-15 18:25:43,922 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyExplorerMenuItem'.
+2018-06-15 18:25:43,922 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyFileAssociation'.
+2018-06-15 18:25:43,922 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyInstallPackage'.
+2018-06-15 18:25:43,922 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyPackage'.
+2018-06-15 18:25:43,932 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyPath'.
+2018-06-15 18:25:43,932 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyPinnedTaskBarItem'.
+2018-06-15 18:25:43,932 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyPowershellCommand'.
+2018-06-15 18:25:43,932 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyShortcut'.
+2018-06-15 18:25:43,932 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyVsixPackage'.
+2018-06-15 18:25:43,932 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyZipPackage'.
+2018-06-15 18:25:43,942 13932 [INFO ] - VERBOSE: Importing function 'Install-Vsix'.
+2018-06-15 18:25:43,942 13932 [INFO ] - VERBOSE: Importing function 'Register-Application'.
+2018-06-15 18:25:43,942 13932 [INFO ] - VERBOSE: Importing function 'Set-EnvironmentVariable'.
+2018-06-15 18:25:43,942 13932 [INFO ] - VERBOSE: Importing function 'Set-PowerShellExitCode'.
+2018-06-15 18:25:43,942 13932 [INFO ] - VERBOSE: Importing function 'Start-ChocolateyProcessAsAdmin'.
+2018-06-15 18:25:43,942 13932 [INFO ] - VERBOSE: Importing function 'Test-ProcessAdminRights'.
+2018-06-15 18:25:43,942 13932 [INFO ] - VERBOSE: Importing function 'Uninstall-BinFile'.
+2018-06-15 18:25:43,952 13932 [INFO ] - VERBOSE: Importing function 'Uninstall-ChocolateyEnvironmentVariable'.
+2018-06-15 18:25:43,952 13932 [INFO ] - VERBOSE: Importing function 'Uninstall-ChocolateyPackage'.
+2018-06-15 18:25:43,952 13932 [INFO ] - VERBOSE: Importing function 'Uninstall-ChocolateyZipPackage'.
+2018-06-15 18:25:43,952 13932 [INFO ] - VERBOSE: Importing function 'Update-SessionEnvironment'.
+2018-06-15 18:25:43,952 13932 [INFO ] - VERBOSE: Importing function 'Write-ChocolateyFailure'.
+2018-06-15 18:25:43,952 13932 [INFO ] - VERBOSE: Importing function 'Write-ChocolateySuccess'.
+2018-06-15 18:25:43,952 13932 [INFO ] - VERBOSE: Importing function 'Write-FileUpdateLog'.
+2018-06-15 18:25:43,962 13932 [INFO ] - VERBOSE: Importing function 'Write-FunctionCallLogMessage'.
+2018-06-15 18:25:43,962 13932 [INFO ] - VERBOSE: Importing alias 'Add-BinFile'.
+2018-06-15 18:25:43,962 13932 [INFO ] - VERBOSE: Importing alias 'Generate-BinFile'.
+2018-06-15 18:25:43,962 13932 [INFO ] - VERBOSE: Importing alias 'Get-InstallRegistryKey'.
+2018-06-15 18:25:43,962 13932 [INFO ] - VERBOSE: Importing alias 'Get-OSBitness'.
+2018-06-15 18:25:43,962 13932 [INFO ] - VERBOSE: Importing alias 'Get-ProcessorBits'.
+2018-06-15 18:25:43,972 13932 [INFO ] - VERBOSE: Importing alias 'Invoke-ChocolateyProcess'.
+2018-06-15 18:25:43,972 13932 [INFO ] - VERBOSE: Importing alias 'refreshenv'.
+2018-06-15 18:25:43,972 13932 [INFO ] - VERBOSE: Importing alias 'Remove-BinFile'.
+2018-06-15 18:25:43,972 13932 [INFO ] - VERBOSE: Importing alias 'Start-ChocolateyProcess'.
+2018-06-15 18:25:44,252 13932 [INFO ] - VERBOSE: Loading module from path 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateysetup.psm1'.
+2018-06-15 18:25:44,292 13932 [INFO ] - VERBOSE: Exporting function 'Initialize-Chocolatey'.
+2018-06-15 18:25:44,302 13932 [INFO ] - VERBOSE: Importing function 'Initialize-Chocolatey'.
+2018-06-15 18:25:44,332 13932 [INFO ] - VERBOSE: Loading module from path 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\chocolatey\tools\chocolateyInstall\helpers\chocolateyInstaller.psm1'.
+2018-06-15 18:25:44,742 13932 [INFO ] - VERBOSE: Exporting function 'Format-FileSize'.
+2018-06-15 18:25:44,742 13932 [INFO ] - VERBOSE: Exporting function 'Get-ChecksumValid'.
+2018-06-15 18:25:44,752 13932 [INFO ] - VERBOSE: Exporting function 'Get-ChocolateyUnzip'.
+2018-06-15 18:25:44,752 13932 [INFO ] - VERBOSE: Exporting function 'Get-ChocolateyWebFile'.
+2018-06-15 18:25:44,752 13932 [INFO ] - VERBOSE: Exporting function 'Get-EnvironmentVariable'.
+2018-06-15 18:25:44,752 13932 [INFO ] - VERBOSE: Exporting function 'Get-EnvironmentVariableNames'.
+2018-06-15 18:25:44,752 13932 [INFO ] - VERBOSE: Exporting function 'Get-FtpFile'.
+2018-06-15 18:25:44,752 13932 [INFO ] - VERBOSE: Exporting function 'Get-OSArchitectureWidth'.
+2018-06-15 18:25:44,762 13932 [INFO ] - VERBOSE: Exporting function 'Get-PackageParameters'.
+2018-06-15 18:25:44,762 13932 [INFO ] - VERBOSE: Exporting function 'Get-ToolsLocation'.
+2018-06-15 18:25:44,762 13932 [INFO ] - VERBOSE: Exporting function 'Get-UACEnabled'.
+2018-06-15 18:25:44,762 13932 [INFO ] - VERBOSE: Exporting function 'Get-UninstallRegistryKey'.
+2018-06-15 18:25:44,762 13932 [INFO ] - VERBOSE: Exporting function 'Get-VirusCheckValid'.
+2018-06-15 18:25:44,762 13932 [INFO ] - VERBOSE: Exporting function 'Get-WebFile'.
+2018-06-15 18:25:44,772 13932 [INFO ] - VERBOSE: Exporting function 'Get-WebFileName'.
+2018-06-15 18:25:44,772 13932 [INFO ] - VERBOSE: Exporting function 'Get-WebHeaders'.
+2018-06-15 18:25:44,772 13932 [INFO ] - VERBOSE: Exporting function 'Install-BinFile'.
+2018-06-15 18:25:44,772 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyDesktopLink'.
+2018-06-15 18:25:44,772 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyEnvironmentVariable'.
+2018-06-15 18:25:44,772 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyExplorerMenuItem'.
+2018-06-15 18:25:44,782 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyFileAssociation'.
+2018-06-15 18:25:44,782 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyInstallPackage'.
+2018-06-15 18:25:44,782 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPackage'.
+2018-06-15 18:25:44,782 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPath'.
+2018-06-15 18:25:44,782 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPinnedTaskBarItem'.
+2018-06-15 18:25:44,782 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPowershellCommand'.
+2018-06-15 18:25:44,782 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyShortcut'.
+2018-06-15 18:25:44,792 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyVsixPackage'.
+2018-06-15 18:25:44,792 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyZipPackage'.
+2018-06-15 18:25:44,792 13932 [INFO ] - VERBOSE: Exporting function 'Install-Vsix'.
+2018-06-15 18:25:44,792 13932 [INFO ] - VERBOSE: Exporting function 'Set-EnvironmentVariable'.
+2018-06-15 18:25:44,792 13932 [INFO ] - VERBOSE: Exporting function 'Set-PowerShellExitCode'.
+2018-06-15 18:25:44,792 13932 [INFO ] - VERBOSE: Exporting function 'Start-ChocolateyProcessAsAdmin'.
+2018-06-15 18:25:44,802 13932 [INFO ] - VERBOSE: Exporting function 'Test-ProcessAdminRights'.
+2018-06-15 18:25:44,802 13932 [INFO ] - VERBOSE: Exporting function 'Uninstall-BinFile'.
+2018-06-15 18:25:44,802 13932 [INFO ] - VERBOSE: Exporting function 'Uninstall-ChocolateyEnvironmentVariable'.
+2018-06-15 18:25:44,802 13932 [INFO ] - VERBOSE: Exporting function 'Uninstall-ChocolateyPackage'.
+2018-06-15 18:25:44,802 13932 [INFO ] - VERBOSE: Exporting function 'Uninstall-ChocolateyZipPackage'.
+2018-06-15 18:25:44,812 13932 [INFO ] - VERBOSE: Exporting function 'Update-SessionEnvironment'.
+2018-06-15 18:25:44,812 13932 [INFO ] - VERBOSE: Exporting function 'Write-ChocolateyFailure'.
+2018-06-15 18:25:44,822 13932 [INFO ] - VERBOSE: Exporting function 'Write-ChocolateySuccess'.
+2018-06-15 18:25:44,822 13932 [INFO ] - VERBOSE: Exporting function 'Write-FileUpdateLog'.
+2018-06-15 18:25:44,822 13932 [INFO ] - VERBOSE: Exporting function 'Write-FunctionCallLogMessage'.
+2018-06-15 18:25:44,822 13932 [INFO ] - VERBOSE: Exporting alias 'Get-ProcessorBits'.
+2018-06-15 18:25:44,822 13932 [INFO ] - VERBOSE: Exporting alias 'Get-OSBitness'.
+2018-06-15 18:25:44,822 13932 [INFO ] - VERBOSE: Exporting alias 'Get-InstallRegistryKey'.
+2018-06-15 18:25:44,832 13932 [INFO ] - VERBOSE: Exporting alias 'Generate-BinFile'.
+2018-06-15 18:25:44,832 13932 [INFO ] - VERBOSE: Exporting alias 'Add-BinFile'.
+2018-06-15 18:25:44,832 13932 [INFO ] - VERBOSE: Exporting alias 'Start-ChocolateyProcess'.
+2018-06-15 18:25:44,832 13932 [INFO ] - VERBOSE: Exporting alias 'Invoke-ChocolateyProcess'.
+2018-06-15 18:25:44,832 13932 [INFO ] - VERBOSE: Exporting alias 'Remove-BinFile'.
+2018-06-15 18:25:44,832 13932 [INFO ] - VERBOSE: Exporting alias 'refreshenv'.
+2018-06-15 18:25:44,842 13932 [INFO ] - VERBOSE: Exporting function 'Format-FileSize'.
+2018-06-15 18:25:44,842 13932 [INFO ] - VERBOSE: Exporting function 'Get-ChecksumValid'.
+2018-06-15 18:25:44,842 13932 [INFO ] - VERBOSE: Exporting function 'Get-ChocolateyUnzip'.
+2018-06-15 18:25:44,842 13932 [INFO ] - VERBOSE: Exporting function 'Get-ChocolateyWebFile'.
+2018-06-15 18:25:44,842 13932 [INFO ] - VERBOSE: Exporting function 'Get-EnvironmentVariable'.
+2018-06-15 18:25:44,852 13932 [INFO ] - VERBOSE: Exporting function 'Get-EnvironmentVariableNames'.
+2018-06-15 18:25:44,852 13932 [INFO ] - VERBOSE: Exporting function 'Get-FtpFile'.
+2018-06-15 18:25:44,852 13932 [INFO ] - VERBOSE: Exporting function 'Get-OSArchitectureWidth'.
+2018-06-15 18:25:44,852 13932 [INFO ] - VERBOSE: Exporting function 'Get-PackageParameters'.
+2018-06-15 18:25:44,852 13932 [INFO ] - VERBOSE: Exporting function 'Get-ToolsLocation'.
+2018-06-15 18:25:44,852 13932 [INFO ] - VERBOSE: Exporting function 'Get-UACEnabled'.
+2018-06-15 18:25:44,862 13932 [INFO ] - VERBOSE: Exporting function 'Get-UninstallRegistryKey'.
+2018-06-15 18:25:44,862 13932 [INFO ] - VERBOSE: Exporting function 'Get-VirusCheckValid'.
+2018-06-15 18:25:44,862 13932 [INFO ] - VERBOSE: Exporting function 'Get-WebFile'.
+2018-06-15 18:25:44,862 13932 [INFO ] - VERBOSE: Exporting function 'Get-WebFileName'.
+2018-06-15 18:25:44,872 13932 [INFO ] - VERBOSE: Exporting function 'Get-WebHeaders'.
+2018-06-15 18:25:44,872 13932 [INFO ] - VERBOSE: Exporting function 'Install-BinFile'.
+2018-06-15 18:25:44,872 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyDesktopLink'.
+2018-06-15 18:25:44,872 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyEnvironmentVariable'.
+2018-06-15 18:25:44,872 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyExplorerMenuItem'.
+2018-06-15 18:25:44,872 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyFileAssociation'.
+2018-06-15 18:25:44,882 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyInstallPackage'.
+2018-06-15 18:25:44,882 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPackage'.
+2018-06-15 18:25:44,882 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPath'.
+2018-06-15 18:25:44,882 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPinnedTaskBarItem'.
+2018-06-15 18:25:44,892 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPowershellCommand'.
+2018-06-15 18:25:44,892 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyShortcut'.
+2018-06-15 18:25:44,892 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyVsixPackage'.
+2018-06-15 18:25:44,892 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyZipPackage'.
+2018-06-15 18:25:44,892 13932 [INFO ] - VERBOSE: Exporting function 'Install-Vsix'.
+2018-06-15 18:25:44,892 13932 [INFO ] - VERBOSE: Exporting function 'Set-EnvironmentVariable'.
+2018-06-15 18:25:44,902 13932 [INFO ] - VERBOSE: Exporting function 'Set-PowerShellExitCode'.
+2018-06-15 18:25:44,902 13932 [INFO ] - VERBOSE: Exporting function 'Start-ChocolateyProcessAsAdmin'.
+2018-06-15 18:25:44,902 13932 [INFO ] - VERBOSE: Exporting function 'Test-ProcessAdminRights'.
+2018-06-15 18:25:44,902 13932 [INFO ] - VERBOSE: Exporting function 'Uninstall-BinFile'.
+2018-06-15 18:25:44,902 13932 [INFO ] - VERBOSE: Exporting function 'Uninstall-ChocolateyEnvironmentVariable'.
+2018-06-15 18:25:44,902 13932 [INFO ] - VERBOSE: Exporting function 'Uninstall-ChocolateyPackage'.
+2018-06-15 18:25:44,912 13932 [INFO ] - VERBOSE: Exporting function 'Uninstall-ChocolateyZipPackage'.
+2018-06-15 18:25:44,912 13932 [INFO ] - VERBOSE: Exporting function 'Update-SessionEnvironment'.
+2018-06-15 18:25:44,912 13932 [INFO ] - VERBOSE: Exporting function 'Write-ChocolateyFailure'.
+2018-06-15 18:25:44,912 13932 [INFO ] - VERBOSE: Exporting function 'Write-ChocolateySuccess'.
+2018-06-15 18:25:44,912 13932 [INFO ] - VERBOSE: Exporting function 'Write-FileUpdateLog'.
+2018-06-15 18:25:44,912 13932 [INFO ] - VERBOSE: Exporting function 'Write-FunctionCallLogMessage'.
+2018-06-15 18:25:44,922 13932 [INFO ] - VERBOSE: Exporting alias 'Get-ProcessorBits'.
+2018-06-15 18:25:44,922 13932 [INFO ] - VERBOSE: Exporting alias 'Get-OSBitness'.
+2018-06-15 18:25:44,922 13932 [INFO ] - VERBOSE: Exporting alias 'Get-InstallRegistryKey'.
+2018-06-15 18:25:44,922 13932 [INFO ] - VERBOSE: Exporting alias 'Generate-BinFile'.
+2018-06-15 18:25:44,922 13932 [INFO ] - VERBOSE: Exporting alias 'Add-BinFile'.
+2018-06-15 18:25:44,922 13932 [INFO ] - VERBOSE: Exporting alias 'Start-ChocolateyProcess'.
+2018-06-15 18:25:44,932 13932 [INFO ] - VERBOSE: Exporting alias 'Invoke-ChocolateyProcess'.
+2018-06-15 18:25:44,932 13932 [INFO ] - VERBOSE: Exporting alias 'Remove-BinFile'.
+2018-06-15 18:25:44,932 13932 [INFO ] - VERBOSE: Exporting alias 'refreshenv'.
+2018-06-15 18:25:44,932 13932 [INFO ] - VERBOSE: Importing function 'Format-FileSize'.
+2018-06-15 18:25:44,932 13932 [INFO ] - VERBOSE: Importing function 'Get-ChecksumValid'.
+2018-06-15 18:25:44,932 13932 [INFO ] - VERBOSE: Importing function 'Get-ChocolateyUnzip'.
+2018-06-15 18:25:44,942 13932 [INFO ] - VERBOSE: Importing function 'Get-ChocolateyWebFile'.
+2018-06-15 18:25:44,942 13932 [INFO ] - VERBOSE: Importing function 'Get-EnvironmentVariable'.
+2018-06-15 18:25:44,942 13932 [INFO ] - VERBOSE: Importing function 'Get-EnvironmentVariableNames'.
+2018-06-15 18:25:44,942 13932 [INFO ] - VERBOSE: Importing function 'Get-FtpFile'.
+2018-06-15 18:25:44,942 13932 [INFO ] - VERBOSE: Importing function 'Get-OSArchitectureWidth'.
+2018-06-15 18:25:44,942 13932 [INFO ] - VERBOSE: Importing function 'Get-PackageParameters'.
+2018-06-15 18:25:44,952 13932 [INFO ] - VERBOSE: Importing function 'Get-ToolsLocation'.
+2018-06-15 18:25:44,952 13932 [INFO ] - VERBOSE: Importing function 'Get-UACEnabled'.
+2018-06-15 18:25:44,952 13932 [INFO ] - VERBOSE: Importing function 'Get-UninstallRegistryKey'.
+2018-06-15 18:25:44,952 13932 [INFO ] - VERBOSE: Importing function 'Get-VirusCheckValid'.
+2018-06-15 18:25:44,952 13932 [INFO ] - VERBOSE: Importing function 'Get-WebFile'.
+2018-06-15 18:25:44,952 13932 [INFO ] - VERBOSE: Importing function 'Get-WebFileName'.
+2018-06-15 18:25:44,962 13932 [INFO ] - VERBOSE: Importing function 'Get-WebHeaders'.
+2018-06-15 18:25:44,962 13932 [INFO ] - VERBOSE: Importing function 'Install-BinFile'.
+2018-06-15 18:25:44,962 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyDesktopLink'.
+2018-06-15 18:25:44,962 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyEnvironmentVariable'.
+2018-06-15 18:25:44,962 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyExplorerMenuItem'.
+2018-06-15 18:25:44,962 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyFileAssociation'.
+2018-06-15 18:25:44,962 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyInstallPackage'.
+2018-06-15 18:25:44,972 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyPackage'.
+2018-06-15 18:25:44,972 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyPath'.
+2018-06-15 18:25:44,972 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyPinnedTaskBarItem'.
+2018-06-15 18:25:44,972 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyPowershellCommand'.
+2018-06-15 18:25:44,972 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyShortcut'.
+2018-06-15 18:25:44,972 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyVsixPackage'.
+2018-06-15 18:25:44,982 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyZipPackage'.
+2018-06-15 18:25:44,982 13932 [INFO ] - VERBOSE: Importing function 'Install-Vsix'.
+2018-06-15 18:25:44,982 13932 [INFO ] - VERBOSE: Importing function 'Set-EnvironmentVariable'.
+2018-06-15 18:25:44,982 13932 [INFO ] - VERBOSE: Importing function 'Set-PowerShellExitCode'.
+2018-06-15 18:25:44,982 13932 [INFO ] - VERBOSE: Importing function 'Start-ChocolateyProcessAsAdmin'.
+2018-06-15 18:25:44,982 13932 [INFO ] - VERBOSE: Importing function 'Test-ProcessAdminRights'.
+2018-06-15 18:25:44,992 13932 [INFO ] - VERBOSE: Importing function 'Uninstall-BinFile'.
+2018-06-15 18:25:44,992 13932 [INFO ] - VERBOSE: Importing function 'Uninstall-ChocolateyEnvironmentVariable'.
+2018-06-15 18:25:44,992 13932 [INFO ] - VERBOSE: Importing function 'Uninstall-ChocolateyPackage'.
+2018-06-15 18:25:44,992 13932 [INFO ] - VERBOSE: Importing function 'Uninstall-ChocolateyZipPackage'.
+2018-06-15 18:25:44,992 13932 [INFO ] - VERBOSE: Importing function 'Update-SessionEnvironment'.
+2018-06-15 18:25:44,992 13932 [INFO ] - VERBOSE: Importing function 'Write-ChocolateyFailure'.
+2018-06-15 18:25:44,992 13932 [INFO ] - VERBOSE: Importing function 'Write-ChocolateySuccess'.
+2018-06-15 18:25:45,002 13932 [INFO ] - VERBOSE: Importing function 'Write-FileUpdateLog'.
+2018-06-15 18:25:45,002 13932 [INFO ] - VERBOSE: Importing function 'Write-FunctionCallLogMessage'.
+2018-06-15 18:25:45,002 13932 [INFO ] - VERBOSE: Importing alias 'Add-BinFile'.
+2018-06-15 18:25:45,002 13932 [INFO ] - VERBOSE: Importing alias 'Generate-BinFile'.
+2018-06-15 18:25:45,002 13932 [INFO ] - VERBOSE: Importing alias 'Get-InstallRegistryKey'.
+2018-06-15 18:25:45,002 13932 [INFO ] - VERBOSE: Importing alias 'Get-OSBitness'.
+2018-06-15 18:25:45,002 13932 [INFO ] - VERBOSE: Importing alias 'Get-ProcessorBits'.
+2018-06-15 18:25:45,012 13932 [INFO ] - VERBOSE: Importing alias 'Invoke-ChocolateyProcess'.
+2018-06-15 18:25:45,012 13932 [INFO ] - VERBOSE: Importing alias 'refreshenv'.
+2018-06-15 18:25:45,012 13932 [INFO ] - VERBOSE: Importing alias 'Remove-BinFile'.
+2018-06-15 18:25:45,022 13932 [INFO ] - VERBOSE: Importing alias 'Start-ChocolateyProcess'.
+2018-06-15 18:25:45,182 13932 [INFO ] - WARNING: Installation folder is not the default. Not changing permissions. Please ensure your installation is secure.
+2018-06-15 18:25:45,202 13932 [INFO ] - We are setting up the Chocolatey package repository.
+The packages themselves go to 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib'
+  (i.e. C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\yourPackageName).
+A shim file for the command line goes to 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\bin'
+  and points to an executable in 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\yourPackageName'.
+
+Creating Chocolatey folders if they do not already exist.
+
+2018-06-15 18:25:45,212 13932 [INFO ] - WARNING: You can safely ignore errors related to missing log files when 
+  upgrading from a version of Chocolatey less than 0.9.9. 
+  'Batch file could not be found' is also safe to ignore. 
+  'The system cannot find the file specified' - also safe.
+2018-06-15 18:25:47,672 13932 [INFO ] - WARNING: Setting ChocolateyInstall Path on USER PATH and not SYSTEM Path.
+  This is due to either non-administrator install OR the process you are running is not being run as an Administrator.
+2018-06-15 18:25:47,852 13932 [INFO ] - VERBOSE: Refreshing environment variables from the registry.
+2018-06-15 18:25:48,382 13932 [INFO ] - PATH environment variable does not have C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\bin in it. Adding...
+2018-06-15 18:25:48,562 13932 [INFO ] - VERBOSE: Choosing not to expand environment names
+2018-06-15 18:25:53,049 13932 [INFO ] - VERBOSE: Refreshing environment variables from the registry.
+2018-06-15 18:25:53,509 13932 [INFO ] - VERBOSE: Removing the imported "Get-AppInstallLocation" function.
+2018-06-15 18:25:53,509 13932 [INFO ] - VERBOSE: Removing the imported "Get-AvailableDriveLetter" function.
+2018-06-15 18:25:53,519 13932 [INFO ] - VERBOSE: Removing the imported "Get-EffectiveProxy" function.
+2018-06-15 18:25:53,519 13932 [INFO ] - VERBOSE: Removing the imported "Get-PackageCacheLocation" function.
+2018-06-15 18:25:53,519 13932 [INFO ] - VERBOSE: Removing the imported "Get-WebContent" function.
+2018-06-15 18:25:53,529 13932 [INFO ] - VERBOSE: Removing the imported "Register-Application" function.
+2018-06-15 18:25:53,529 13932 [INFO ] - VERBOSE: Removing the imported "Get-BinRoot" alias.
+2018-06-15 18:25:53,539 13932 [INFO ] - VERBOSE: Loading module from path 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\helpers\chocolateyInstaller.psm1'.
+2018-06-15 18:25:53,899 13932 [INFO ] - VERBOSE: Exporting function 'Format-FileSize'.
+2018-06-15 18:25:53,899 13932 [INFO ] - VERBOSE: Exporting function 'Get-ChecksumValid'.
+2018-06-15 18:25:53,909 13932 [INFO ] - VERBOSE: Exporting function 'Get-ChocolateyUnzip'.
+2018-06-15 18:25:53,909 13932 [INFO ] - VERBOSE: Exporting function 'Get-ChocolateyWebFile'.
+2018-06-15 18:25:53,909 13932 [INFO ] - VERBOSE: Exporting function 'Get-EnvironmentVariable'.
+2018-06-15 18:25:53,909 13932 [INFO ] - VERBOSE: Exporting function 'Get-EnvironmentVariableNames'.
+2018-06-15 18:25:53,909 13932 [INFO ] - VERBOSE: Exporting function 'Get-FtpFile'.
+2018-06-15 18:25:53,909 13932 [INFO ] - VERBOSE: Exporting function 'Get-OSArchitectureWidth'.
+2018-06-15 18:25:53,909 13932 [INFO ] - VERBOSE: Exporting function 'Get-PackageParameters'.
+2018-06-15 18:25:53,919 13932 [INFO ] - VERBOSE: Exporting function 'Get-ToolsLocation'.
+2018-06-15 18:25:53,919 13932 [INFO ] - VERBOSE: Exporting function 'Get-UACEnabled'.
+2018-06-15 18:25:53,919 13932 [INFO ] - VERBOSE: Exporting function 'Get-UninstallRegistryKey'.
+2018-06-15 18:25:53,919 13932 [INFO ] - VERBOSE: Exporting function 'Get-VirusCheckValid'.
+2018-06-15 18:25:53,919 13932 [INFO ] - VERBOSE: Exporting function 'Get-WebFile'.
+2018-06-15 18:25:53,919 13932 [INFO ] - VERBOSE: Exporting function 'Get-WebFileName'.
+2018-06-15 18:25:53,919 13932 [INFO ] - VERBOSE: Exporting function 'Get-WebHeaders'.
+2018-06-15 18:25:53,929 13932 [INFO ] - VERBOSE: Exporting function 'Install-BinFile'.
+2018-06-15 18:25:53,929 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyDesktopLink'.
+2018-06-15 18:25:53,929 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyEnvironmentVariable'.
+2018-06-15 18:25:53,929 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyExplorerMenuItem'.
+2018-06-15 18:25:53,929 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyFileAssociation'.
+2018-06-15 18:25:53,929 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyInstallPackage'.
+2018-06-15 18:25:53,939 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPackage'.
+2018-06-15 18:25:53,939 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPath'.
+2018-06-15 18:25:53,939 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPinnedTaskBarItem'.
+2018-06-15 18:25:53,939 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPowershellCommand'.
+2018-06-15 18:25:53,939 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyShortcut'.
+2018-06-15 18:25:53,939 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyVsixPackage'.
+2018-06-15 18:25:53,939 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyZipPackage'.
+2018-06-15 18:25:53,949 13932 [INFO ] - VERBOSE: Exporting function 'Install-Vsix'.
+2018-06-15 18:25:53,949 13932 [INFO ] - VERBOSE: Exporting function 'Set-EnvironmentVariable'.
+2018-06-15 18:25:53,949 13932 [INFO ] - VERBOSE: Exporting function 'Set-PowerShellExitCode'.
+2018-06-15 18:25:53,949 13932 [INFO ] - VERBOSE: Exporting function 'Start-ChocolateyProcessAsAdmin'.
+2018-06-15 18:25:53,949 13932 [INFO ] - VERBOSE: Exporting function 'Test-ProcessAdminRights'.
+2018-06-15 18:25:53,949 13932 [INFO ] - VERBOSE: Exporting function 'Uninstall-BinFile'.
+2018-06-15 18:25:53,959 13932 [INFO ] - VERBOSE: Exporting function 'Uninstall-ChocolateyEnvironmentVariable'.
+2018-06-15 18:25:53,959 13932 [INFO ] - VERBOSE: Exporting function 'Uninstall-ChocolateyPackage'.
+2018-06-15 18:25:53,959 13932 [INFO ] - VERBOSE: Exporting function 'Uninstall-ChocolateyZipPackage'.
+2018-06-15 18:25:53,959 13932 [INFO ] - VERBOSE: Exporting function 'Update-SessionEnvironment'.
+2018-06-15 18:25:53,959 13932 [INFO ] - VERBOSE: Exporting function 'Write-ChocolateyFailure'.
+2018-06-15 18:25:53,959 13932 [INFO ] - VERBOSE: Exporting function 'Write-ChocolateySuccess'.
+2018-06-15 18:25:53,969 13932 [INFO ] - VERBOSE: Exporting function 'Write-FileUpdateLog'.
+2018-06-15 18:25:53,969 13932 [INFO ] - VERBOSE: Exporting function 'Write-FunctionCallLogMessage'.
+2018-06-15 18:25:53,969 13932 [INFO ] - VERBOSE: Exporting alias 'Get-ProcessorBits'.
+2018-06-15 18:25:53,969 13932 [INFO ] - VERBOSE: Exporting alias 'Get-OSBitness'.
+2018-06-15 18:25:53,969 13932 [INFO ] - VERBOSE: Exporting alias 'Get-InstallRegistryKey'.
+2018-06-15 18:25:53,969 13932 [INFO ] - VERBOSE: Exporting alias 'Generate-BinFile'.
+2018-06-15 18:25:53,979 13932 [INFO ] - VERBOSE: Exporting alias 'Add-BinFile'.
+2018-06-15 18:25:53,979 13932 [INFO ] - VERBOSE: Exporting alias 'Start-ChocolateyProcess'.
+2018-06-15 18:25:53,979 13932 [INFO ] - VERBOSE: Exporting alias 'Invoke-ChocolateyProcess'.
+2018-06-15 18:25:53,979 13932 [INFO ] - VERBOSE: Exporting alias 'Remove-BinFile'.
+2018-06-15 18:25:53,979 13932 [INFO ] - VERBOSE: Exporting alias 'refreshenv'.
+2018-06-15 18:25:53,999 13932 [INFO ] - VERBOSE: Importing function 'Get-AppInstallLocation'.
+2018-06-15 18:25:53,999 13932 [INFO ] - VERBOSE: Importing function 'Get-AvailableDriveLetter'.
+2018-06-15 18:25:53,999 13932 [INFO ] - VERBOSE: Importing function 'Get-EffectiveProxy'.
+2018-06-15 18:25:54,009 13932 [INFO ] - VERBOSE: Importing function 'Get-PackageCacheLocation'.
+2018-06-15 18:25:54,009 13932 [INFO ] - VERBOSE: Importing function 'Get-PackageParameters'.
+2018-06-15 18:25:54,009 13932 [INFO ] - VERBOSE: Importing function 'Get-UninstallRegistryKey'.
+2018-06-15 18:25:54,009 13932 [INFO ] - VERBOSE: Importing function 'Get-WebContent'.
+2018-06-15 18:25:54,009 13932 [INFO ] - VERBOSE: Importing function 'Register-Application'.
+2018-06-15 18:25:54,019 13932 [INFO ] - VERBOSE: Exporting function 'Format-FileSize'.
+2018-06-15 18:25:54,019 13932 [INFO ] - VERBOSE: Exporting function 'Get-ChecksumValid'.
+2018-06-15 18:25:54,019 13932 [INFO ] - VERBOSE: Exporting function 'Get-ChocolateyUnzip'.
+2018-06-15 18:25:54,019 13932 [INFO ] - VERBOSE: Exporting function 'Get-ChocolateyWebFile'.
+2018-06-15 18:25:54,019 13932 [INFO ] - VERBOSE: Exporting function 'Get-EnvironmentVariable'.
+2018-06-15 18:25:54,019 13932 [INFO ] - VERBOSE: Exporting function 'Get-EnvironmentVariableNames'.
+2018-06-15 18:25:54,029 13932 [INFO ] - VERBOSE: Exporting function 'Get-FtpFile'.
+2018-06-15 18:25:54,029 13932 [INFO ] - VERBOSE: Exporting function 'Get-OSArchitectureWidth'.
+2018-06-15 18:25:54,029 13932 [INFO ] - VERBOSE: Exporting function 'Get-PackageParameters'.
+2018-06-15 18:25:54,029 13932 [INFO ] - VERBOSE: Exporting function 'Get-ToolsLocation'.
+2018-06-15 18:25:54,029 13932 [INFO ] - VERBOSE: Exporting function 'Get-UACEnabled'.
+2018-06-15 18:25:54,029 13932 [INFO ] - VERBOSE: Exporting function 'Get-UninstallRegistryKey'.
+2018-06-15 18:25:54,039 13932 [INFO ] - VERBOSE: Exporting function 'Get-VirusCheckValid'.
+2018-06-15 18:25:54,039 13932 [INFO ] - VERBOSE: Exporting function 'Get-WebFile'.
+2018-06-15 18:25:54,039 13932 [INFO ] - VERBOSE: Exporting function 'Get-WebFileName'.
+2018-06-15 18:25:54,039 13932 [INFO ] - VERBOSE: Exporting function 'Get-WebHeaders'.
+2018-06-15 18:25:54,039 13932 [INFO ] - VERBOSE: Exporting function 'Install-BinFile'.
+2018-06-15 18:25:54,039 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyDesktopLink'.
+2018-06-15 18:25:54,039 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyEnvironmentVariable'.
+2018-06-15 18:25:54,049 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyExplorerMenuItem'.
+2018-06-15 18:25:54,049 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyFileAssociation'.
+2018-06-15 18:25:54,049 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyInstallPackage'.
+2018-06-15 18:25:54,049 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPackage'.
+2018-06-15 18:25:54,049 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPath'.
+2018-06-15 18:25:54,049 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPinnedTaskBarItem'.
+2018-06-15 18:25:54,049 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPowershellCommand'.
+2018-06-15 18:25:54,059 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyShortcut'.
+2018-06-15 18:25:54,069 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyVsixPackage'.
+2018-06-15 18:25:54,069 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyZipPackage'.
+2018-06-15 18:25:54,069 13932 [INFO ] - VERBOSE: Exporting function 'Install-Vsix'.
+2018-06-15 18:25:54,069 13932 [INFO ] - VERBOSE: Exporting function 'Set-EnvironmentVariable'.
+2018-06-15 18:25:54,069 13932 [INFO ] - VERBOSE: Exporting function 'Set-PowerShellExitCode'.
+2018-06-15 18:25:54,069 13932 [INFO ] - VERBOSE: Exporting function 'Start-ChocolateyProcessAsAdmin'.
+2018-06-15 18:25:54,079 13932 [INFO ] - VERBOSE: Exporting function 'Test-ProcessAdminRights'.
+2018-06-15 18:25:54,099 13932 [INFO ] - VERBOSE: Exporting function 'Uninstall-BinFile'.
+2018-06-15 18:25:54,099 13932 [INFO ] - VERBOSE: Exporting function 'Uninstall-ChocolateyEnvironmentVariable'.
+2018-06-15 18:25:54,099 13932 [INFO ] - VERBOSE: Exporting function 'Uninstall-ChocolateyPackage'.
+2018-06-15 18:25:54,109 13932 [INFO ] - VERBOSE: Exporting function 'Uninstall-ChocolateyZipPackage'.
+2018-06-15 18:25:54,109 13932 [INFO ] - VERBOSE: Exporting function 'Update-SessionEnvironment'.
+2018-06-15 18:25:54,109 13932 [INFO ] - VERBOSE: Exporting function 'Write-ChocolateyFailure'.
+2018-06-15 18:25:54,109 13932 [INFO ] - VERBOSE: Exporting function 'Write-ChocolateySuccess'.
+2018-06-15 18:25:54,109 13932 [INFO ] - VERBOSE: Exporting function 'Write-FileUpdateLog'.
+2018-06-15 18:25:54,109 13932 [INFO ] - VERBOSE: Exporting function 'Write-FunctionCallLogMessage'.
+2018-06-15 18:25:54,109 13932 [INFO ] - VERBOSE: Exporting function 'Get-AppInstallLocation'.
+2018-06-15 18:25:54,119 13932 [INFO ] - VERBOSE: Exporting function 'Get-AvailableDriveLetter'.
+2018-06-15 18:25:54,119 13932 [INFO ] - VERBOSE: Exporting function 'Get-EffectiveProxy'.
+2018-06-15 18:25:54,119 13932 [INFO ] - VERBOSE: Exporting function 'Get-PackageCacheLocation'.
+2018-06-15 18:25:54,119 13932 [INFO ] - VERBOSE: Exporting function 'Get-WebContent'.
+2018-06-15 18:25:54,119 13932 [INFO ] - VERBOSE: Exporting function 'Register-Application'.
+2018-06-15 18:25:54,119 13932 [INFO ] - VERBOSE: Exporting alias 'Get-ProcessorBits'.
+2018-06-15 18:25:54,129 13932 [INFO ] - VERBOSE: Exporting alias 'Get-OSBitness'.
+2018-06-15 18:25:54,129 13932 [INFO ] - VERBOSE: Exporting alias 'Get-InstallRegistryKey'.
+2018-06-15 18:25:54,129 13932 [INFO ] - VERBOSE: Exporting alias 'Generate-BinFile'.
+2018-06-15 18:25:54,129 13932 [INFO ] - VERBOSE: Exporting alias 'Add-BinFile'.
+2018-06-15 18:25:54,129 13932 [INFO ] - VERBOSE: Exporting alias 'Start-ChocolateyProcess'.
+2018-06-15 18:25:54,129 13932 [INFO ] - VERBOSE: Exporting alias 'Invoke-ChocolateyProcess'.
+2018-06-15 18:25:54,129 13932 [INFO ] - VERBOSE: Exporting alias 'Remove-BinFile'.
+2018-06-15 18:25:54,139 13932 [INFO ] - VERBOSE: Exporting alias 'refreshenv'.
+2018-06-15 18:25:54,139 13932 [INFO ] - VERBOSE: Importing function 'Format-FileSize'.
+2018-06-15 18:25:54,139 13932 [INFO ] - VERBOSE: Importing function 'Get-AppInstallLocation'.
+2018-06-15 18:25:54,139 13932 [INFO ] - VERBOSE: Importing function 'Get-AvailableDriveLetter'.
+2018-06-15 18:25:54,139 13932 [INFO ] - VERBOSE: Importing function 'Get-ChecksumValid'.
+2018-06-15 18:25:54,149 13932 [INFO ] - VERBOSE: Importing function 'Get-ChocolateyUnzip'.
+2018-06-15 18:25:54,149 13932 [INFO ] - VERBOSE: Importing function 'Get-ChocolateyWebFile'.
+2018-06-15 18:25:54,149 13932 [INFO ] - VERBOSE: Importing function 'Get-EffectiveProxy'.
+2018-06-15 18:25:54,149 13932 [INFO ] - VERBOSE: Importing function 'Get-EnvironmentVariable'.
+2018-06-15 18:25:54,149 13932 [INFO ] - VERBOSE: Importing function 'Get-EnvironmentVariableNames'.
+2018-06-15 18:25:54,149 13932 [INFO ] - VERBOSE: Importing function 'Get-FtpFile'.
+2018-06-15 18:25:54,149 13932 [INFO ] - VERBOSE: Importing function 'Get-OSArchitectureWidth'.
+2018-06-15 18:25:54,159 13932 [INFO ] - VERBOSE: Importing function 'Get-PackageCacheLocation'.
+2018-06-15 18:25:54,159 13932 [INFO ] - VERBOSE: Importing function 'Get-PackageParameters'.
+2018-06-15 18:25:54,159 13932 [INFO ] - VERBOSE: Importing function 'Get-ToolsLocation'.
+2018-06-15 18:25:54,159 13932 [INFO ] - VERBOSE: Importing function 'Get-UACEnabled'.
+2018-06-15 18:25:54,159 13932 [INFO ] - VERBOSE: Importing function 'Get-UninstallRegistryKey'.
+2018-06-15 18:25:54,159 13932 [INFO ] - VERBOSE: Importing function 'Get-VirusCheckValid'.
+2018-06-15 18:25:54,159 13932 [INFO ] - VERBOSE: Importing function 'Get-WebContent'.
+2018-06-15 18:25:54,169 13932 [INFO ] - VERBOSE: Importing function 'Get-WebFile'.
+2018-06-15 18:25:54,169 13932 [INFO ] - VERBOSE: Importing function 'Get-WebFileName'.
+2018-06-15 18:25:54,169 13932 [INFO ] - VERBOSE: Importing function 'Get-WebHeaders'.
+2018-06-15 18:25:54,169 13932 [INFO ] - VERBOSE: Importing function 'Install-BinFile'.
+2018-06-15 18:25:54,169 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyDesktopLink'.
+2018-06-15 18:25:54,169 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyEnvironmentVariable'.
+2018-06-15 18:25:54,179 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyExplorerMenuItem'.
+2018-06-15 18:25:54,179 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyFileAssociation'.
+2018-06-15 18:25:54,179 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyInstallPackage'.
+2018-06-15 18:25:54,179 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyPackage'.
+2018-06-15 18:25:54,179 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyPath'.
+2018-06-15 18:25:54,179 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyPinnedTaskBarItem'.
+2018-06-15 18:25:54,179 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyPowershellCommand'.
+2018-06-15 18:25:54,189 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyShortcut'.
+2018-06-15 18:25:54,189 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyVsixPackage'.
+2018-06-15 18:25:54,189 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyZipPackage'.
+2018-06-15 18:25:54,189 13932 [INFO ] - VERBOSE: Importing function 'Install-Vsix'.
+2018-06-15 18:25:54,189 13932 [INFO ] - VERBOSE: Importing function 'Register-Application'.
+2018-06-15 18:25:54,189 13932 [INFO ] - VERBOSE: Importing function 'Set-EnvironmentVariable'.
+2018-06-15 18:25:54,199 13932 [INFO ] - VERBOSE: Importing function 'Set-PowerShellExitCode'.
+2018-06-15 18:25:54,199 13932 [INFO ] - VERBOSE: Importing function 'Start-ChocolateyProcessAsAdmin'.
+2018-06-15 18:25:54,199 13932 [INFO ] - VERBOSE: Importing function 'Test-ProcessAdminRights'.
+2018-06-15 18:25:54,199 13932 [INFO ] - VERBOSE: Importing function 'Uninstall-BinFile'.
+2018-06-15 18:25:54,199 13932 [INFO ] - VERBOSE: Importing function 'Uninstall-ChocolateyEnvironmentVariable'.
+2018-06-15 18:25:54,199 13932 [INFO ] - VERBOSE: Importing function 'Uninstall-ChocolateyPackage'.
+2018-06-15 18:25:54,209 13932 [INFO ] - VERBOSE: Importing function 'Uninstall-ChocolateyZipPackage'.
+2018-06-15 18:25:54,209 13932 [INFO ] - VERBOSE: Importing function 'Update-SessionEnvironment'.
+2018-06-15 18:25:54,209 13932 [INFO ] - VERBOSE: Importing function 'Write-ChocolateyFailure'.
+2018-06-15 18:25:54,209 13932 [INFO ] - VERBOSE: Importing function 'Write-ChocolateySuccess'.
+2018-06-15 18:25:54,209 13932 [INFO ] - VERBOSE: Importing function 'Write-FileUpdateLog'.
+2018-06-15 18:25:54,209 13932 [INFO ] - VERBOSE: Importing function 'Write-FunctionCallLogMessage'.
+2018-06-15 18:25:54,219 13932 [INFO ] - VERBOSE: Importing alias 'Add-BinFile'.
+2018-06-15 18:25:54,219 13932 [INFO ] - VERBOSE: Importing alias 'Generate-BinFile'.
+2018-06-15 18:25:54,219 13932 [INFO ] - VERBOSE: Importing alias 'Get-InstallRegistryKey'.
+2018-06-15 18:25:54,219 13932 [INFO ] - VERBOSE: Importing alias 'Get-OSBitness'.
+2018-06-15 18:25:54,219 13932 [INFO ] - VERBOSE: Importing alias 'Get-ProcessorBits'.
+2018-06-15 18:25:54,219 13932 [INFO ] - VERBOSE: Importing alias 'Invoke-ChocolateyProcess'.
+2018-06-15 18:25:54,229 13932 [INFO ] - VERBOSE: Importing alias 'refreshenv'.
+2018-06-15 18:25:54,229 13932 [INFO ] - VERBOSE: Importing alias 'Remove-BinFile'.
+2018-06-15 18:25:54,229 13932 [INFO ] - VERBOSE: Importing alias 'Start-ChocolateyProcess'.
+2018-06-15 18:25:54,289 13932 [WARN ] - WARNING: Not setting tab completion: Profile file does not exist at 'C:\Users\zzh\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1'.
+2018-06-15 18:25:56,359 13932 [INFO ] - Chocolatey (choco.exe) is now ready.
+You can call choco from anywhere, command line or powershell by typing choco.
+Run choco /? for a list of functions.
+You may need to shut down and restart powershell and/or consoles
+ first prior to using choco.
+2018-06-15 18:26:01,423 13932 [WARN ] - Environment Vars (like PATH) have changed. Close/reopen your shell to
+ see the changes (or in powershell/cmd.exe just type `refreshenv`).
+2018-06-15 18:26:02,323 13932 [INFO ] -  The install of chocolatey was successful.
+2018-06-15 18:26:02,334 13932 [INFO ] -   Software install location not explicitly set, could be in package or
+  default install location if installer.
+2018-06-15 18:26:02,342 13932 [INFO ] - [NuGet] Installing 'python3 3.6.5'.
+2018-06-15 18:26:03,212 13932 [INFO ] - [NuGet] Successfully installed 'python3 3.6.5'.
+2018-06-15 18:26:03,214 13932 [INFO ] - 
+python3 v3.6.5 [Approved]
+2018-06-15 18:26:03,255 13932 [INFO ] - python3 package files install completed. Performing other installation steps.
+2018-06-15 18:26:08,288 13932 [INFO ] - The package python3 wants to run 'chocolateyInstall.ps1'.
+2018-06-15 18:26:08,288 13932 [INFO ] - Note: If you don't run this script, the installation will fail.
+2018-06-15 18:26:08,296 13932 [INFO ] - Note: To confirm automatically next time, use '-y' or consider:
+2018-06-15 18:26:08,298 13932 [INFO ] - choco feature enable -n allowGlobalConfirmation
+2018-06-15 18:26:08,308 13932 [INFO ] - Do you want to run the script?
+2018-06-15 18:26:08,308 13932 [INFO ] -  1) yes
+2018-06-15 18:26:08,308 13932 [INFO ] -  2) no
+2018-06-15 18:26:08,317 13932 [INFO ] -  3) print
+2018-06-15 18:26:11,386 13932 [INFO ] - Choice selected: 'yes'
+2018-06-15 18:26:11,697 13932 [INFO ] - VERBOSE: Exporting function 'Format-FileSize'.
+2018-06-15 18:26:11,697 13932 [INFO ] - VERBOSE: Exporting function 'Get-ChecksumValid'.
+2018-06-15 18:26:11,705 13932 [INFO ] - VERBOSE: Exporting function 'Get-ChocolateyUnzip'.
+2018-06-15 18:26:11,707 13932 [INFO ] - VERBOSE: Exporting function 'Get-ChocolateyWebFile'.
+2018-06-15 18:26:11,707 13932 [INFO ] - VERBOSE: Exporting function 'Get-EnvironmentVariable'.
+2018-06-15 18:26:11,707 13932 [INFO ] - VERBOSE: Exporting function 'Get-EnvironmentVariableNames'.
+2018-06-15 18:26:11,707 13932 [INFO ] - VERBOSE: Exporting function 'Get-FtpFile'.
+2018-06-15 18:26:11,707 13932 [INFO ] - VERBOSE: Exporting function 'Get-OSArchitectureWidth'.
+2018-06-15 18:26:11,715 13932 [INFO ] - VERBOSE: Exporting function 'Get-PackageParameters'.
+2018-06-15 18:26:11,717 13932 [INFO ] - VERBOSE: Exporting function 'Get-PackageParametersBuiltIn'.
+2018-06-15 18:26:11,717 13932 [INFO ] - VERBOSE: Exporting function 'Get-ToolsLocation'.
+2018-06-15 18:26:11,717 13932 [INFO ] - VERBOSE: Exporting function 'Get-UACEnabled'.
+2018-06-15 18:26:11,717 13932 [INFO ] - VERBOSE: Exporting function 'Get-UninstallRegistryKey'.
+2018-06-15 18:26:11,717 13932 [INFO ] - VERBOSE: Exporting function 'Get-VirusCheckValid'.
+2018-06-15 18:26:11,725 13932 [INFO ] - VERBOSE: Exporting function 'Get-WebFile'.
+2018-06-15 18:26:11,725 13932 [INFO ] - VERBOSE: Exporting function 'Get-WebFileName'.
+2018-06-15 18:26:11,727 13932 [INFO ] - VERBOSE: Exporting function 'Get-WebHeaders'.
+2018-06-15 18:26:11,727 13932 [INFO ] - VERBOSE: Exporting function 'Install-BinFile'.
+2018-06-15 18:26:11,727 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyDesktopLink'.
+2018-06-15 18:26:11,727 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyEnvironmentVariable'.
+2018-06-15 18:26:11,727 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyExplorerMenuItem'.
+2018-06-15 18:26:11,735 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyFileAssociation'.
+2018-06-15 18:26:11,737 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyInstallPackage'.
+2018-06-15 18:26:11,737 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPackage'.
+2018-06-15 18:26:11,737 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPath'.
+2018-06-15 18:26:11,737 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPinnedTaskBarItem'.
+2018-06-15 18:26:11,737 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPowershellCommand'.
+2018-06-15 18:26:11,745 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyShortcut'.
+2018-06-15 18:26:11,748 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyVsixPackage'.
+2018-06-15 18:26:11,748 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyZipPackage'.
+2018-06-15 18:26:11,748 13932 [INFO ] - VERBOSE: Exporting function 'Install-Vsix'.
+2018-06-15 18:26:11,748 13932 [INFO ] - VERBOSE: Exporting function 'Set-EnvironmentVariable'.
+2018-06-15 18:26:11,748 13932 [INFO ] - VERBOSE: Exporting function 'Set-PowerShellExitCode'.
+2018-06-15 18:26:11,756 13932 [INFO ] - VERBOSE: Exporting function 'Start-ChocolateyProcessAsAdmin'.
+2018-06-15 18:26:11,756 13932 [INFO ] - VERBOSE: Exporting function 'Test-ProcessAdminRights'.
+2018-06-15 18:26:11,758 13932 [INFO ] - VERBOSE: Exporting function 'Uninstall-BinFile'.
+2018-06-15 18:26:11,758 13932 [INFO ] - VERBOSE: Exporting function 'Uninstall-ChocolateyEnvironmentVariable'.
+2018-06-15 18:26:11,758 13932 [INFO ] - VERBOSE: Exporting function 'Uninstall-ChocolateyPackage'.
+2018-06-15 18:26:11,758 13932 [INFO ] - VERBOSE: Exporting function 'Uninstall-ChocolateyZipPackage'.
+2018-06-15 18:26:11,758 13932 [INFO ] - VERBOSE: Exporting function 'Update-SessionEnvironment'.
+2018-06-15 18:26:11,766 13932 [INFO ] - VERBOSE: Exporting function 'Write-ChocolateyFailure'.
+2018-06-15 18:26:11,768 13932 [INFO ] - VERBOSE: Exporting function 'Write-ChocolateySuccess'.
+2018-06-15 18:26:11,768 13932 [INFO ] - VERBOSE: Exporting function 'Write-FileUpdateLog'.
+2018-06-15 18:26:11,768 13932 [INFO ] - VERBOSE: Exporting function 'Write-FunctionCallLogMessage'.
+2018-06-15 18:26:11,768 13932 [INFO ] - VERBOSE: Exporting alias 'Get-ProcessorBits'.
+2018-06-15 18:26:11,768 13932 [INFO ] - VERBOSE: Exporting alias 'Get-OSBitness'.
+2018-06-15 18:26:11,768 13932 [INFO ] - VERBOSE: Exporting alias 'Get-InstallRegistryKey'.
+2018-06-15 18:26:11,776 13932 [INFO ] - VERBOSE: Exporting alias 'Generate-BinFile'.
+2018-06-15 18:26:11,776 13932 [INFO ] - VERBOSE: Exporting alias 'Add-BinFile'.
+2018-06-15 18:26:11,776 13932 [INFO ] - VERBOSE: Exporting alias 'Start-ChocolateyProcess'.
+2018-06-15 18:26:11,776 13932 [INFO ] - VERBOSE: Exporting alias 'Invoke-ChocolateyProcess'.
+2018-06-15 18:26:11,776 13932 [INFO ] - VERBOSE: Exporting alias 'Remove-BinFile'.
+2018-06-15 18:26:11,776 13932 [INFO ] - VERBOSE: Exporting alias 'refreshenv'.
+2018-06-15 18:26:11,796 13932 [INFO ] - VERBOSE: Loading module from path 'C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\extensions\chocolatey-core\chocolatey-core.psm1'.
+2018-06-15 18:26:11,975 13932 [INFO ] - VERBOSE: Exporting function 'Get-UninstallRegistryKey'.
+2018-06-15 18:26:11,975 13932 [INFO ] - VERBOSE: Exporting function 'Get-AppInstallLocation'.
+2018-06-15 18:26:11,983 13932 [INFO ] - VERBOSE: Exporting function 'Get-AvailableDriveLetter'.
+2018-06-15 18:26:11,985 13932 [INFO ] - VERBOSE: Exporting function 'Get-EffectiveProxy'.
+2018-06-15 18:26:11,985 13932 [INFO ] - VERBOSE: Exporting function 'Get-PackageCacheLocation'.
+2018-06-15 18:26:11,985 13932 [INFO ] - VERBOSE: Exporting function 'Get-PackageParameters'.
+2018-06-15 18:26:11,993 13932 [INFO ] - VERBOSE: Exporting function 'Get-WebContent'.
+2018-06-15 18:26:11,995 13932 [INFO ] - VERBOSE: Exporting function 'Register-Application'.
+2018-06-15 18:26:11,995 13932 [INFO ] - VERBOSE: Importing function 'Get-AppInstallLocation'.
+2018-06-15 18:26:11,995 13932 [INFO ] - VERBOSE: Importing function 'Get-AvailableDriveLetter'.
+2018-06-15 18:26:11,995 13932 [INFO ] - VERBOSE: Importing function 'Get-EffectiveProxy'.
+2018-06-15 18:26:12,003 13932 [INFO ] - VERBOSE: Importing function 'Get-PackageCacheLocation'.
+2018-06-15 18:26:12,003 13932 [INFO ] - VERBOSE: Importing function 'Get-PackageParameters'.
+2018-06-15 18:26:12,005 13932 [INFO ] - VERBOSE: Importing function 'Get-UninstallRegistryKey'.
+2018-06-15 18:26:12,005 13932 [INFO ] - VERBOSE: Importing function 'Get-WebContent'.
+2018-06-15 18:26:12,005 13932 [INFO ] - VERBOSE: Importing function 'Register-Application'.
+2018-06-15 18:26:12,005 13932 [INFO ] - VERBOSE: Exporting function 'Format-FileSize'.
+2018-06-15 18:26:12,013 13932 [INFO ] - VERBOSE: Exporting function 'Get-ChecksumValid'.
+2018-06-15 18:26:12,015 13932 [INFO ] - VERBOSE: Exporting function 'Get-ChocolateyUnzip'.
+2018-06-15 18:26:12,015 13932 [INFO ] - VERBOSE: Exporting function 'Get-ChocolateyWebFile'.
+2018-06-15 18:26:12,015 13932 [INFO ] - VERBOSE: Exporting function 'Get-EnvironmentVariable'.
+2018-06-15 18:26:12,015 13932 [INFO ] - VERBOSE: Exporting function 'Get-EnvironmentVariableNames'.
+2018-06-15 18:26:12,015 13932 [INFO ] - VERBOSE: Exporting function 'Get-FtpFile'.
+2018-06-15 18:26:12,015 13932 [INFO ] - VERBOSE: Exporting function 'Get-OSArchitectureWidth'.
+2018-06-15 18:26:12,023 13932 [INFO ] - VERBOSE: Exporting function 'Get-PackageParameters'.
+2018-06-15 18:26:12,025 13932 [INFO ] - VERBOSE: Exporting function 'Get-PackageParametersBuiltIn'.
+2018-06-15 18:26:12,025 13932 [INFO ] - VERBOSE: Exporting function 'Get-ToolsLocation'.
+2018-06-15 18:26:12,025 13932 [INFO ] - VERBOSE: Exporting function 'Get-UACEnabled'.
+2018-06-15 18:26:12,025 13932 [INFO ] - VERBOSE: Exporting function 'Get-UninstallRegistryKey'.
+2018-06-15 18:26:12,025 13932 [INFO ] - VERBOSE: Exporting function 'Get-VirusCheckValid'.
+2018-06-15 18:26:12,035 13932 [INFO ] - VERBOSE: Exporting function 'Get-WebFile'.
+2018-06-15 18:26:12,035 13932 [INFO ] - VERBOSE: Exporting function 'Get-WebFileName'.
+2018-06-15 18:26:12,035 13932 [INFO ] - VERBOSE: Exporting function 'Get-WebHeaders'.
+2018-06-15 18:26:12,035 13932 [INFO ] - VERBOSE: Exporting function 'Install-BinFile'.
+2018-06-15 18:26:12,035 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyDesktopLink'.
+2018-06-15 18:26:12,046 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyEnvironmentVariable'.
+2018-06-15 18:26:12,046 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyExplorerMenuItem'.
+2018-06-15 18:26:12,046 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyFileAssociation'.
+2018-06-15 18:26:12,046 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyInstallPackage'.
+2018-06-15 18:26:12,046 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPackage'.
+2018-06-15 18:26:12,054 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPath'.
+2018-06-15 18:26:12,056 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPinnedTaskBarItem'.
+2018-06-15 18:26:12,056 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPowershellCommand'.
+2018-06-15 18:26:12,056 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyShortcut'.
+2018-06-15 18:26:12,056 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyVsixPackage'.
+2018-06-15 18:26:12,056 13932 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyZipPackage'.
+2018-06-15 18:26:12,064 13932 [INFO ] - VERBOSE: Exporting function 'Install-Vsix'.
+2018-06-15 18:26:12,064 13932 [INFO ] - VERBOSE: Exporting function 'Set-EnvironmentVariable'.
+2018-06-15 18:26:12,066 13932 [INFO ] - VERBOSE: Exporting function 'Set-PowerShellExitCode'.
+2018-06-15 18:26:12,066 13932 [INFO ] - VERBOSE: Exporting function 'Start-ChocolateyProcessAsAdmin'.
+2018-06-15 18:26:12,066 13932 [INFO ] - VERBOSE: Exporting function 'Test-ProcessAdminRights'.
+2018-06-15 18:26:12,066 13932 [INFO ] - VERBOSE: Exporting function 'Uninstall-BinFile'.
+2018-06-15 18:26:12,066 13932 [INFO ] - VERBOSE: Exporting function 'Uninstall-ChocolateyEnvironmentVariable'.
+2018-06-15 18:26:12,074 13932 [INFO ] - VERBOSE: Exporting function 'Uninstall-ChocolateyPackage'.
+2018-06-15 18:26:12,076 13932 [INFO ] - VERBOSE: Exporting function 'Uninstall-ChocolateyZipPackage'.
+2018-06-15 18:26:12,076 13932 [INFO ] - VERBOSE: Exporting function 'Update-SessionEnvironment'.
+2018-06-15 18:26:12,076 13932 [INFO ] - VERBOSE: Exporting function 'Write-ChocolateyFailure'.
+2018-06-15 18:26:12,076 13932 [INFO ] - VERBOSE: Exporting function 'Write-ChocolateySuccess'.
+2018-06-15 18:26:12,084 13932 [INFO ] - VERBOSE: Exporting function 'Write-FileUpdateLog'.
+2018-06-15 18:26:12,086 13932 [INFO ] - VERBOSE: Exporting function 'Write-FunctionCallLogMessage'.
+2018-06-15 18:26:12,086 13932 [INFO ] - VERBOSE: Exporting function 'Get-AppInstallLocation'.
+2018-06-15 18:26:12,086 13932 [INFO ] - VERBOSE: Exporting function 'Get-AvailableDriveLetter'.
+2018-06-15 18:26:12,086 13932 [INFO ] - VERBOSE: Exporting function 'Get-EffectiveProxy'.
+2018-06-15 18:26:12,086 13932 [INFO ] - VERBOSE: Exporting function 'Get-PackageCacheLocation'.
+2018-06-15 18:26:12,094 13932 [INFO ] - VERBOSE: Exporting function 'Get-WebContent'.
+2018-06-15 18:26:12,096 13932 [INFO ] - VERBOSE: Exporting function 'Register-Application'.
+2018-06-15 18:26:12,096 13932 [INFO ] - VERBOSE: Exporting alias 'Get-ProcessorBits'.
+2018-06-15 18:26:12,096 13932 [INFO ] - VERBOSE: Exporting alias 'Get-OSBitness'.
+2018-06-15 18:26:12,096 13932 [INFO ] - VERBOSE: Exporting alias 'Get-InstallRegistryKey'.
+2018-06-15 18:26:12,096 13932 [INFO ] - VERBOSE: Exporting alias 'Generate-BinFile'.
+2018-06-15 18:26:12,104 13932 [INFO ] - VERBOSE: Exporting alias 'Add-BinFile'.
+2018-06-15 18:26:12,106 13932 [INFO ] - VERBOSE: Exporting alias 'Start-ChocolateyProcess'.
+2018-06-15 18:26:12,106 13932 [INFO ] - VERBOSE: Exporting alias 'Invoke-ChocolateyProcess'.
+2018-06-15 18:26:12,106 13932 [INFO ] - VERBOSE: Exporting alias 'Remove-BinFile'.
+2018-06-15 18:26:12,106 13932 [INFO ] - VERBOSE: Exporting alias 'refreshenv'.
+2018-06-15 18:26:12,114 13932 [INFO ] - VERBOSE: Importing function 'Format-FileSize'.
+2018-06-15 18:26:12,116 13932 [INFO ] - VERBOSE: Importing function 'Get-AppInstallLocation'.
+2018-06-15 18:26:12,116 13932 [INFO ] - VERBOSE: Importing function 'Get-AvailableDriveLetter'.
+2018-06-15 18:26:12,116 13932 [INFO ] - VERBOSE: Importing function 'Get-ChecksumValid'.
+2018-06-15 18:26:12,116 13932 [INFO ] - VERBOSE: Importing function 'Get-ChocolateyUnzip'.
+2018-06-15 18:26:12,125 13932 [INFO ] - VERBOSE: Importing function 'Get-ChocolateyWebFile'.
+2018-06-15 18:26:12,127 13932 [INFO ] - VERBOSE: Importing function 'Get-EffectiveProxy'.
+2018-06-15 18:26:12,127 13932 [INFO ] - VERBOSE: Importing function 'Get-EnvironmentVariable'.
+2018-06-15 18:26:12,127 13932 [INFO ] - VERBOSE: Importing function 'Get-EnvironmentVariableNames'.
+2018-06-15 18:26:12,127 13932 [INFO ] - VERBOSE: Importing function 'Get-FtpFile'.
+2018-06-15 18:26:12,127 13932 [INFO ] - VERBOSE: Importing function 'Get-OSArchitectureWidth'.
+2018-06-15 18:26:12,135 13932 [INFO ] - VERBOSE: Importing function 'Get-PackageCacheLocation'.
+2018-06-15 18:26:12,137 13932 [INFO ] - VERBOSE: Importing function 'Get-PackageParameters'.
+2018-06-15 18:26:12,137 13932 [INFO ] - VERBOSE: Importing function 'Get-PackageParametersBuiltIn'.
+2018-06-15 18:26:12,137 13932 [INFO ] - VERBOSE: Importing function 'Get-ToolsLocation'.
+2018-06-15 18:26:12,137 13932 [INFO ] - VERBOSE: Importing function 'Get-UACEnabled'.
+2018-06-15 18:26:12,145 13932 [INFO ] - VERBOSE: Importing function 'Get-UninstallRegistryKey'.
+2018-06-15 18:26:12,147 13932 [INFO ] - VERBOSE: Importing function 'Get-VirusCheckValid'.
+2018-06-15 18:26:12,147 13932 [INFO ] - VERBOSE: Importing function 'Get-WebContent'.
+2018-06-15 18:26:12,147 13932 [INFO ] - VERBOSE: Importing function 'Get-WebFile'.
+2018-06-15 18:26:12,147 13932 [INFO ] - VERBOSE: Importing function 'Get-WebFileName'.
+2018-06-15 18:26:12,147 13932 [INFO ] - VERBOSE: Importing function 'Get-WebHeaders'.
+2018-06-15 18:26:12,155 13932 [INFO ] - VERBOSE: Importing function 'Install-BinFile'.
+2018-06-15 18:26:12,155 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyDesktopLink'.
+2018-06-15 18:26:12,157 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyEnvironmentVariable'.
+2018-06-15 18:26:12,157 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyExplorerMenuItem'.
+2018-06-15 18:26:12,157 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyFileAssociation'.
+2018-06-15 18:26:12,157 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyInstallPackage'.
+2018-06-15 18:26:12,157 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyPackage'.
+2018-06-15 18:26:12,165 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyPath'.
+2018-06-15 18:26:12,167 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyPinnedTaskBarItem'.
+2018-06-15 18:26:12,167 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyPowershellCommand'.
+2018-06-15 18:26:12,167 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyShortcut'.
+2018-06-15 18:26:12,167 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyVsixPackage'.
+2018-06-15 18:26:12,167 13932 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyZipPackage'.
+2018-06-15 18:26:12,175 13932 [INFO ] - VERBOSE: Importing function 'Install-Vsix'.
+2018-06-15 18:26:12,176 13932 [INFO ] - VERBOSE: Importing function 'Register-Application'.
+2018-06-15 18:26:12,178 13932 [INFO ] - VERBOSE: Importing function 'Set-EnvironmentVariable'.
+2018-06-15 18:26:12,178 13932 [INFO ] - VERBOSE: Importing function 'Set-PowerShellExitCode'.
+2018-06-15 18:26:12,178 13932 [INFO ] - VERBOSE: Importing function 'Start-ChocolateyProcessAsAdmin'.
+2018-06-15 18:26:12,178 13932 [INFO ] - VERBOSE: Importing function 'Test-ProcessAdminRights'.
+2018-06-15 18:26:12,178 13932 [INFO ] - VERBOSE: Importing function 'Uninstall-BinFile'.
+2018-06-15 18:26:12,186 13932 [INFO ] - VERBOSE: Importing function 'Uninstall-ChocolateyEnvironmentVariable'.
+2018-06-15 18:26:12,188 13932 [INFO ] - VERBOSE: Importing function 'Uninstall-ChocolateyPackage'.
+2018-06-15 18:26:12,188 13932 [INFO ] - VERBOSE: Importing function 'Uninstall-ChocolateyZipPackage'.
+2018-06-15 18:26:12,188 13932 [INFO ] - VERBOSE: Importing function 'Update-SessionEnvironment'.
+2018-06-15 18:26:12,188 13932 [INFO ] - VERBOSE: Importing function 'Write-ChocolateyFailure'.
+2018-06-15 18:26:12,188 13932 [INFO ] - VERBOSE: Importing function 'Write-ChocolateySuccess'.
+2018-06-15 18:26:12,196 13932 [INFO ] - VERBOSE: Importing function 'Write-FileUpdateLog'.
+2018-06-15 18:26:12,196 13932 [INFO ] - VERBOSE: Importing function 'Write-FunctionCallLogMessage'.
+2018-06-15 18:26:12,198 13932 [INFO ] - VERBOSE: Importing alias 'Add-BinFile'.
+2018-06-15 18:26:12,198 13932 [INFO ] - VERBOSE: Importing alias 'Generate-BinFile'.
+2018-06-15 18:26:12,198 13932 [INFO ] - VERBOSE: Importing alias 'Get-InstallRegistryKey'.
+2018-06-15 18:26:12,198 13932 [INFO ] - VERBOSE: Importing alias 'Get-OSBitness'.
+2018-06-15 18:26:12,198 13932 [INFO ] - VERBOSE: Importing alias 'Get-ProcessorBits'.
+2018-06-15 18:26:12,208 13932 [INFO ] - VERBOSE: Importing alias 'Invoke-ChocolateyProcess'.
+2018-06-15 18:26:12,208 13932 [INFO ] - VERBOSE: Importing alias 'refreshenv'.
+2018-06-15 18:26:12,208 13932 [INFO ] - VERBOSE: Importing alias 'Remove-BinFile'.
+2018-06-15 18:26:12,208 13932 [INFO ] - VERBOSE: Importing alias 'Start-ChocolateyProcess'.
+2018-06-15 18:26:12,396 13932 [INFO ] - Installing 64-bit python3...
+2018-06-15 18:30:44,780 13932 [INFO ] - python3 has been installed.
+2018-06-15 18:30:44,858 13932 [INFO ] - Installed to: 'C:\Python36'
+2018-06-15 18:30:51,334 13932 [INFO ] -   python3 can be automatically uninstalled.
+2018-06-15 18:30:51,362 13932 [WARN ] - Environment Vars (like PATH) have changed. Close/reopen your shell to
+ see the changes (or in powershell/cmd.exe just type `refreshenv`).
+2018-06-15 18:30:52,204 13932 [INFO ] -  The install of python3 was successful.
+2018-06-15 18:30:52,204 13932 [INFO ] -   Software installed as 'exe', install location is likely default.
+2018-06-15 18:30:52,214 13932 [INFO ] - [NuGet] Installing 'python 3.6.5'.
+2018-06-15 18:30:52,234 13932 [INFO ] - [NuGet] Successfully installed 'python 3.6.5'.
+2018-06-15 18:30:52,244 13932 [INFO ] - 
+python v3.6.5 [Approved]
+2018-06-15 18:30:52,244 13932 [INFO ] - python package files install completed. Performing other installation steps.
+2018-06-15 18:31:02,563 13932 [INFO ] -  The install of python was successful.
+2018-06-15 18:31:02,573 13932 [INFO ] -   Software install location not explicitly set, could be in package or
+  default install location if installer.
+2018-06-15 18:31:02,643 13932 [WARN ] - 
+Chocolatey installed 3/3 packages. 
+ See the log for details (C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\logs\chocolatey.log).
+2018-06-15 18:31:04,853 10040 [INFO ] - ============================================================
+2018-06-15 18:31:05,343 10040 [INFO ] - Chocolatey v0.10.11
+2018-06-15 18:31:05,543 10040 [ERROR] - Exiting chocolatey abnormally. Please manually clean up anything that 
+ was not finished.
+2018-06-15 18:31:05,543 10040 [ERROR] - Please do not ever use Control+C or close the window to exit.
+2018-07-16 15:03:13,292 10996 [INFO ] - ============================================================
+2018-07-16 15:03:15,471 10996 [INFO ] - Chocolatey v0.10.11
+2018-07-16 15:03:16,359 10996 [WARN ] - Chocolatey detected you are not running from an elevated command shell
+ (cmd/powershell).
+2018-07-16 15:03:16,363 10996 [WARN ] - 
+ You may experience errors - many functions/packages
+ require admin rights. Only advanced users should run choco w/out an
+ elevated shell. When you open the command shell, you should ensure 
+ that you do so with "Run as Administrator" selected. If you are 
+ attempting to use Chocolatey in a non-administrator setting, you
+ must select a different location other than the default install
+ location. See 
+ https://chocolatey.org/install#non-administrative-install for details.
+
+2018-07-16 15:03:16,425 10996 [INFO ] - 
+ Do you want to continue?
+2018-07-16 15:03:16,426 10996 [INFO ] -  1) yes
+2018-07-16 15:03:16,427 10996 [INFO ] -  2) no
+2018-07-16 15:03:19,235 10996 [INFO ] - Choice selected: 'yes'
+2018-07-16 15:03:19,289 10996 [INFO ] - Installing the following packages:
+2018-07-16 15:03:19,292 10996 [INFO ] - github-desktop
+2018-07-16 15:03:19,294 10996 [INFO ] - By installing you accept licenses for the packages.
+2018-07-16 15:05:05,857 10996 [ERROR] - github-desktop not installed. An error occurred during installation:
+ 操作超时
+2018-07-16 15:05:05,867 10996 [INFO ] - github-desktop package files install completed. Performing other installation steps.
+2018-07-16 15:05:05,917 10996 [ERROR] - The install of github-desktop was NOT successful.
+2018-07-16 15:05:05,917 10996 [ERROR] - github-desktop not installed. An error occurred during installation:
+ 操作超时
+2018-07-16 15:05:05,937 10996 [WARN ] - 
+Chocolatey installed 0/1 packages. 1 packages failed.
+ See the log for details (C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\logs\chocolatey.log).
+2018-07-16 15:05:05,937 10996 [INFO ] - 
+2018-07-16 15:05:05,947 10996 [ERROR] - Failures
+2018-07-16 15:05:05,947 10996 [ERROR] -  - github-desktop (exited 1) - github-desktop not installed. An error occurred during installation:
+ 操作超时
+2018-07-16 15:05:05,947 10996 [WARN ] - 
+Did you know the proceeds of Pro (and some proceeds from other
+ licensed editions) go into bettering the community infrastructure?
+ Your support ensures an active community, keeps Chocolatey tip top,
+ plus it nets you some awesome features!
+ https://chocolatey.org/compare

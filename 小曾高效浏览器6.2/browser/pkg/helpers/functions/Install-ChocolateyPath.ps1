@@ -73,6 +73,7 @@ param(
 )
 
   Write-FunctionCallLogMessage -Invocation $MyInvocation -Parameters $PSBoundParameters
+  ## Called from chocolateysetup.psm1 - wrap any Write-Host in try/catch
 
   $originalPathToInstall = $pathToInstall
 
@@ -81,7 +82,12 @@ param(
   $envPath = $env:PATH
   if (!$envPath.ToLower().Contains($pathToInstall.ToLower()))
   {
-    Write-Host "PATH environment variable does not have $pathToInstall in it. Adding..."
+    try {
+      Write-Host "PATH environment variable does not have $pathToInstall in it. Adding..."
+    } catch {
+      Write-Verbose "PATH environment variable does not have $pathToInstall in it. Adding..."
+    }
+
     $actualPath = Get-EnvironmentVariable -Name 'Path' -Scope $pathType -PreserveVariables
 
     $statementTerminator = ";"
@@ -114,8 +120,8 @@ param(
 # SIG # Begin signature block
 # MIIcpwYJKoZIhvcNAQcCoIIcmDCCHJQCAQExDzANBglghkgBZQMEAgEFADB5Bgor
 # BgEEAYI3AgEEoGswaTA0BgorBgEEAYI3AgEeMCYCAwEAAAQQH8w7YFlLCE63JNLG
-# KX7zUQIBAAIBAAIBAAIBAAIBADAxMA0GCWCGSAFlAwQCAQUABCB+S3JxIhMOOSpN
-# sRPblW6mzzGDYfea+CWkzdCrfzcdg6CCF7EwggUwMIIEGKADAgECAhAECRgbX9W7
+# KX7zUQIBAAIBAAIBAAIBAAIBADAxMA0GCWCGSAFlAwQCAQUABCCO0QKCnQ8Y2u9G
+# Qte7iPdyPE4gTv7ODTMhd8P6SyU33KCCF7EwggUwMIIEGKADAgECAhAECRgbX9W7
 # ZnVTQ7VvlVAIMA0GCSqGSIb3DQEBCwUAMGUxCzAJBgNVBAYTAlVTMRUwEwYDVQQK
 # EwxEaWdpQ2VydCBJbmMxGTAXBgNVBAsTEHd3dy5kaWdpY2VydC5jb20xJDAiBgNV
 # BAMTG0RpZ2lDZXJ0IEFzc3VyZWQgSUQgUm9vdCBDQTAeFw0xMzEwMjIxMjAwMDBa
@@ -247,22 +253,22 @@ param(
 # QTIgQXNzdXJlZCBJRCBDb2RlIFNpZ25pbmcgQ0ECEAf7Rdn3C1UpA2CXtPThQ3Aw
 # DQYJYIZIAWUDBAIBBQCggYQwGAYKKwYBBAGCNwIBDDEKMAigAoAAoQKAADAZBgkq
 # hkiG9w0BCQMxDAYKKwYBBAGCNwIBBDAcBgorBgEEAYI3AgELMQ4wDAYKKwYBBAGC
-# NwIBFTAvBgkqhkiG9w0BCQQxIgQg421XcerUHpPdiJ/NGxL9x1YfJo4MI/tN/Era
-# NSIUxBcwDQYJKoZIhvcNAQEBBQAEggEAYPJ6OYtmsPxrAsg9G06WUUvpx8XHlg8b
-# 2YWNFP6JtAb1qfZkyIIZ0FAAqXpJ8eB+cHkAzu+cZUumWwFFDiiU9TZG169JHvxJ
-# GIchtYAAWpuIDOs9nPyQ1zhjgOmFAvgcQ9qlfUBx+4nzfrqZTcQ8b/g1oPrA0L2X
-# TgY5Vs1RYfLkZy1vAOkGO3AGSHmB1me6qFPUeDoxaIQKnEsVYlkfh9NBBJ5dpdgp
-# dVnDR2FVuwMMsC8af/GBt2jEt6tSRm+xzpvj1SBCMmvhYnmLEPzkaiVORXnjiMLO
-# ActOtmVR3hIkNkw8qLbxIdUcUwtaGd+43FwSNGWSQkU2oFZvSR9zLqGCAg8wggIL
+# NwIBFTAvBgkqhkiG9w0BCQQxIgQgUVUzrGbOWkp5p44PG/hJTEMA+sOg//yJlUos
+# H9ZkL1IwDQYJKoZIhvcNAQEBBQAEggEAF4V6I/O212ivsxDbT6dR8CjvCGpKwpyc
+# BLEvqgYAcb41MVmiOLzwOrA3JE1qEKjy/ldFy/QBHZljGzawKmX3zduLfp9eB0yv
+# 69BqTBUVtydoTqH/4sS/edmrP6gLQDC86X4NoYGzIVMyMWoXeq0zVTCm7wyazgMr
+# sYuQO2v42lTpRGw59TEXTBCc7eR4Llj0u//IE+57Wk36rUA9K7dB9Nzv3AmutEG+
+# pZeo/rmLfWtLV/JpEVwGCAO4OaLnbjDY2OZr0uQc3l6i2IE/F3cTqm4h5O/VXkWd
+# Nodn/gtClhXixHID5N/P/S3CXAjgT6pHatSE8ot6nUKM6QCcuac16qGCAg8wggIL
 # BgkqhkiG9w0BCQYxggH8MIIB+AIBATB2MGIxCzAJBgNVBAYTAlVTMRUwEwYDVQQK
 # EwxEaWdpQ2VydCBJbmMxGTAXBgNVBAsTEHd3dy5kaWdpY2VydC5jb20xITAfBgNV
 # BAMTGERpZ2lDZXJ0IEFzc3VyZWQgSUQgQ0EtMQIQAwGaAjr/WLFr1tXq5hfwZjAJ
 # BgUrDgMCGgUAoF0wGAYJKoZIhvcNAQkDMQsGCSqGSIb3DQEHATAcBgkqhkiG9w0B
-# CQUxDxcNMTgwNDEyMTgyMjM2WjAjBgkqhkiG9w0BCQQxFgQUNAzs41oJjqkpm4IT
-# fAm9hGYWWWYwDQYJKoZIhvcNAQEBBQAEggEAHyk5GvAjzbTbFn1ZXhkmrtWkREOA
-# j97iIqxLGAIr3AaQlYM80aAZFIku2Uj4YaHwhQD/QlCbM7DmMQJwx5Il+Ka6vOlT
-# y3/kL5HOHiVsY6AGc1Q+ERyYQ6Fg9iQufZopPxZmXnGeCVDsZZ0UW2AvrikyQB2D
-# yyC+/T7OH0dZgt6OG5Xp1SnwBLrrSdIIqgpdcL/iukOFYqHk7RbhbzD8hmgV5NyH
-# 7B1q/GR72Csvgh7iTzA7kXsUBC4tLJSAroMumB1uEBWnqA1/nQVTNHcd4iyRu7Vv
-# 0dpZa/c1vzihmXzyJwO5xigiLyHKc5FpwL8qylXTNSwkRAxxcePSbal9+g==
+# CQUxDxcNMTgwNTA0MjMwOTA4WjAjBgkqhkiG9w0BCQQxFgQUCiZ7SSkHMZn6m505
+# DR1kir13wA0wDQYJKoZIhvcNAQEBBQAEggEAWyzJVJiEm0DUqK1KFvQILjcaQ1XY
+# p5CG4RWiA5u+tJp75qNhWTnQ6pzttDAYg/1igqvVFHUh0YA+O2MyTuO1MwFTVpbl
+# S0pRTrNsstfGNanTrDHJuQg1XfN37mnotOom25KPJsGchC7UznGaoBorx/Fj4+7y
+# wymDG+HI4kA80KMJ+h16hs2wj7/IlbzAxYAjyxFjfV7ZHFgSnxNyQPfQs/XEvobJ
+# sUP7Dy2lh0MrwMKs2e67pPv61Ihh9Hq2sRH8r3MRW2Y3nT+mrhhZ0ylltDAXJbzG
+# 9GujjefJGnSJBNnJoBFlWwZOIz6Yo5gL5Xo28HrYBDe9JPgT5h1xF+tnwg==
 # SIG # End signature block

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <files>
+    <file path="C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\python3\python3.nupkg" checksum="868E6F5F3BBF61762ACA4E8A764432EB" />
+    <file path="C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\python3\python3.nuspec" checksum="A9A719AD4A0703FC24E1642D4B41A461" />
+    <file path="C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\python3\legal\LICENSE.txt" checksum="3FBFBB88B1C6F11A666EB20C490B6DD6" />
+    <file path="C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\python3\legal\VERIFICATION.txt" checksum="FAD0FE0C6981A4EF2DDB516D354CD44E" />
+    <file path="C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\python3\tools\chocolateyInstall.ps1" checksum="925A028EC8F74426CC8C326338875AAD" />
+    <file path="C:\Users\zzh\Desktop\Git\Browser-code\小曾高效浏览器6.2\browser\pkg\lib\python3\tools\python-3.6.5-amd64.exe.ignore" checksum="BEA07E6D2B8DCE396FE21BAA61B34956" />
+  </files>
+</fileSnapshot>

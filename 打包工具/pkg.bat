@@ -1,1 +1,0 @@
-winrar a -sfx E:\WinRAR\new\bb.exe E:\WinRAR

@@ -1,0 +1,9 @@
+2018/07/23-14:23:12.140 2580 Reusing MANIFEST UserData\IndexedDB\http_html5test.com_0.indexeddb.leveldb/MANIFEST-000001
+2018/07/23-14:23:12.390 11800 Current memtable full; waiting...
+2018/07/23-14:23:12.391 14868 Level-0 table #5: started
+2018/07/23-14:23:12.399 14868 Level-0 table #5: 780 bytes OK
+2018/07/23-14:23:12.405 14868 Delete type=0 #3
+2018/07/23-14:23:12.408 14868 Level-0 table #7: started
+2018/07/23-14:23:12.408 14868 Level-0 table #7: 0 bytes OK
+2018/07/23-14:23:12.426 14868 Delete type=0 #4
+2018/07/23-14:23:12.427 14868 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
